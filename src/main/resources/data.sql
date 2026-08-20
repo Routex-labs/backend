@@ -62,3 +62,15 @@ INSERT INTO pois (id, floor_id, type, name, x_m, y_m, linked_node_id) VALUES
   ('poi_ths-1f:n2', 'ths-1f', 'elevator', '엘리베이터 A', 50.0, 10.0, 'ths-1f:n2'),
   ('poi_ths-2f:n5', 'ths-2f', 'elevator', '엘리베이터 A', 50.0, 10.0, 'ths-2f:n5')
 ON CONFLICT (id) DO NOTHING;
+
+-- 오버레이가 붙는 매장. id는 실제 데이터의 것을 그대로 쓴다 — 오버레이 JSON의 조인 키가
+-- 매장 id이고, 이름은 유일 키가 아니라 병합에 쓸 수 없다(동명 매장이 수백 건이다).
+-- PO-HU40njvml1512는 섹션이 가장 많이 붙은 항목이라 상세 조립 경로 전체를 지난다.
+INSERT INTO stores (id, floor_id, name, category, subcategory, centroid_x_m, centroid_y_m,
+                    entrance_x_m, entrance_y_m, entrance_node_id, polygon, search_facets) VALUES
+  ('PO-HU40njvml1512', 'ths-2f', '스타벅스 더현대서울점', '카페', '카페·베이커리', 25.0, 25.0,
+   24.0, 25.0, 'ths-2f:n4',
+   '[{"x":20.0,"y":20.0},{"x":30.0,"y":20.0},{"x":30.0,"y":30.0},{"x":20.0,"y":30.0}]', NULL),
+  -- 사람이 설명을 쓰지 않고 위치 안내만 파생하는 시설. kind=facility로 내려가야 한다.
+  ('f1', 'ths-2f', '화장실', '편의시설', '화장실', 70.0, 70.0, NULL, NULL, NULL, NULL, NULL)
+ON CONFLICT (id) DO NOTHING;
