@@ -13,12 +13,26 @@ spring:
   config:
     import: optional:file:.env[.properties]
 
+  # 스키마는 Flyway가 만든다. 기동 순서는 Flyway -> Hibernate 검증 -> data.sql이다.
+  flyway:
+    # 이미 테이블이 있는 DB(운영 Supabase)에는 V1을 다시 돌리지 않고 "적용됨"으로
+    # 표시만 한다. 빈 DB(테스트 컨테이너)에는 V1부터 그대로 돈다.
+    baseline-on-migrate: true
+    baseline-version: 1
+
   jpa:
     hibernate:
-      # ponytail: 스키마가 아직 움직이는 중이라 update로 둔다.
-      # 엔티티가 8개 다 들어와 모양이 굳으면 Flyway + validate로 바꾼다.
-      ddl-auto: update
-    defer-datasource-initialization: true   # data.sql을 Hibernate DDL 이후로 미룬다
+      # 스키마를 코드가 바꾸지 못하게 한다. 엔티티와 실제 테이블이 어긋나면 기동이
+      # 실패하고, 스키마를 바꾸려면 마이그레이션 파일을 추가해야 한다.
+      ddl-auto: validate
+    # data.sql을 미루지 않는다. 미룰 이유가 Flyway로 사라졌다 — 예전에는 Hibernate가
+    # 테이블을 만들었으므로 시드가 그보다 먼저 돌면 "relation does not exist"가 났다.
+    # 이제 스키마는 Flyway가 먼저 만들고 시드가 그 뒤에 돈다.
+    #
+    # 켜 두면 기동이 아예 실패한다: Flyway와 entityManagerFactory 사이에 순환
+    # depends-on이 생긴다("Circular depends-on relationship between 'flyway' and
+    # 'entityManagerFactory'").
+    defer-datasource-initialization: false
     open-in-view: false          # 뷰 렌더 시점까지 세션을 열어두면 지연로딩이 컨트롤러 밖에서 터진다
     properties:
       hibernate.format_sql: false
@@ -34,8 +48,6 @@ spring:
       # 지정하지 않으면 Windows 기본 코드페이지(CP949)로 읽어 한글 시드가 깨진다.
       # 실제로 "더현대 서울"이 mojibake로 들어갔다. 통합 테스트가 이름을 검사해 다시 막는다.
       encoding: UTF-8
-  # data.sql이 Hibernate의 테이블 생성보다 먼저 돌지 않게 미룬다.
-  # 이 줄이 없으면 ddl-auto=update와 경합해 "relation does not exist"가 난다.
 
 # 응답 gzip. 가장 큰 수혜자는 MVT 타일이다 — protobuf라 이미 조밀할 것 같지만 실측하면
 # **평균 48% 줄어든다**(원본 저장소 측정: 12개 타일 135KB → 70KB). MVT가 문자열을 값 테이블로
