@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: backend
+
+  # compose를 직접 띄워 쓸 때의 접속 정보. bootRun은 spring-boot-docker-compose가
+  # 컨테이너에서 만든 값으로 이 셋을 덮어쓴다(그래도 남겨 둔다 — compose 없이 붙을 때 쓴다).
+  # SQL 로깅은 URL이 아니라 P6SpyConfiguration이 DataSource를 감싸서 건다.
+  datasource:
+    url: jdbc:postgresql://localhost:5432/navigation
+    username: navigation
+    password: navigation
+
+  jpa:
+    hibernate:
+      # ponytail: 스키마가 아직 움직이는 중이라 update로 둔다.
+      # 엔티티가 8개 다 들어와 모양이 굳으면 Flyway + validate로 바꾼다.
+      ddl-auto: update
+    defer-datasource-initialization: true   # data.sql을 Hibernate DDL 이후로 미룬다
+    open-in-view: false          # 뷰 렌더 시점까지 세션을 열어두면 지연로딩이 컨트롤러 밖에서 터진다
+    properties:
+      hibernate.format_sql: false
+
+  # 파이썬 응답과 키 표기를 맞춘다(default_floor, area_m2, footprint_local_m).
+  # 이 규칙이 깨졌는지는 통합 테스트가 JSON 키를 직접 검사해서 잡는다.
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+  sql:
+    init:
+      mode: always
+      # 지정하지 않으면 Windows 기본 코드페이지(CP949)로 읽어 한글 시드가 깨진다.
+      # 실제로 "더현대 서울"이 mojibake로 들어갔다. 통합 테스트가 이름을 검사해 다시 막는다.
+      encoding: UTF-8
+  # data.sql이 Hibernate의 테이블 생성보다 먼저 돌지 않게 미룬다.
+  # 이 줄이 없으면 ddl-auto=update와 경합해 "relation does not exist"가 난다.
+
+logging:
+  level:
+    root: INFO
+    spring: INFO
+    p6spy: INFO
+  pattern:
+    # 파이썬 쪽(app/core/logging.py)과 같은 한 줄 stdout 포맷. Cloud Run이 그대로 수집한다.
+    console: '%d{yyyy-MM-dd''T''HH:mm:ssXXX} %-5level %logger{36} %msg%n'

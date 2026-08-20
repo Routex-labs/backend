@@ -1,0 +1,60 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '4.1.0'
+	id 'io.spring.dependency-management' version '1.1.7'
+}
+
+group = 'labs.routex'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+// 버전을 적지 않은 항목은 Spring Boot BOM이 정한다. 직접 고정하면 Boot를 올릴 때마다
+// 호환을 손으로 다시 맞춰야 한다. BOM 밖 라이브러리(p6spy)만 버전을 적는다.
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-webmvc'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	runtimeOnly 'org.postgresql:postgresql'
+	// SQL 로깅. 바인딩된 파라미터가 값으로 찍히고 실행 시간이 붙는다.
+	// 스타터(gavlyukovskiy)를 쓰지 않는 이유는 최신 1.11.0이 Boot 4보다 8개월 앞선
+	// 빌드라 자동설정 호환이 보장되지 않아서다. 본체만 넣고 P6SpyConfiguration이 건다.
+	implementation 'p6spy:p6spy:3.9.1'
+
+	// bootRun이 compose.yaml을 자동으로 띄운다. 운영 이미지에는 들어가지 않는다.
+	developmentOnly 'org.springframework.boot:spring-boot-docker-compose'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-webmvc-test'
+	testImplementation 'org.springframework.boot:spring-boot-starter-data-jpa-test'
+	testImplementation 'org.springframework.boot:spring-boot-testcontainers'
+	testImplementation 'org.testcontainers:testcontainers-junit-jupiter'
+	testImplementation 'org.testcontainers:testcontainers-postgresql'
+	testCompileOnly 'org.projectlombok:lombok'
+	testAnnotationProcessor 'org.projectlombok:lombok'
+	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+// Windows 기본 코드페이지는 CP949다. 지정하지 않으면 javac가 한글 소스를 CP949로 읽어
+// 문자열·주석이 깨지고, 테스트 이름도 콘솔에서 깨져 나온다. 세 곳 모두 UTF-8로 고정한다.
+tasks.withType(JavaCompile).configureEach {
+	options.encoding = 'UTF-8'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+	systemProperty 'file.encoding', 'UTF-8'
+	testLogging {
+		events 'passed', 'failed', 'skipped'
+		exceptionFormat 'short'
+	}
+}
