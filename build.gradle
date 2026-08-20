@@ -48,6 +48,7 @@ dependencies {
 // 문자열·주석이 깨지고, 테스트 이름도 콘솔에서 깨져 나온다. 세 곳 모두 UTF-8로 고정한다.
 tasks.withType(JavaCompile).configureEach {
 	options.encoding = 'UTF-8'
+	options.compilerArgs << '-Xlint:deprecation'
 }
 
 tasks.named('test') {
