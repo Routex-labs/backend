@@ -1,0 +1,43 @@
+# main push마다 이미지를 다시 빌드해 Cloud Run 서비스에 밀어 넣는다.
+#
+# **이 파일이 저장소에 있는 것 자체가 목적이다.** 파이썬 백엔드의 트리거는 콘솔에만 있어
+# 무엇을 빌드하는지 저장소만 봐서는 알 수 없었고, 그래서 운영 이미지가 두 벌인 채로 며칠
+# 갔다(Navigation의 docs/guide/gcp-instance.md). 같은 일을 반복하지 않는다.
+#
+# **이미지만 바꾼다.** 환경변수·시크릿·스케일링은 여기서 다시 지정하지 않는다 —
+# `services update --image`는 기존 설정을 그대로 두고 이미지만 교체한다. 설정을 양쪽에
+# 적으면 언젠가 갈라지고, 갈라진 쪽이 이긴다. 서비스 설정의 단일 출처는 Cloud Run이고,
+# 사람이 읽을 사본은 docs/migration/배포.md에 있다.
+
+substitutions:
+  _SERVICE_NAME: navigation-api-spring
+  _REGION: asia-northeast3
+  _IMAGE: asia-northeast3-docker.pkg.dev/navigation-demo-2026/cloud-run-source-deploy/backend
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+images:
+  - '${_IMAGE}/${_SERVICE_NAME}:${COMMIT_SHA}'
+
+steps:
+  # 태그를 커밋 SHA로 단다. 어느 이미지가 어느 커밋인지 되짚을 수 있어야 롤백이 된다.
+  - id: Build
+    name: gcr.io/cloud-builders/docker
+    args: ['build', '-t', '${_IMAGE}/${_SERVICE_NAME}:${COMMIT_SHA}', '.']
+
+  - id: Push
+    name: gcr.io/cloud-builders/docker
+    args: ['push', '${_IMAGE}/${_SERVICE_NAME}:${COMMIT_SHA}']
+
+  - id: Deploy
+    name: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+    entrypoint: gcloud
+    args:
+      - run
+      - services
+      - update
+      - '${_SERVICE_NAME}'
+      - '--image=${_IMAGE}/${_SERVICE_NAME}:${COMMIT_SHA}'
+      - '--region=${_REGION}'
+      - '--quiet'
