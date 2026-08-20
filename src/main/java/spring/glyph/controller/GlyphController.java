@@ -36,7 +36,7 @@ public class GlyphController {
     /** 빈 glyphs 메시지. 내용이 항상 같아 ETag가 상수여도 된다. */
     private static final byte[] EMPTY_GLYPHS = new byte[0];
 
-    private static final String EMPTY_GLYPHS_ETAG = "\"empty\"";
+    private static final String EMPTY_GLYPHS_ETAG = "W/\"empty\"";
 
     private final CacheProperties cacheProperties;
 
@@ -65,7 +65,8 @@ public class GlyphController {
             }
             try {
                 // 내용 대신 길이로 ETag를 만든다. 재검증을 170KB 읽기 없이 304로 끝내려는 것이다.
-                String etag = "\"%s-%d-%d-%x\"".formatted(name, start, end, resource.contentLength());
+                // 약한 ETag인 이유는 TileController와 같다 — 강한 ETag는 gzip을 막는다.
+                String etag = "W/\"%s-%d-%d-%x\"".formatted(name, start, end, resource.contentLength());
                 if (HttpCache.matches(ifNoneMatch, etag)) {
                     return ResponseEntity.status(HttpStatus.NOT_MODIFIED)
                             .headers(HttpCache.headers(etag, cacheProperties.glyphMaxAge(), false))

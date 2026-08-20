@@ -62,7 +62,12 @@ public class TileController {
         }
 
         // ETag는 이미 만들어진 바이트에서 뽑으므로 추가 쿼리가 없다.
-        String etag = "\"%s\"".formatted(digest(tile));
+        //
+        // **약한 ETag(W/)를 쓴다.** 강한 ETag는 바이트가 정확히 같다는 뜻이라, Tomcat이
+        // 그런 응답을 gzip하지 않는다(맞는 동작이다 — 압축하면 바이트가 달라진다).
+        // 타일은 gzip으로 평균 48% 줄어드는 것이 훨씬 큰 이득이고, 재검증에는 약한 비교로
+        // 충분하다. 실제로 이 접두사를 붙이기 전까지 타일이 압축되지 않고 나갔다.
+        String etag = "W/\"%s\"".formatted(digest(tile));
 
         // ?v=가 붙어 있으면 URL이 곧 버전이다. 내용이 바뀌면 클라이언트가 새 주소로 오므로 길게
         // 잡고 immutable을 준다 — 재검증조차 안 나가 층을 오갈 때의 304 왕복이 사라진다.

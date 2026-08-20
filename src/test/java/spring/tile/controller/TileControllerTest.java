@@ -51,6 +51,21 @@ class TileControllerTest {
         Files.write(Path.of("build", "tile-dump.mvt"), tile);
     }
 
+    /**
+     * 강한 ETag는 "바이트가 정확히 같다"는 뜻이라 Tomcat이 그런 응답을 gzip하지 않는다.
+     * 타일은 gzip으로 평균 48% 줄어들므로 그 이득이 훨씬 크다 — 약한 ETag가 풀리면 압축이
+     * 조용히 사라지므로 여기서 잡는다.
+     */
+    @Test
+    @DisplayName("타일 ETag는 약한(W/) 것이어야 gzip이 걸린다")
+    void etagIsWeakSoCompressionApplies() throws Exception {
+        String etag = mockMvc.perform(get(TILE)).andReturn().getResponse().getHeader("ETag");
+
+        assertThat(etag).startsWith("W/\"");
+        // 약한 접두사가 붙어도 재검증은 그대로 동작해야 한다.
+        mockMvc.perform(get(TILE).header("If-None-Match", etag)).andExpect(status().isNotModified());
+    }
+
     @Test
     @DisplayName("?v=가 붙으면 URL이 곧 버전이라 immutable을 준다")
     void versionedTileIsImmutable() throws Exception {
