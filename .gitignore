@@ -47,3 +47,6 @@ spy.log
 
 # tools/load_real_data.py 산출물
 seed_real.sql
+
+# 파이썬 도구 캐시
+__pycache__/
