@@ -16,9 +16,9 @@
 | 경로 안내(선) | `GET .../graph`, `.../floors/{f}/graph` | `route` |
 | 공유 링크 진입 | `/.well-known/*`, `/place/{b}/{p}` | `share` |
 | (화면 없음) | `/health`, `/health/live`, `/health/ready` | `health` |
-| **검색 패널** | `POST /query/destination·ai·info` | **미착수** (아래) |
+| 검색 패널 | `POST /query/destination·ai·info` | `search` |
 
-**엔드포인트 17개 이식 완료.** 남은 3개는 `search`뿐이다.
+**엔드포인트 20개 전부 이식 완료.** `search`는 1차 경량 경로만 옮겼다 — 아래 참고.
 
 ## 패키지 안의 계층
 
@@ -48,20 +48,44 @@
 있지만 `floormap`·`category`·`tile`이 함께 읽는다 — 엔티티는 화면이 아니라 스키마라, 화면 단위로
 복제할 대상이 아니다.
 
-## search가 미착수인 이유
+## search에서 옮긴 것과 남긴 것
 
-`/query/*` 3개는 코드 이식이 되지 않는다. 나머지 17개는 기계적 번역이었다.
+파이썬의 질의는 **2단**이다. 1차는 이름·카테고리·동의어·intent를 어휘로 맞추고(`source: light`),
+1차가 놓쳤거나 모호한 열린 질의만 2차 임베딩 검색으로 넘긴다(`source: semantic`).
 
-| 파이썬이 쓰는 것 | 자바 사정 |
+**1차만 옮겼다.** 배포된 파이썬에 직접 물어 확인한 분포가 근거다.
+
+| 질의 | 파이썬이 답한 경로 |
 |---|---|
-| `kiwipiepy` (한국어 형태소) | 대응 라이브러리 없음 → Elasticsearch Nori |
-| `faiss-cpu` (벡터 검색) | 공식 바인딩 없음 → Elasticsearch kNN, pgvector |
-| `sentence-transformers` (임베딩) | ONNX/DJL로 가능하나 토크나이저 이식이 함정 |
+| `스타벅스` → 스타벅스 리저브(B2) | `light` (0.14초) |
+| `신발` · `밥집` → clarify | `light` |
+| `생일선물 살만한 곳` | `semantic` |
+| `따뜻한 겨울옷` | `semantic` |
 
-ES를 붙일지, 파이썬 백엔드로 프록시할지, 더 미룰지는 아직 정하지 않았다. **정하지 않은 것을
-ADR로 쓰지 않는다** — 정해지면 `decisions/`에 추가한다.
+즉 **"스타벅스"가 실내 검색으로 뜨는 것은 임베딩 기능이 아니다.** 이름 부분 일치라 1차가 푼다.
 
-그때까지 앱의 검색 패널은 파이썬 백엔드를 봐야 한다.
+### 형태소는 Lucene Nori다
+
+이 문서는 한때 "kiwipiepy 대응 라이브러리 없음 → Elasticsearch Nori"라고 적고 있었다. **틀린
+서술이었다.**
+
+- **Nori는 Elasticsearch 기능이 아니라 Lucene 본체의 분석기다.** ES는 그 위에 얹은 서버 껍데기라,
+  우리는 `org.apache.lucene:lucene-analysis-nori` 의존성 한 줄로 서버 없이 쓴다.
+- mecab-ko-dic 기반이라 **품사 태그 체계가 Kiwi와 같다.** 파이썬의 제거 규칙(J·E·V·MM·MA·NP·
+  XSV·XSA)이 문자 그대로 옮겨졌다.
+- 한국어 형태소 분석기는 원래 자바가 본진이다 — KOMORAN·Kkma·한나눔·Open Korean Text가 모두
+  자바 라이브러리이고, KoNLPy가 파이썬에서 그것들을 감싼 것이다.
+
+Nori 사용자 사전은 공백을 분절 구분자로 읽어 "물품 보관함" 같은 이름을 한 단어로 등록할 수 없다.
+파이썬도 같은 한계가 있어 결과 쪽에서 되돌리는 보정을 갖고 있고(`_restore_truncated_name`),
+`QueryMorph`가 그것을 그대로 옮겼다.
+
+### 2차(임베딩)를 옮길 때
+
+FAISS도 Elasticsearch도 필요 없다. **매장 1,640건 × 768차원 = 5MB**라 인메모리 코사인 전수 계산이면
+끝이고, 인덱스 자료구조 자체가 과하다. 남는 건 임베딩 모델(ko-sroberta)을 ONNX Runtime이나 DJL로
+올리는 일뿐인데, 그 순간 Cloud Run 메모리 요구가 1GiB에서 2GiB로 돌아간다 — 파이썬 배포가
+`/query/ai` 한 건에 69.5초를 쓴 것도 이 모델 로드였다. 그래서 필요해질 때 붙인다.
 
 ## 결정 기록
 
