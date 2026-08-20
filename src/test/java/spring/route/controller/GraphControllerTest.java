@@ -96,7 +96,7 @@ class GraphControllerTest {
     @DisplayName("모르는 정책은 조용히 auto로 떨어지지 않고 422다")
     void unknownVerticalPolicyIs422() throws Exception {
         mockMvc.perform(get("/buildings/thehyundai-seoul/graph").param("vertical", "stairs"))
-                .andExpect(status().isUnprocessableEntity());
+                .andExpect(status().isUnprocessableContent());
     }
 
     @Test
