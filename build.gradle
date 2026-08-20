@@ -28,11 +28,22 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
+	// 스키마 이관. 버전은 Boot BOM이 정한다. flyway-database-postgresql은 PG 전용
+	// 방언 모듈이고, Flyway 10부터 본체와 분리돼 따로 넣지 않으면 기동 시
+	// "No database found to handle jdbc:postgresql"로 죽는다.
+	// Boot 4는 자동설정을 기술별 모듈로 쪼갰다. flyway-core만 넣으면 자동설정이 없어
+	// 마이그레이션이 조용히 실행되지 않는다(기동은 되고 validate에서 "missing table"로
+	// 터진다). spring-boot-flyway가 그 자동설정을 담고 있다.
+	implementation 'org.springframework.boot:spring-boot-flyway'
+	implementation 'org.flywaydb:flyway-core'
+	runtimeOnly 'org.flywaydb:flyway-database-postgresql'
+
 	runtimeOnly 'org.postgresql:postgresql'
 	// SQL 로깅. 바인딩된 파라미터가 값으로 찍히고 실행 시간이 붙는다.
 	// 스타터(gavlyukovskiy)를 쓰지 않는 이유는 최신 1.11.0이 Boot 4보다 8개월 앞선
 	// 빌드라 자동설정 호환이 보장되지 않아서다. 본체만 넣고 P6SpyConfiguration이 건다.
 	implementation 'p6spy:p6spy:3.9.1'
+
 
 	// bootRun이 compose.yaml을 자동으로 띄운다. 운영 이미지에는 들어가지 않는다.
 	developmentOnly 'org.springframework.boot:spring-boot-docker-compose'
