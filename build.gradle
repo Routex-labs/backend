@@ -34,6 +34,12 @@ dependencies {
 	// 빌드라 자동설정 호환이 보장되지 않아서다. 본체만 넣고 P6SpyConfiguration이 건다.
 	implementation 'p6spy:p6spy:3.9.1'
 
+	// 한국어 형태소 분석(Nori). Elasticsearch 기능으로 알려져 있지만 실제로는 Lucene
+	// 본체의 분석기라 서버 없이 라이브러리로 쓴다 - mecab-ko-dic 기반이고 품사 태그도
+	// Kiwi와 같은 체계라 파이썬의 제거 규칙(J·E·V·MM·MA·NP·XSV·XSA)이 그대로 옮겨진다.
+	// 10.x는 Java 21을 요구하므로 17에서 도는 마지막 계열인 9.x로 고정한다(BOM 밖).
+	implementation 'org.apache.lucene:lucene-analysis-nori:9.12.1'
+
 	// bootRun이 compose.yaml을 자동으로 띄운다. 운영 이미지에는 들어가지 않는다.
 	developmentOnly 'org.springframework.boot:spring-boot-docker-compose'
 
