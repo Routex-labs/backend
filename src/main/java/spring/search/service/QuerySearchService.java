@@ -9,6 +9,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import spring.building.repository.BuildingRepository;
@@ -37,6 +38,7 @@ import spring.search.service.QueryRanking.Scored;
  */
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class QuerySearchService {
 
     /** 후보를 무엇으로 잡았는지. 임베딩을 이식하기 전까지 이 서버의 응답은 항상 light다. */
@@ -220,6 +222,13 @@ public class QuerySearchService {
 
         List<StoreRow> candidates = dedupeByName(pool, currentFloorId);
         if (candidates.isEmpty()) {
+            // 파이썬이라면 여기서 2차 임베딩 검색으로 넘어간다. 그 이식이 값을 하는지는
+            // "이 자리에 실제로 얼마나 오는가"에 달렸는데 지금은 그 숫자가 없다. 질의를
+            // 남겨 한 주치를 세면 추측이 아니라 비율로 결정할 수 있다.
+            //
+            // 로그 하나로 끝내는 이유: 카운터·지표 파이프라인을 새로 놓을 만큼 오래 볼
+            // 값이 아니다. 결정이 나면 이 줄은 지운다.
+            log.info("경량 미스(임베딩이 답했을 질의): {}", text);
             return Optional.of(discovery(text, "no_match", null, List.of(), List.of()));
         }
 

@@ -10,7 +10,13 @@
 # 사람이 읽을 사본은 docs/migration/배포.md에 있다.
 
 substitutions:
-  _SERVICE_NAME: navigation-api-spring
+  # 배포 대상. **_SERVICE_NAME이라는 이름을 쓰지 않는다** - 콘솔에서 만든 트리거가 같은
+  # 이름의 대체 변수를 넘기고, 트리거 값이 이 파일의 기본값을 덮는다. 이름을 달리 두면
+  # 배포 대상이 저장소에만 있어 콘솔을 열지 않아도 어디로 나가는지 알 수 있다.
+  #
+  # 운영 서비스다. 컷오버로 이 서비스의 이미지가 파이썬에서 스프링으로 바뀌었고, 앱이 보는
+  # 주소가 여기 붙어 있다 - 새 서비스로 옮기면 딥링크가 깨진다(docs/migration/배포.md).
+  _TARGET_SERVICE: navigation-api
   _REGION: asia-northeast3
   _IMAGE: asia-northeast3-docker.pkg.dev/navigation-demo-2026/cloud-run-source-deploy/backend
 
@@ -21,17 +27,17 @@ options:
   substitutionOption: ALLOW_LOOSE
 
 images:
-  - '${_IMAGE}/${_SERVICE_NAME}:${COMMIT_SHA}'
+  - '${_IMAGE}/${_TARGET_SERVICE}:${COMMIT_SHA}'
 
 steps:
   # 태그를 커밋 SHA로 단다. 어느 이미지가 어느 커밋인지 되짚을 수 있어야 롤백이 된다.
   - id: Build
     name: gcr.io/cloud-builders/docker
-    args: ['build', '-t', '${_IMAGE}/${_SERVICE_NAME}:${COMMIT_SHA}', '.']
+    args: ['build', '-t', '${_IMAGE}/${_TARGET_SERVICE}:${COMMIT_SHA}', '.']
 
   - id: Push
     name: gcr.io/cloud-builders/docker
-    args: ['push', '${_IMAGE}/${_SERVICE_NAME}:${COMMIT_SHA}']
+    args: ['push', '${_IMAGE}/${_TARGET_SERVICE}:${COMMIT_SHA}']
 
   - id: Deploy
     name: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
@@ -40,7 +46,7 @@ steps:
       - run
       - services
       - update
-      - '${_SERVICE_NAME}'
-      - '--image=${_IMAGE}/${_SERVICE_NAME}:${COMMIT_SHA}'
+      - '${_TARGET_SERVICE}'
+      - '--image=${_IMAGE}/${_TARGET_SERVICE}:${COMMIT_SHA}'
       - '--region=${_REGION}'
       - '--quiet'
