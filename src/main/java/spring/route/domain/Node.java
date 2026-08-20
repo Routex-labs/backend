@@ -56,7 +56,10 @@ public class Node {
     private Double lng;
 
     /** 원천 데이터 원좌표(디버그·역추적용). 응답에는 나가지 않는다. */
+    // xM·yM과 같은 이유로 컬럼명을 적는다 — sourceX는 그냥 두면 sourcex가 된다.
+    @Column(name = "source_x")
     private Double sourceX;
 
+    @Column(name = "source_y")
     private Double sourceY;
 }

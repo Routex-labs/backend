@@ -27,6 +27,21 @@ curl -o tile.mvt localhost:8080/buildings/thehyundai-seoul/floors/1F/tiles/16/55
 이식으로 되지 않는다 — 한국어 형태소·벡터 검색·임베딩이 전부 파이썬 라이브러리에 묶여 있다.
 자세한 사정과 선택지는 [docs/README.md](docs/README.md)에 있다.
 
+## 실데이터로 띄우기
+
+`data.sql`은 엔드포인트가 사는지 보는 최소 시드다(매장 9건). 도면이 제대로 그려지는지 보려면
+파이썬 백엔드의 SQLite 실데이터(매장 1,640건)를 옮겨 넣는다.
+
+```bash
+docker compose down -v          # 데모 시드가 남아 있으면 층 라벨이 충돌한다
+./gradlew bootRun --args='--spring.sql.init.mode=never'
+# 다른 창에서: SQLite -> INSERT 문 -> psql
+```
+
+**`--spring.sql.init.mode=never`가 필수다.** 데모 시드는 `ON CONFLICT (id) DO NOTHING`이라
+id 충돌은 넘어가지만, 층은 `(building_id, name)`이 유니크라 실데이터의 `1F`와 데모의 `ths-1f`가
+같은 라벨로 부딪혀 기동이 실패한다.
+
 ## 테스트
 
 ```bash
