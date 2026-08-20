@@ -133,6 +133,24 @@ hero → notice → hours → tags → summary → menu → keyValue → demoInf
 fallback은 매장을 조회하지 않는다 — 조회를 붙이면 삭제된 매장에서 500이 나며 공유 링크가 통째로
 죽는다.
 
-## 아직 없는 것
+## 자연어 질의 — `search`
 
-`POST /query/destination`, `/query/ai`, `/query/info` — [../README.md](../README.md)의 search 절 참고.
+셋 다 **POST**다. 본문은 `{"text", "building_id", "current_floor_id"?}`이고, `/query/ai`만
+`selected_facets`·`show_all`을 더 받는다. 없는 건물이면 **404**.
+
+**빈 질의는 400이 아니라 422다.** 클라이언트가 404와 422를 함께 "결과 없음"으로 처리하고 그 밖의
+상태는 예외로 던지기 때문에, 400을 내면 검색 시트가 통째로 죽는다.
+
+| 경로 | 응답 |
+|---|---|
+| `POST /query/destination` | `status`(ok·ok_no_route·no_match·ambiguous) + 최적 1건 |
+| `POST /query/info` | 대표 1건 + 그 이름이 존재하는 층 목록 |
+| `POST /query/ai` | `mode`(direct·clarify·results·no_match) + 되물음·후보 |
+
+**확정할 수 없으면 1건으로 좁히지 않는다.** "명품"(서로 다른 이름 43건)을 첫 매장으로 고정하면
+사용자가 목록을 볼 기회가 없다 — 클라이언트는 destination이 성공하면 `/query/ai`를 부르지 않는다.
+`match: null`(status=ambiguous)로 돌려주면 빈 결과로 파싱해 목록 계약으로 이어진다.
+
+`source`는 후보를 무엇으로 잡았는지다 — `light`(이름·카테고리·동의어·intent) 또는
+`semantic`(임베딩). **이 서버는 2차 임베딩을 아직 담지 않아 항상 `light`다.** 파이썬이
+`semantic`으로 답하던 열린 질의("생일선물 살만한 곳")는 여기서 `no_match`가 된다.

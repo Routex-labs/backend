@@ -1,0 +1,12 @@
+# Cloud Build로 올라가는 소스에서 뺄 것. .gitignore를 자동으로 따르지 않으므로 직접 적는다.
+.git/
+.gradle/
+build/
+.idea/
+*.log
+seed_real.sql
+
+# 접속 정보는 절대 이미지 빌드 컨텍스트에 넣지 않는다. 운영 값은 Cloud Run 환경변수로 준다.
+.env
+.env.*
+!.env.example

@@ -14,6 +14,14 @@
 PostgreSQL은 따로 띄우지 않아도 된다. `spring-boot-docker-compose`가 `compose.yaml`을
 자동으로 올리고 접속 정보를 주입한다. Docker Desktop만 켜져 있으면 된다.
 
+**남의 DB(Supabase 등)에 붙으려면** `.env.example`을 `.env`로 복사해 값을 채운다. `.env`는
+커밋되지 않고, `application.yml`이 있으면 읽고 없으면 무시한다. 접속 정보를 `application.yml`에
+적지 않는 이유가 이것이다 - 기본값이 남아 있으면 어느 쪽이 이기는지 매번 확인해야 한다.
+
+```bash
+cp .env.example .env
+```
+
 ```bash
 curl localhost:8080/buildings
 curl localhost:8080/buildings/thehyundai-seoul
@@ -23,9 +31,10 @@ curl -o tile.mvt localhost:8080/buildings/thehyundai-seoul/floors/1F/tiles/16/55
 
 ## 진행 상황
 
-**엔드포인트 20개 중 17개 이식 완료.** 남은 셋은 자연어 질의(`POST /query/*`)뿐인데, 이건 코드
-이식으로 되지 않는다 — 한국어 형태소·벡터 검색·임베딩이 전부 파이썬 라이브러리에 묶여 있다.
-자세한 사정과 선택지는 [docs/README.md](docs/README.md)에 있다.
+**엔드포인트 20개 전부 이식 완료.** 자연어 질의 3개(`POST /query/*`)도 들어왔다 — 다만 파이썬의
+2단 구조 중 **1차 경량 경로만** 옮겼다. 실사용 질의("스타벅스"·"신발"·"화장실")는 전부 이 경로가
+답하고, 임베딩이 실제로 필요한 것은 "생일선물 살만한 곳"처럼 이름·분류로 이어지지 않는 열린
+질의뿐이다. 사정은 [docs/README.md](docs/README.md)에 있다.
 
 ## 실데이터로 띄우기
 
@@ -33,9 +42,17 @@ curl -o tile.mvt localhost:8080/buildings/thehyundai-seoul/floors/1F/tiles/16/55
 파이썬 백엔드의 SQLite 실데이터(매장 1,640건)를 옮겨 넣는다.
 
 ```bash
+# 1. 원본을 새로 시드한다(Navigation/backend에서). 낡은 navigation.db에는
+#    non_walkable_polygons_local_m이 없어 못 걷는 면이 안 그려진다.
+python -m scripts.seed.reset_and_seed
+
+# 2. 스키마를 만든다. Hibernate가 만들 때까지 띄웠다가 내린다.
 docker compose down -v          # 데모 시드가 남아 있으면 층 라벨이 충돌한다
 ./gradlew bootRun --args='--spring.sql.init.mode=never'
-# 다른 창에서: SQLite -> INSERT 문 -> psql
+
+# 3. SQL로 뽑아 밀어 넣는다(psql이 없으면 도커로)
+python tools/load_real_data.py ../Navigation/backend/data/navigation.db seed_real.sql
+docker run --rm -i postgres:18 psql "<접속 URL>" -v ON_ERROR_STOP=1 -f - < seed_real.sql
 ```
 
 **`--spring.sql.init.mode=never`가 필수다.** 데모 시드는 `ON CONFLICT (id) DO NOTHING`이라
