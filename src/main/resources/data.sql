@@ -7,10 +7,13 @@ ON CONFLICT (id) DO NOTHING;
 
 -- 일부러 뒤섞어 넣는다. 응답이 level 내림차순(2F,1F,B1)으로 나오는지 보려면
 -- 삽입 순서와 기대 순서가 달라야 한다.
-INSERT INTO floors (id, building_id, name, level) VALUES
-  ('ths-1f', 'thehyundai-seoul', '1F',  1),
-  ('ths-b1', 'thehyundai-seoul', 'B1', -1),
-  ('ths-2f', 'thehyundai-seoul', '2F',  2)
+-- 1F만 자기 외곽선을 갖는다. 나머지 층은 건물 대표 외곽으로 폴백하는 경로를 확인하려고
+-- 일부러 비워 둔다.
+INSERT INTO floors (id, building_id, name, level, map_calibration_version, footprint_local_m) VALUES
+  ('ths-1f', 'thehyundai-seoul', '1F',  1, 'v1',
+   '[{"x":0.0,"y":0.0},{"x":120.0,"y":0.0},{"x":120.0,"y":90.0},{"x":0.0,"y":90.0}]'),
+  ('ths-b1', 'thehyundai-seoul', 'B1', -1, 'unversioned', NULL),
+  ('ths-2f', 'thehyundai-seoul', '2F',  2, 'unversioned', NULL)
 ON CONFLICT (id) DO NOTHING;
 
 -- 그래프 시드. 실측 앵커(lat/lng)를 3개 채운다 — 3개 미만이면 좌표 변환이 합성
@@ -32,4 +35,30 @@ INSERT INTO edges (id, floor_id, from_node_id, to_node_id, length_m, cost_m, bid
   -- 전이 간선은 cost_m이 length_m와 다르다. 실제 이동은 4m지만 라우팅 비용은 튜닝값이다.
   ('ths:t-elev', NULL, 'ths-1f:n2', 'ths-2f:n5', 4.0, 20.0, true, NULL, 'elevator'),
   ('ths:t-esc',  NULL, 'ths-1f:n1', 'ths-2f:n4', 12.0, 15.0, false, NULL, 'escalator')
+ON CONFLICT (id) DO NOTHING;
+
+-- 매장 시드. 세 번째~다섯 번째가 "한 폴리곤을 나눠 쓰는" 자리다.
+--   s3 아디다스 · s4 나이키 — centroid와 폴리곤이 같다(원본이 값을 복사해 넣은 자리)
+--   s5 아디다스나이키       — 다른 매장 이름 2개를 이어 붙인 "묶음 매장". 그룹에서 빠져야
+--                             s3·s4가 둘이 되어 칸이 나뉜다. 안 빠지면 셋이라 분할이 없다.
+INSERT INTO stores (id, floor_id, name, category, subcategory, centroid_x_m, centroid_y_m,
+                    entrance_x_m, entrance_y_m, entrance_node_id, polygon, search_facets) VALUES
+  ('s1', 'ths-1f', '스타벅스', '카페', '카페·베이커리', 20.0, 20.0, 18.0, 20.0, 'ths-1f:n1',
+   '[{"x":10.0,"y":10.0},{"x":30.0,"y":10.0},{"x":30.0,"y":30.0},{"x":10.0,"y":30.0}]', NULL),
+  ('s2', 'ths-1f', '올리브영', '뷰티', NULL, 60.0, 20.0, NULL, NULL, NULL,
+   '[{"x":50.0,"y":10.0},{"x":70.0,"y":10.0},{"x":70.0,"y":30.0},{"x":50.0,"y":30.0}]', NULL),
+  ('s3', 'ths-1f', '아디다스', '패션', '스포츠', 80.0, 30.0, 95.0, 30.0, NULL,
+   '[{"x":60.0,"y":20.0},{"x":100.0,"y":20.0},{"x":100.0,"y":40.0},{"x":60.0,"y":40.0}]', NULL),
+  ('s4', 'ths-1f', '나이키', '패션', '스포츠', 80.0, 30.0, 65.0, 30.0, NULL,
+   '[{"x":60.0,"y":20.0},{"x":100.0,"y":20.0},{"x":100.0,"y":40.0},{"x":60.0,"y":40.0}]', NULL),
+  ('s5', 'ths-1f', '아디다스나이키', '패션', '스포츠', 80.0, 30.0, NULL, NULL, NULL,
+   '[{"x":60.0,"y":20.0},{"x":100.0,"y":20.0},{"x":100.0,"y":40.0},{"x":60.0,"y":40.0}]', NULL),
+  -- 카테고리가 없는 매장. 카테고리 집계에서 빠져야 한다(pill을 만들 수 없다).
+  ('s6', 'ths-1f', '주차장 A', NULL, '주차', 5.0, 80.0, NULL, NULL, NULL, NULL, NULL),
+  ('s7', 'ths-2f', '무인양품', '리빙', NULL, 30.0, 30.0, 28.0, 30.0, 'ths-2f:n4', NULL, NULL)
+ON CONFLICT (id) DO NOTHING;
+
+INSERT INTO pois (id, floor_id, type, name, x_m, y_m, linked_node_id) VALUES
+  ('poi_ths-1f:n2', 'ths-1f', 'elevator', '엘리베이터 A', 50.0, 10.0, 'ths-1f:n2'),
+  ('poi_ths-2f:n5', 'ths-2f', 'elevator', '엘리베이터 A', 50.0, 10.0, 'ths-2f:n5')
 ON CONFLICT (id) DO NOTHING;

@@ -19,7 +19,7 @@ class BuildingServiceTest {
     }
 
     private static Floor floor(String name, int level) {
-        return new Floor(name.toLowerCase(), null, name, level);
+        return new Floor(name.toLowerCase(), null, name, level, "unversioned", null, null);
     }
 
     @Test

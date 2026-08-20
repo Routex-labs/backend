@@ -8,15 +8,16 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import jakarta.persistence.UniqueConstraint;
+import java.util.List;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.JdbcTypeCode;
+import org.hibernate.type.SqlTypes;
+import spring.common.geometry.LocalPoint;
 
-/**
- * 층. 지금은 건물 응답이 쓰는 컬럼(name·level)만 매핑한다.
- * 도면 외곽선·비보행 폴리곤은 floormap 패키지를 이식할 때 여기에 더한다.
- */
+/** 층. */
 @Entity
 @Table(
         name = "floors",
@@ -42,4 +43,31 @@ public class Floor {
     /** 정렬용 정수 (지하 음수 B2=-2, 지상 양수 1F=1). 문자열 name은 정렬할 수 없어 따로 둔다. */
     @Column(nullable = false)
     private int level;
+
+    /** 지도 좌표 보정 버전. 미보정이면 "unversioned". */
+    @Column(nullable = false)
+    private String mapCalibrationVersion;
+
+    /**
+     * 층 외곽선. 층마다 윤곽이 다르므로(지하 주차장이 지상보다 넓다) 건물 하나의 footprint를
+     * 전 층에 돌려쓰면 어느 층이든 1F 모양이 그려진다.
+     */
+    @JdbcTypeCode(SqlTypes.JSON)
+    @Column(name = "footprint_local_m", columnDefinition = "jsonb")
+    private List<LocalPoint> footprintLocalM;
+
+    /**
+     * 걸어다닐 수 없는 면들(아트리움 구멍·기둥·조경·에스컬레이터 도형). 이름이 없어 매장이 될
+     * 수 없는 도형이다.
+     *
+     * <p>길찾기와는 무관하다 — 경로는 그래프로만 계산한다. 순수 표시용이라 비어 있어도 안내는
+     * 정상이다. 항목 모양은 {@code {id, kind, polygon_local_m}}이고 kind는
+     * void|pillar|feature|escalator|stairs다.
+     */
+    @JdbcTypeCode(SqlTypes.JSON)
+    @Column(name = "non_walkable_polygons_local_m", columnDefinition = "jsonb")
+    private List<NonWalkablePolygon> nonWalkablePolygonsLocalM;
+
+    /** 못 걷는 면 하나. MVT 타일의 non_walkable 레이어가 그린다. */
+    public record NonWalkablePolygon(String id, String kind, List<LocalPoint> polygonLocalM) {}
 }

@@ -1,5 +1,6 @@
 package spring.building.controller;
 
+import static org.hamcrest.Matchers.closeTo;
 import static org.hamcrest.Matchers.contains;
 import static org.hamcrest.Matchers.nullValue;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -51,8 +52,10 @@ class BuildingControllerTest {
                 .andExpect(jsonPath("$.perimeter_m").value(620.5))
                 .andExpect(jsonPath("$.footprint_local_m.length()").value(4))
                 .andExpect(jsonPath("$.footprint_local_m[1].x").value(100.0))
-                // 아직 이식하지 않은 두 값은 계약대로 null로 나간다
-                .andExpect(jsonPath("$.footprint_wgs84").value(nullValue()))
+                // 실측 앵커(nodes.lat/lng) 3개로 피팅한 아핀이 외곽선을 위경도로 옮긴다
+                .andExpect(jsonPath("$.footprint_wgs84.length()").value(4))
+                .andExpect(jsonPath("$.footprint_wgs84[0].lat").value(closeTo(37.5665, 0.01)))
+                .andExpect(jsonPath("$.footprint_wgs84[0].lng").value(closeTo(126.978, 0.01)))
                 .andExpect(jsonPath("$.tile_revision").value(nullValue()));
     }
 

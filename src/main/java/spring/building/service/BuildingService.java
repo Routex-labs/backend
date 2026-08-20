@@ -11,6 +11,8 @@ import spring.building.domain.Floor;
 import spring.building.dto.BuildingDetailResponse;
 import spring.building.dto.BuildingSummaryResponse;
 import spring.building.repository.BuildingRepository;
+import spring.common.geo.BuildingGeoTransforms;
+import spring.common.geometry.LocalPoint;
 
 /**
  * 건물 목록·상세 조회.
@@ -24,6 +26,7 @@ import spring.building.repository.BuildingRepository;
 public class BuildingService {
 
     private final BuildingRepository buildingRepository;
+    private final BuildingGeoTransforms geoTransforms;
 
     public List<BuildingSummaryResponse> list() {
         return buildingRepository.findAll().stream().map(BuildingService::toSummary).toList();
@@ -31,7 +34,7 @@ public class BuildingService {
 
     /** 없는 건물이면 빈 Optional. HTTP 상태 변환은 컨트롤러가 한다. */
     public Optional<BuildingDetailResponse> detail(String buildingId) {
-        return buildingRepository.findById(buildingId).map(BuildingService::toDetail);
+        return buildingRepository.findById(buildingId).map(this::toDetail);
     }
 
     private static BuildingSummaryResponse toSummary(Building building) {
@@ -40,8 +43,10 @@ public class BuildingService {
                 building.getId(), building.getName(), floorNames(floors), defaultFloor(floors));
     }
 
-    private static BuildingDetailResponse toDetail(Building building) {
+    private BuildingDetailResponse toDetail(Building building) {
         List<Floor> floors = sortedFloors(building);
+        List<LocalPoint> footprint =
+                building.getFootprintLocalM() == null ? List.of() : building.getFootprintLocalM();
         return new BuildingDetailResponse(
                 building.getId(),
                 building.getName(),
@@ -49,10 +54,10 @@ public class BuildingService {
                 defaultFloor(floors),
                 building.getAreaM2(),
                 building.getPerimeterM(),
-                building.getFootprintLocalM() == null ? List.of() : building.getFootprintLocalM(),
-                // ponytail: wgs84 외곽선은 실측 앵커로 아핀을 피팅해야 나온다(파이썬 geo_transform).
-                // 그 이식이 tile 패키지와 묶여 있어 여기서는 null로 둔다 — 계약이 null을 허용한다.
-                null,
+                footprint,
+                // 실측 앵커가 3개 미만이면 합성 대응점으로 폴백하므로 변환은 항상 있다.
+                // 외곽선 자체가 비었을 때만 null이 나간다.
+                footprint.isEmpty() ? null : BuildingGeoTransforms.toLatLng(footprint, geoTransforms.forBuilding(building.getId())),
                 // ponytail: 타일 버전 토큰. tile 패키지 이식 때 채운다. 없으면 캐시 수명만 짧아진다.
                 null);
     }
