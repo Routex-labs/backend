@@ -2,7 +2,6 @@ package spring.building.controller;
 
 import static org.hamcrest.Matchers.closeTo;
 import static org.hamcrest.Matchers.contains;
-import static org.hamcrest.Matchers.nullValue;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -56,7 +55,8 @@ class BuildingControllerTest {
                 .andExpect(jsonPath("$.footprint_wgs84.length()").value(4))
                 .andExpect(jsonPath("$.footprint_wgs84[0].lat").value(closeTo(37.5665, 0.01)))
                 .andExpect(jsonPath("$.footprint_wgs84[0].lng").value(closeTo(126.978, 0.01)))
-                .andExpect(jsonPath("$.tile_revision").value(nullValue()));
+                // 타일 URL에 ?v=로 붙일 버전. 클라이언트가 붙이면 서버가 immutable을 줄 수 있다.
+                .andExpect(jsonPath("$.tile_revision").isString());
     }
 
     @Test
