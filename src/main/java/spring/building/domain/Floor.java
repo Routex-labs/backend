@@ -1,5 +1,6 @@
 package spring.building.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -68,6 +69,12 @@ public class Floor {
     @Column(name = "non_walkable_polygons_local_m", columnDefinition = "jsonb")
     private List<NonWalkablePolygon> nonWalkablePolygonsLocalM;
 
-    /** 못 걷는 면 하나. MVT 타일의 non_walkable 레이어가 그린다. */
-    public record NonWalkablePolygon(String id, String kind, List<LocalPoint> polygonLocalM) {}
+    /**
+     * 못 걷는 면 하나. MVT 타일의 non_walkable 레이어가 그린다.
+     *
+     * <p>{@code @JsonProperty}를 붙이는 이유: 이 JSON을 읽는 것은 Hibernate의 매퍼이지 Spring이
+     * 설정한 매퍼가 아니라서, application.yml의 SNAKE_CASE 전략이 적용되지 않는다. DB에 든 키는
+     * {@code polygon_local_m}이므로 여기서 직접 맞춘다.
+     */
+    public record NonWalkablePolygon(String id, String kind, @JsonProperty("polygon_local_m") List<LocalPoint> polygonLocalM) {}
 }

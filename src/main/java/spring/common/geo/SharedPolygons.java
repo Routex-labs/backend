@@ -24,7 +24,7 @@ public final class SharedPolygons {
     private SharedPolygons() {}
 
     /** 나눠 쓰는 폴리곤에서 매장 하나가 받는 띠. 축에 수직인 두 경계 사이다. */
-    record Slab(boolean axisIsX, double low, double high) {}
+    public record Slab(boolean axisIsX, double low, double high) {}
 
     /**
      * 매장 id → 자기 칸으로 자른 폴리곤. 나눠 쓰지 않는 매장은 키가 없다.
@@ -52,7 +52,7 @@ public final class SharedPolygons {
      * 다른 매장 이름 2개 이상을 이어 붙인 "묶음 매장" id. 라벨도 칸 배치도 주지 않는다.
      * (예: "아디다스나이키"처럼 두 브랜드명이 한 이름에 들어 있는 원천 데이터 항목)
      */
-    static Set<String> aggregateStoreIds(List<Store> stores) {
+    public static Set<String> aggregateStoreIds(List<Store> stores) {
         Map<String, String> squashed = new LinkedHashMap<>();
         for (Store store : stores) {
             if (store.getName() != null) {
@@ -79,7 +79,7 @@ public final class SharedPolygons {
     }
 
     /** centroid가 같은 매장 묶음. 2곳 이상인 그룹만 돌려준다. */
-    static List<List<Store>> sharedGroups(List<Store> stores, Set<String> excludeIds) {
+    public static List<List<Store>> sharedGroups(List<Store> stores, Set<String> excludeIds) {
         Map<String, List<Store>> groups = new LinkedHashMap<>();
         for (Store store : stores) {
             if (store.getPolygon() == null || store.getPolygon().isEmpty() || excludeIds.contains(store.getId())) {
@@ -97,7 +97,7 @@ public final class SharedPolygons {
      * <b>두 곳이 나눠 쓰는 자리만 나눈다.</b> 세 곳 이상은 칸이 줄무늬처럼 갈라져 도면이
      * 표처럼 보였다(실기기 확인) — 그 자리는 폴리곤도 원본 그대로 둔다.
      */
-    static Map<String, Slab> slabs(List<List<Store>> groups) {
+    public static Map<String, Slab> slabs(List<List<Store>> groups) {
         Map<String, Slab> out = new LinkedHashMap<>();
         for (List<Store> group : groups) {
             if (group.size() != 2) {
@@ -113,14 +113,7 @@ public final class SharedPolygons {
             double low = axisIsX ? minX : minY;
             double span = axisIsX ? maxX - minX : maxY - minY;
 
-            // 순서는 다비오 입구 핀을 축에 투영해 따르고, 핀이 없으면 id로 고정한다.
-            List<Store> ordered = group.stream()
-                    .sorted(Comparator.comparingDouble((Store store) -> {
-                                Double coordinate = axisIsX ? store.getEntranceXM() : store.getEntranceYM();
-                                return coordinate == null ? 0.0 : coordinate;
-                            })
-                            .thenComparing(Store::getId))
-                    .toList();
+            List<Store> ordered = orderAlongAxis(group, axisIsX);
 
             double width = span / ordered.size();
             for (int index = 0; index < ordered.size(); index++) {
@@ -129,6 +122,31 @@ public final class SharedPolygons {
             }
         }
         return out;
+    }
+
+    /**
+     * 그룹의 매장을 긴 축 순서로 정렬한다.
+     *
+     * <p>순서는 다비오 입구 핀을 축에 투영해 따르고, 핀이 없으면 id로 고정한다 — centroid는 그
+     * 매장들이 전부 같은 값이라 순서를 줄 수 없고, 정렬 키가 없으면 호출마다 순서가 달라진다.
+     */
+    public static List<Store> orderAlongAxis(List<Store> group) {
+        List<LocalPoint> polygon = group.get(0).getPolygon();
+        double spanX = polygon.stream().mapToDouble(LocalPoint::x).max().orElseThrow()
+                - polygon.stream().mapToDouble(LocalPoint::x).min().orElseThrow();
+        double spanY = polygon.stream().mapToDouble(LocalPoint::y).max().orElseThrow()
+                - polygon.stream().mapToDouble(LocalPoint::y).min().orElseThrow();
+        return orderAlongAxis(group, spanX >= spanY);
+    }
+
+    private static List<Store> orderAlongAxis(List<Store> group, boolean axisIsX) {
+        return group.stream()
+                .sorted(Comparator.comparingDouble((Store store) -> {
+                            Double coordinate = axisIsX ? store.getEntranceXM() : store.getEntranceYM();
+                            return coordinate == null ? 0.0 : coordinate;
+                        })
+                        .thenComparing(Store::getId))
+                .toList();
     }
 
     /**

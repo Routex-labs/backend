@@ -22,6 +22,9 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-webmvc'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	// 타일 바이트·리비전 캐시. 상한(바이트 수)과 만료가 필요해서 쓴다 - 상한 없는 맵은
+	// 오래 사는 배포 프로세스에서 메모리가 계속 커진다. 버전은 Boot BOM이 정한다.
+	implementation 'com.github.ben-manes.caffeine:caffeine'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 

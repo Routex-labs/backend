@@ -13,6 +13,7 @@ import spring.building.dto.BuildingSummaryResponse;
 import spring.building.repository.BuildingRepository;
 import spring.common.geo.BuildingGeoTransforms;
 import spring.common.geometry.LocalPoint;
+import spring.tile.service.TileRevisions;
 
 /**
  * 건물 목록·상세 조회.
@@ -27,6 +28,7 @@ public class BuildingService {
 
     private final BuildingRepository buildingRepository;
     private final BuildingGeoTransforms geoTransforms;
+    private final TileRevisions tileRevisions;
 
     public List<BuildingSummaryResponse> list() {
         return buildingRepository.findAll().stream().map(BuildingService::toSummary).toList();
@@ -58,8 +60,9 @@ public class BuildingService {
                 // 실측 앵커가 3개 미만이면 합성 대응점으로 폴백하므로 변환은 항상 있다.
                 // 외곽선 자체가 비었을 때만 null이 나간다.
                 footprint.isEmpty() ? null : BuildingGeoTransforms.toLatLng(footprint, geoTransforms.forBuilding(building.getId())),
-                // ponytail: 타일 버전 토큰. tile 패키지 이식 때 채운다. 없으면 캐시 수명만 짧아진다.
-                null);
+                // 클라이언트가 타일 URL에 ?v=로 붙이면 서버가 immutable을 줄 수 있다.
+                // 건물 응답은 지도보다 먼저 받으므로 첫 타일 요청부터 이 값을 쓸 수 있다.
+                tileRevisions.forBuilding(building.getId()));
     }
 
     /**

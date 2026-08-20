@@ -74,3 +74,8 @@ INSERT INTO stores (id, floor_id, name, category, subcategory, centroid_x_m, cen
   -- 사람이 설명을 쓰지 않고 위치 안내만 파생하는 시설. kind=facility로 내려가야 한다.
   ('f1', 'ths-2f', '화장실', '편의시설', '화장실', 70.0, 70.0, NULL, NULL, NULL, NULL, NULL)
 ON CONFLICT (id) DO NOTHING;
+
+-- 못 걷는 면(기둥). 타일의 non_walkable 레이어가 그린다 - 층 지도 JSON에는 싣지 않는다.
+UPDATE floors SET non_walkable_polygons_local_m =
+  '[{"id":"pillar-1","kind":"pillar","polygon_local_m":[{"x":40.0,"y":40.0},{"x":42.0,"y":40.0},{"x":42.0,"y":42.0},{"x":40.0,"y":42.0}]}]'
+ WHERE id = 'ths-1f' AND non_walkable_polygons_local_m IS NULL;
