@@ -16,6 +16,9 @@ substitutions:
 
 options:
   logging: CLOUD_LOGGING_ONLY
+  # 트리거가 넘기는 대체 변수 중 이 파일이 쓰지 않는 것(_AR_HOSTNAME, _DEPLOY_REGION,
+  # _PLATFORM 등)이 있다. 기본값(STRICT)이면 "쓰이지 않는 키"로 빌드를 거부한다.
+  substitutionOption: ALLOW_LOOSE
 
 images:
   - '${_IMAGE}/${_SERVICE_NAME}:${COMMIT_SHA}'
