@@ -17,7 +17,15 @@ PostgreSQL은 따로 띄우지 않아도 된다. `spring-boot-docker-compose`가
 ```bash
 curl localhost:8080/buildings
 curl localhost:8080/buildings/thehyundai-seoul
+curl localhost:8080/buildings/thehyundai-seoul/floors/1F
+curl -o tile.mvt localhost:8080/buildings/thehyundai-seoul/floors/1F/tiles/16/55883/25378.mvt
 ```
+
+## 진행 상황
+
+**엔드포인트 20개 중 17개 이식 완료.** 남은 셋은 자연어 질의(`POST /query/*`)뿐인데, 이건 코드
+이식으로 되지 않는다 — 한국어 형태소·벡터 검색·임베딩이 전부 파이썬 라이브러리에 묶여 있다.
+자세한 사정과 선택지는 [docs/README.md](docs/README.md)에 있다.
 
 ## 테스트
 
