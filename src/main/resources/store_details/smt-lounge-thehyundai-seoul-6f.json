@@ -1,0 +1,107 @@
+{
+  "PO-VND6sg7cH1294": {
+    "name": "SMT 라운지",
+    "updated_at": "2026-08-21",
+    "summary": "'Chinatown in Mexico City'라는 컨셉으로 준비한 이국적인 테라스 공간에서 로컬 스파이스와 고수를 공통분모로 한 홍콩식 요리와 멕시칸 요리를 선보입니다.",
+    "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+    "hours": {
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:30",
+            "close": "15:30"
+          },
+          {
+            "open": "17:30",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:30",
+            "close": "15:30"
+          },
+          {
+            "open": "17:30",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:30",
+            "close": "15:30"
+          },
+          {
+            "open": "17:30",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:30",
+            "close": "15:30"
+          },
+          {
+            "open": "17:30",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:30",
+            "close": "15:30"
+          },
+          {
+            "open": "17:30",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:30",
+            "close": "15:30"
+          },
+          {
+            "open": "17:30",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:30",
+            "close": "15:30"
+          },
+          {
+            "open": "17:30",
+            "close": "22:00"
+          }
+        ]
+      },
+      "utc_offset_minutes": 540,
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/smt-lounge_store_01.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/smt-lounge_store_02.jpg"
+      }
+    ],
+    "menu": [
+      {
+        "name": "난자완스 어향가지 튀김",
+        "image_asset": "assets/place_details/smt-lounge_menu_2023061210290989.jpg",
+        "price": "27,000원",
+        "description": "중화풍 난자완스와 어향소스를 더한 가지튀김이 어우러진 풍미 가득한 메뉴"
+      },
+      {
+        "name": "시금치 퀘사디아",
+        "image_asset": "assets/place_details/smt-lounge_menu_eeb42cde19824e31.jpg",
+        "price": "21,000원",
+        "description": "신선한 시금치와 치즈가 듬뿍 들어간 고소하고 담백한 시금치 퀘사디아"
+      }
+    ]
+  }
+}

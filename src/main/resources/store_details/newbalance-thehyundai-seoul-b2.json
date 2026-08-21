@@ -1,0 +1,20 @@
+{
+  "PO-UnpCQYHay7593": {
+    "name": "뉴발란스",
+    "updated_at": "2026-08-21",
+    "demoInfo": [
+      {
+        "label": "전화",
+        "value": "02-3277-0447",
+        "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+        "confirmed_at": "2026-08-21"
+      }
+    ],
+    "links": [
+      {
+        "label": "브랜드 공식몰",
+        "url": "https://www.nbkorea.com"
+      }
+    ]
+  }
+}

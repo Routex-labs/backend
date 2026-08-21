@@ -1,0 +1,111 @@
+{
+  "PO-kYufhp16C6292": {
+    "name": "번패티번",
+    "updated_at": "2026-08-21",
+    "demoInfo": [
+      {
+        "label": "전화",
+        "value": "02-3277-0549",
+        "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+        "confirmed_at": "2026-08-21"
+      }
+    ],
+    "links": [
+      {
+        "label": "브랜드 공식 사이트",
+        "url": "https://bunpattybun.co.kr"
+      }
+    ],
+    "summary": "'번과 패티'라는 본질에 충실한 수제 버거 전문점입니다. 자체 숙성을 거친 육즙 가득한 소고기 패티 등 좋은 재료를 사용한 수제 버거의 정수를 보여줍니다.",
+    "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+    "hours": {
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:30",
+            "close": "21:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:30",
+            "close": "21:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:30",
+            "close": "21:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:30",
+            "close": "21:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:30",
+            "close": "21:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:30",
+            "close": "21:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:30",
+            "close": "21:00"
+          }
+        ]
+      },
+      "utc_offset_minutes": 540,
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/bunpattybun_store_01.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/bunpattybun_store_02.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/bunpattybun_store_03.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/bunpattybun_store_04.jpg"
+      }
+    ],
+    "menu": [
+      {
+        "name": "닭가슴살치킨버거",
+        "image_asset": "assets/place_details/bunpattybun_menu_2022120703385934.jpg",
+        "price": "9,800원",
+        "description": "유기농 브리오슈,닭가슴살패티,적양파,토마토,피클,로메인,스파이시/딥피클소스"
+      },
+      {
+        "name": "치즈버거",
+        "image_asset": "assets/place_details/bunpattybun_menu_2022120703384043.jpg",
+        "price": "8,800원",
+        "description": "유기농 브리오슈,100% 비프패티,아메리칸치즈,캐러멜어니언"
+      },
+      {
+        "name": "트러플머쉬룸 버거",
+        "image_asset": "assets/place_details/bunpattybun_menu_2022120703381286.jpg",
+        "price": "12,800원",
+        "description": "유기농 브리오슈,100% 비프패티,아메리칸치즈,트러플오일,버섯,적양파,토마토,로메인,소스"
+      },
+      {
+        "name": "번패티번버거",
+        "image_asset": "assets/place_details/bunpattybun_menu_2022120703392867.jpg",
+        "price": "10,800원",
+        "description": "유기농 브리오슈,100% 비프패티,아메리칸치즈,베이컨,적양파,토마토,홈메이드소스,로메인"
+      }
+    ]
+  }
+}
