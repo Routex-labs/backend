@@ -100,6 +100,22 @@ FAISS도 Elasticsearch도 필요 없다. **매장 1,640건 × 768차원 = 5MB**�
 | [007](decisions/007-MVT는-직접-인코딩한다.md) | MVT 바이트를 직접 인코딩한다 |
 | [008](decisions/008-타일-리비전은-입력-해시.md) | 타일 리비전은 타일 입력의 해시다 |
 
+## 학습 자료와 이 코드
+
+[practice/](practice/README.md) — 강의(JPA 기본편·활용1·2·스프링 데이터 JPA·스프링 핵심
+원리·자바 기본/중급)에서 배운 것 중 **어디에 어떻게 들어갔는지**, 모양이 다르면 왜 다른지,
+안 쓴 것은 왜 안 썼는지를 7편으로 갈라 적는다.
+
+| | |
+|---|---|
+| [01](practice/01-엔티티-매핑.md) | 엔티티 6개의 매핑 결정 전부 |
+| [02](practice/02-영속성-컨텍스트와-지연로딩.md) | 읽기 전용 서버에서 영속성 컨텍스트가 하는 일 |
+| [03](practice/03-조회-최적화와-N+1.md) | `@EntityGraph`·DTO 직접 조회·투영 |
+| [04](practice/04-스프링-데이터-JPA.md) | 리포지토리 8개가 쓴 기능과 안 쓴 기능 |
+| [05](practice/05-스프링-컨테이너와-빈.md) | 생성자 주입·빈 후처리기·프로파일 |
+| [06](practice/06-스키마와-테스트.md) | `validate` + Flyway + Testcontainers |
+| [07](practice/07-자바-문법이-쓰인-자리.md) | record·sealed·불변·Optional |
+
 ## 이식하면서 깨진 것들
 
 [migration/windows-boot4-함정.md](migration/windows-boot4-함정.md) — Hibernate 네이밍, 테스트 yml
