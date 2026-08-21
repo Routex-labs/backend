@@ -1,0 +1,23 @@
+{
+  "PO-0-bgiJ5NN1975": {
+    "name": "마리떼프랑소와저버/ LMC",
+    "updated_at": "2026-08-21",
+    "demoInfo": [
+      {
+        "label": "전화",
+        "value": "02-3277-0840",
+        "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+        "confirmed_at": "2026-08-21"
+      }
+    ],
+    "links": [
+      {
+        "label": "브랜드 공식몰",
+        "url": "https://marithe-official.com"
+      }
+    ],
+    "summary": "마리떼 프랑소와 저버 공식 온라인 스토어에서 여성과 남성을 위한 의류 & 가방 & 슈즈 & 액세서리 그리고 키즈 컬렉션을 만나보세요.",
+    "source": "https://marithe-official.com",
+    "logo": "assets/place_details/logo_marithe.png"
+  }
+}

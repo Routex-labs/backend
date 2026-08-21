@@ -1,0 +1,21 @@
+{
+  "PO-31q8LPA9B4429": {
+    "name": "랑방 컬렉션",
+    "updated_at": "2026-08-21",
+    "demoInfo": [
+      {
+        "label": "전화",
+        "value": "02-3277-0255",
+        "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+        "confirmed_at": "2026-08-21"
+      }
+    ],
+    "links": [
+      {
+        "label": "국내 공식 브랜드관",
+        "url": "https://m.thehandsome.com/ko/DP/brandMain/BR19"
+      }
+    ],
+    "logo": "assets/place_details/logo_lanvin_collection.png"
+  }
+}

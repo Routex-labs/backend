@@ -1,0 +1,120 @@
+{
+  "PO-YMLJzrGIy5754": {
+    "name": "로바",
+    "updated_at": "2026-08-21",
+    "demoInfo": [
+      {
+        "label": "전화",
+        "value": "02-3277-0652",
+        "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+        "confirmed_at": "2026-08-21"
+      }
+    ],
+    "summary": "교토의 사계와 정갈한 마음을 담은 한 상으로 다양한 일본식 미학을 경험할 수 있는 로바 ※ LAST ORDER(코스요리) : 20:00 ※ LAST ORDER(단품메뉴) : 21:00",
+    "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+    "hours": {
+      "weekly": {
+        "mon": [
+          {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        ]
+      },
+      "utc_offset_minutes": 540,
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/roba_store_01.jpg"
+      }
+    ],
+    "menu": [
+      {
+        "name": "특 사시미 고젠",
+        "image_asset": "assets/place_details/roba_menu_d3f685b218344fd7.jpg",
+        "price": "56,000원"
+      },
+      {
+        "name": "한우 스키야끼 고젠",
+        "image_asset": "assets/place_details/roba_menu_ae4a3177e98e4159.jpg",
+        "price": "50,000원"
+      },
+      {
+        "name": "스시사시미 고젠",
+        "image_asset": "assets/place_details/roba_menu_c92491feea454cbe.jpg",
+        "price": "48,000원"
+      },
+      {
+        "name": "우나기동 고젠",
+        "image_asset": "assets/place_details/roba_menu_03d1a1691c6c481b.jpg",
+        "price": "47,000원"
+      }
+    ]
+  }
+}

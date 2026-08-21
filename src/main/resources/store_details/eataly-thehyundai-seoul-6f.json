@@ -1,0 +1,91 @@
+{
+  "PO-Yq6mx8Reb5870": {
+    "name": "이탈리",
+    "updated_at": "2026-08-21",
+    "summary": "현지에서 공수한 양질의 식재료를 사용한 음식으로 이탈리안 식문화를 제대로 즐길 수 있습니다. 레스토랑과 함께 이탈리아 요리에 필요한 식재료 마켓도 함께 있는 그로서란트 매장입니다.",
+    "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+    "hours": {
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ]
+      },
+      "utc_offset_minutes": 540,
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/eataly_store_01.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/eataly_store_02.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/eataly_store_03.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/eataly_store_04.jpg"
+      }
+    ],
+    "menu": [
+      {
+        "name": "트러플 피자",
+        "image_asset": "assets/place_details/eataly_menu_2023061210362519.jpg",
+        "price": "27,000원",
+        "description": "우디한 트러플향이 퍼지는 순간,움브리아의 깊은 숲 속을 걷는듯한 기분,단 한 조각의 미식 절정을 경험하세요"
+      },
+      {
+        "name": "대구 새우 튀김",
+        "image_asset": "assets/place_details/eataly_menu_ac206bec3ef54e53.jpg",
+        "price": "24,000원",
+        "description": "리구리아 해안가의 어시장에서 영감을 받아 지중해 바닷바람을 그대로 담은 튀김"
+      },
+      {
+        "name": "까르보나라",
+        "image_asset": "assets/place_details/eataly_menu_fac542807dad448e.jpg",
+        "price": "21,000원",
+        "description": "짭짤한 베이컨과 진한 계란, 그라나파노 치즈가 한데 어우러진 로마의 전통 레시피"
+      }
+    ]
+  }
+}

@@ -48,6 +48,7 @@ public class PlaceDetailService {
                 store.getId(),
                 store.getName(),
                 subtitle(store),
+                OverlayReader.text(overlay, "logo"),
                 store.getCategory(),
                 store.getSubcategory(),
                 new PlaceLocationResponse(

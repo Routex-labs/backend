@@ -1,7 +1,7 @@
 {
   "PO-L1dVrjGou4640": {
     "name": "크록스",
-    "updated_at": "2026-08-08",
+    "updated_at": "2026-08-21",
     "summary": "전세계 모든 발에 최상의 편안함, 즐거움, 혁신을 제공",
     "source": "https://www.crocs.co.kr/about_crocs/about-crocs.html",
     "businessInfo": [
@@ -9,6 +9,21 @@
         "label": "주소",
         "value": "서울특별시 영등포구 여의대로 108, 더현대서울 B2"
       }
-    ]
+    ],
+    "demoInfo": [
+      {
+        "label": "전화",
+        "value": "02-3277-0838",
+        "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+        "confirmed_at": "2026-08-21"
+      }
+    ],
+    "links": [
+      {
+        "label": "브랜드 공식몰",
+        "url": "https://www.crocs.co.kr"
+      }
+    ],
+    "logo": "assets/place_details/logo_crocs.png"
   }
 }

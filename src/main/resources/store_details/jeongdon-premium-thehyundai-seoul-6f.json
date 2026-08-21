@@ -1,0 +1,82 @@
+{
+  "PO-eQJBf-yCx6756": {
+    "name": "정돈 프리미엄",
+    "updated_at": "2026-08-21",
+    "summary": "정통 일본식 돈카츠 브랜드 정돈 프리미엄은 등심, 안심, 특수부위를 부위별 저온 튀김 기법으로 조리하여 풍부한 육즙과 다채로운 식감을 선보입니다.",
+    "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+    "hours": {
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ]
+      },
+      "utc_offset_minutes": 540,
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/jeongdon-premium_store_01.jpg"
+      }
+    ],
+    "menu": [
+      {
+        "name": "프리미엄 모둠",
+        "image_asset": "assets/place_details/jeongdon-premium_menu_2023092206221045.jpg",
+        "price": "32,000원",
+        "description": "1인 정식입니다. 구성: 등심1P+안심1P+항정1P+가지1P"
+      },
+      {
+        "name": "로스&히레카츠",
+        "image_asset": "assets/place_details/jeongdon-premium_menu_2023092206202970.jpg",
+        "price": "25,000원",
+        "description": "두툼하고 부드러운 히레를 정성껏 튀겨낸 정돈프리미엄 로스히레카"
+      },
+      {
+        "name": "사사미카츠(치킨)",
+        "image_asset": "assets/place_details/jeongdon-premium_menu_2023092206213918.jpg",
+        "price": "23,000원",
+        "description": "담백한 닭안심을 바삭하게 튀겨낸 정돈프리미엄 사사미카츠"
+      }
+    ]
+  }
+}

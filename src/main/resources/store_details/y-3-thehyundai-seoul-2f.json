@@ -1,0 +1,23 @@
+{
+  "PO-7ROWrtJLA5608": {
+    "name": "Y-3",
+    "updated_at": "2026-08-21",
+    "demoInfo": [
+      {
+        "label": "전화",
+        "value": "02-3277-0273",
+        "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+        "confirmed_at": "2026-08-21"
+      }
+    ],
+    "links": [
+      {
+        "label": "브랜드 공식몰",
+        "url": "https://y-3.kr"
+      }
+    ],
+    "summary": "Y-3는 adidas의 스포츠 기술력과 요지 야마모토의 디자인이 결합된 스포츠 패션 브랜드입니다.",
+    "source": "https://y-3.kr",
+    "logo": "assets/place_details/logo_y3.png"
+  }
+}

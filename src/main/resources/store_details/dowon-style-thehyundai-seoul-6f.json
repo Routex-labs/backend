@@ -1,0 +1,113 @@
+{
+  "PO-vpJN8tesm7538": {
+    "name": "도원 스타일",
+    "updated_at": "2026-08-21",
+    "summary": "정통 중식을 현대적인 공간에서 만날 수 있습니다. 다채로운 중화요리법에 서양식 연출을 가미한 도원스타일의 새로운 버전을 선보입니다.",
+    "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+    "hours": {
+      "weekly": {
+        "mon": [
+          {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "11:00",
+            "close": "15:00"
+          },
+          {
+            "open": "17:00",
+            "close": "22:00"
+          }
+        ]
+      },
+      "utc_offset_minutes": 540,
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dowon-style_store_01.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/dowon-style_store_02.jpg"
+      }
+    ],
+    "menu": [
+      {
+        "name": "전가복",
+        "image_asset": "assets/place_details/dowon-style_menu_893b77f40f524a3b.jpg",
+        "price": "68,000원",
+        "description": "프리미엄 해산물과 버섯이 어우러진 도원스타일만의 전가복"
+      },
+      {
+        "name": "망고크림 새우",
+        "image_asset": "assets/place_details/dowon-style_menu_a4e67b7355454dad.jpg",
+        "price": "48,000원",
+        "description": "바삭하게 튀긴 새우에 신선한 망고와 크림 소스를 얹은 요리"
+      },
+      {
+        "name": "트러플 스테이크 블랙 누들",
+        "image_asset": "assets/place_details/dowon-style_menu_2023061210431768.jpg",
+        "price": "25,000원",
+        "description": "소고기 안심, 수란, 트러플로 고유의 풍미를 완성한 도원스타일만의 프리미엄 볶음 짜장면"
+      }
+    ]
+  }
+}

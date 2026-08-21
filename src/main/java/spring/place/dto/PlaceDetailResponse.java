@@ -1,5 +1,6 @@
 package spring.place.dto;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import java.util.List;
 import spring.place.dto.section.PlaceSection;
 
@@ -12,12 +13,15 @@ import spring.place.dto.section.PlaceSection;
  * @param kind store/facility/excluded. 클라이언트가 아이콘과 기본 액션을 고르는 키이자, 상세
  *     시트를 열지 말지 판단하는 근거다.
  * @param subtitle 예: "B2 · 카페·베이커리"
+ * @param logo 앱 번들의 브랜드 로고 경로. 섹션이 아니라 머리말에 붙는 값이라 최상위에 둔다.
+ *     없는 매장이 대부분이므로 값이 있을 때만 싣는다
  */
 public record PlaceDetailResponse(
         String kind,
         String id,
         String name,
         String subtitle,
+        @JsonInclude(JsonInclude.Include.NON_NULL) String logo,
         String category,
         String subcategory,
         PlaceLocationResponse location,

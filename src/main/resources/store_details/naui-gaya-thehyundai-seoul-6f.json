@@ -1,0 +1,94 @@
+{
+  "PO-amsqf8JE40283": {
+    "name": "나의 가야",
+    "updated_at": "2026-08-21",
+    "summary": "35년 전통을 가진 나의 가야는 불고기 및 각종 전골 요리가 유명합니다. 매장에서 메밀면을 제면하거나 정육 작업을 하는 등 신선함을 요리에 그대로 담아냅니다.",
+    "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+    "hours": {
+      "weekly": {
+        "mon": [
+          {
+            "open": "11:00",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "11:00",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "11:00",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "11:00",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "11:00",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "11:00",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "11:00",
+            "close": "22:00"
+          }
+        ]
+      },
+      "utc_offset_minutes": 540,
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/naui-gaya_store_01.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/naui-gaya_store_02.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/naui-gaya_store_03.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/naui-gaya_store_04.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/naui-gaya_store_05.jpg"
+      }
+    ],
+    "menu": [
+      {
+        "name": "불고기",
+        "image_asset": "assets/place_details/naui-gaya_menu_8ed241f4c6d340b5.jpg",
+        "price": "33,000원",
+        "description": "동판에 구워 드시는 부드럽고 담백한 불고기"
+      },
+      {
+        "name": "불고기전골",
+        "image_asset": "assets/place_details/naui-gaya_menu_2022090604013081.jpg",
+        "price": "26,000원",
+        "description": "전골냄비에 간한 육수를 끓이고 각종 야채, 고기류와 함께 넣어 즉석에서 드시는 메뉴"
+      },
+      {
+        "name": "국수전골",
+        "image_asset": "assets/place_details/naui-gaya_menu_2022090604014820.jpg",
+        "price": "25,000원",
+        "description": "진한 육수에 각종 고명을 곁들인 푸짐한 나의가야 대표 메뉴"
+      }
+    ]
+  }
+}

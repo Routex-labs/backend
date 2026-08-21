@@ -1,0 +1,90 @@
+{
+  "PO-NCpMNrEp82723": {
+    "name": "송",
+    "updated_at": "2026-08-21",
+    "demoInfo": [
+      {
+        "label": "전화",
+        "value": "02-3277-0655",
+        "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+        "confirmed_at": "2026-08-21"
+      }
+    ],
+    "summary": "30년간 한결같은 맛으로 자리를 지켜온 일본식 우동 & 메밀 전문점입니다. 익숙하지만 늘 생각나는 맛으로 유명합니다.",
+    "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+    "hours": {
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ]
+      },
+      "utc_offset_minutes": 540,
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/song_store_01.jpg"
+      }
+    ],
+    "menu": [
+      {
+        "name": "쟁반메밀국수 정식",
+        "image_asset": "assets/place_details/song_menu_1f277860b90a49a6.jpg",
+        "price": "20,000원",
+        "description": "신선한 야채와 시원한 육수가 조화로운 송의 대표메뉴"
+      },
+      {
+        "name": "돌냄비 우동 정식",
+        "image_asset": "assets/place_details/song_menu_2022090611412037.jpg",
+        "price": "19,500원",
+        "description": "깊고 진한 국물에 쫄깃한 우동면을 담은 돌냄비 우동정식"
+      },
+      {
+        "name": "돈까스 우동 정식",
+        "image_asset": "assets/place_details/song_menu_029f6b1ab5ae4fa3.jpg",
+        "price": "19,000원",
+        "description": "바삭한 돈까스와 따뜻한 우동이 어루어진 푸짐한 정식 메뉴"
+      }
+    ]
+  }
+}

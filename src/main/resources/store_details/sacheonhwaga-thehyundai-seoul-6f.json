@@ -1,0 +1,76 @@
+{
+  "PO-nA8T0s76X4138": {
+    "name": "사천화가",
+    "updated_at": "2026-08-21",
+    "summary": "프리미엄 중식 브랜드 JS가든의 매운 사천식 중식 요리 브랜드. 불의 미학을 선보입니다.",
+    "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+    "hours": {
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ]
+      },
+      "utc_offset_minutes": 540,
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/sacheonhwaga_store_01.jpg"
+      }
+    ],
+    "menu": [
+      {
+        "name": "라즈지",
+        "image_asset": "assets/place_details/sacheonhwaga_menu_0599cb137f6241d7.jpg",
+        "price": "24,000원",
+        "description": "바삭한 닭고기와 마라향이 어우러진 매콤한 사천식 닭튀김"
+      },
+      {
+        "name": "차슈 마라탕",
+        "image_asset": "assets/place_details/sacheonhwaga_menu_96b40becd96c4dd4.jpg",
+        "price": "18,000원",
+        "description": "고소한 차슈와 매콤한 마라 국물이 어우러진 얼큰한 사천식 탕면"
+      }
+    ]
+  }
+}

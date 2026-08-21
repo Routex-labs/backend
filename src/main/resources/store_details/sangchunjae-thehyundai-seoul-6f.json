@@ -1,0 +1,79 @@
+{
+  "PO-f48w-34Od9066": {
+    "name": "상춘재",
+    "updated_at": "2026-08-21",
+    "summary": "정갈한 한상차림에 담긴 신선한 해산물과 프리미엄 식재료의 조화, 미식가들을 사로잡은 제주 상춘재.",
+    "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
+    "hours": {
+      "weekly": {
+        "mon": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "tue": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:30",
+            "close": "22:00"
+          }
+        ]
+      },
+      "utc_offset_minutes": 540,
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/sangchunjae_store_01.jpg"
+      }
+    ],
+    "menu": [
+      {
+        "name": "전복솥밥과 두루치기",
+        "image_asset": "assets/place_details/sangchunjae_menu_2ab6e0b035b14030.jpg",
+        "price": "32,000원"
+      },
+      {
+        "name": "제주해물뚝배기와 고등어구이",
+        "image_asset": "assets/place_details/sangchunjae_menu_248561df52024ed8.jpg",
+        "price": "27,000원"
+      },
+      {
+        "name": "꼬막비빔밥,두루치기",
+        "image_asset": "assets/place_details/sangchunjae_menu_2b856bdd727e484e.jpg",
+        "price": "25,000원"
+      }
+    ]
+  }
+}
