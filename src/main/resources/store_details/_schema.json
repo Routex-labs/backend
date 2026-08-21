@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "description": "매장 상세 오버레이 스키마. 이 파일 자체는 오버레이가 아니다(_ 접두). 검증은 시드가 적재 전에 app/repositories/place_details.validate_overlay로 수행한다.",
   "join_key": "id",
   "reserved_keys": {
@@ -38,6 +38,10 @@
       ],
       "max_items": 8,
       "note": "앱 번들에 포함된 대표·갤러리 사진 경로."
+    },
+    "logo": {
+      "type": "string",
+      "note": "앱 번들에 포함된 브랜드 로고 경로. 섹션이 아니라 머리말에 붙으므로 응답의 최상위 logo로 나간다. 파비콘(16px)이 아니라 브랜드가 배포하는 로고 이미지를 쓴다 - 파비콘은 탭 아이콘용이라 상세 시트에서 뭉갠다. 투명 배경을 살려야 하므로 PNG다."
     },
     "menu": {
       "type": "object_array",
@@ -137,7 +141,27 @@
   ],
   "forbidden_labels_note": "출처가 없어 검증할 수 없고, 영업시간류는 시간이 지나면 자동으로 거짓이 된다. keyValue와 businessInfo 양쪽에 적용된다 — 한때 businessInfo가 이 검사를 건너뛰어 출처 없는 영업시간·대표번호가 응답에 실려 나간 적이 있다. 영업시간은 자유 문자열 대신 구조체 필드 hours를 쓰고(전 매장 가능), 그 밖의 낡는 값은 demoInfo와 demo_allowlist를 쓴다.",
   "demo_allowlist": [
-    "PO-HU40njvml1512"
+    "PO-HU40njvml1512",
+    "PO-mvfAMXogB1772",
+    "PO-L-broLeRG1775",
+    "PO-ZjxLyznQe3220",
+    "PO-UnpCQYHay7593",
+    "PO-ipPhp9BE-0864",
+    "PO-ftc9SLVZo8560",
+    "PO-L1dVrjGou4640",
+    "PO--ABUtmNJP0429",
+    "PO-kYufhp16C6292",
+    "PO-NCpMNrEp82723",
+    "PO-3R0BuNWKG0009",
+    "PO-75L0CL0Eo8305",
+    "PO-YMLJzrGIy5754",
+    "PO-Bhplu3t6W3653",
+    "PO-0-bgiJ5NN1975",
+    "PO-1loJl6otu4732",
+    "PO---plE4RJq1088",
+    "PO-31q8LPA9B4429",
+    "PO-03vUeQ2j70384",
+    "PO-7ROWrtJLA5608"
   ],
   "demo_allowlist_note": "demoInfo를 쓸 수 있는 매장 id. 소개 영상에 나오는 매장만 넣는다. 이 목록이 없으면 '데모 전용'이라는 말이 지켜지지 않고, 검증기를 통과한다는 이유로 1,640개 매장에 낡은 영업시간이 번져 나간다. 목록에 id를 더할 때는 그 매장을 실제로 확인할 사람이 누구인지도 같이 정한다."
 }
