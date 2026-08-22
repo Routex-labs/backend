@@ -14,6 +14,7 @@ import java.util.Objects;
 import spring.common.geometry.LocalPoint;
 import spring.place.domain.Store;
 import spring.place.dto.section.BusinessInfoSection;
+import spring.place.dto.section.ContactSection;
 import spring.place.dto.section.DemoInfoSection;
 import spring.place.dto.section.HeroSection;
 import spring.place.dto.section.HoursSection;
@@ -55,6 +56,7 @@ final class PlaceSectionBuilder {
         addIfPresent(sections, heroSection(overlay));
         addIfPresent(sections, noticeSection(overlay));
         addIfPresent(sections, hoursSection(overlay));
+        addIfPresent(sections, contactSection(overlay));
         addIfPresent(sections, tagsSection(overlay));
         addIfPresent(sections, summarySection(overlay));
         addIfPresent(sections, menuSection(overlay));
@@ -201,6 +203,22 @@ final class PlaceSectionBuilder {
                 offset instanceof Number number && !(offset instanceof Boolean) ? number.intValue() : DEFAULT_UTC_OFFSET_MINUTES;
 
         return new HoursSection(weekly, exceptions(raw.get("exceptions")), utcOffsetMinutes, confirmedAt, source);
+    }
+
+    /**
+     * 연락처 섹션. 번호·출처·확인일 셋이 다 있어야 만든다.
+     *
+     * <p>셋 중 하나라도 없으면 섹션을 만들지 않는 이유는 영업시간과 같다 — 출처 없는 번호는
+     * 확인할 방법이 없고, 확인할 수 없는 값을 실어 보내지 않겠다는 것이 이 필드를 자유 문자열
+     * 대신 구조체로 만든 이유 그 자체다.
+     */
+    private static PlaceSection contactSection(Map<String, Object> overlay) {
+        Map<String, Object> raw = map(overlay.get("contact"));
+        Map<String, String> values = required(raw, "tel", "confirmed_at", "source");
+        if (values == null) {
+            return null;
+        }
+        return new ContactSection(values.get("tel"), values.get("confirmed_at"), values.get("source"));
     }
 
     private static List<HoursSection.Interval> intervals(Object raw) {

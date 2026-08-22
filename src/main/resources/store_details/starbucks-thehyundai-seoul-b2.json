@@ -4,6 +4,11 @@
     "updated_at": "2026-08-10",
     "source": "https://www.starbucks.co.kr/store/store_map.do?store_cd=1762",
     "summary": "프리미엄 커피와 스페셜한 공간이 있는 더현대서울(B2)R점입니다.",
+    "contact": {
+      "tel": "1522-3232",
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/floor-guide"
+    },
     "hero": [
       {
         "local_asset": "assets/place_details/starbucks_store_01.jpg"

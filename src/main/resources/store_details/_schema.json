@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "description": "매장 상세 오버레이 스키마. 이 파일 자체는 오버레이가 아니다(_ 접두). 검증은 시드가 적재 전에 app/repositories/place_details.validate_overlay로 수행한다.",
+  "version": 5,
+  "description": "매장 상세 오버레이 스키마. 이 파일 자체는 오버레이가 아니다(_ 접두). 검증은 시드가 적재 전에 app/repositories/place_details.validate_overlay로 수행한다. 그 검증기는 Routex-labs/fastapi 저장소에 있어 이 저장소만 고치면 반쪽이다 — v5에서 더한 contact를 거기에도 알려야 다음 시드가 모르는 필드라며 거부하지 않는다.",
   "join_key": "id",
   "reserved_keys": {
     "name": "사람이 diff를 읽기 위한 중복 정보. 병합 키가 아니며, Studio 원본과 다르면 검증 실패한다.",
@@ -114,6 +114,17 @@
       "exceptions_upkeep_note": "**미래 휴점일이 비어 있어도 검증은 통과한다.** 현대백화점은 휴점 공지를 한 달치씩만 올리므로(예: 8월분이 2026-07-27 게시) 1년치를 미리 채울 방법이 없고, 요일에서 유추한 날짜를 넣으면 확인되지 않은 값이 확인된 값과 같은 모양으로 저장된다. 대신 미래 예외가 없는 동안 화면은 그날을 '영업 중'이라고 말한다는 점을 알고 있어야 한다 — 이것이 이 구조가 남긴 유일한 사람 몫이다.",
       "staleness_note": "confirmed_at은 필수이고 미래 날짜는 거부한다. 며칠이 지나면 낡은 것으로 볼지는 화면이 정한다 — 임계값의 단일 출처는 client/lib/domain/store_hours.dart의 kStoreHoursStaleAfter다. 시드에서 만료로 잡지 않는 이유는 데이터가 그대로인 날 CI가 죽기 때문이고, 대신 클라이언트가 임계값을 넘긴 값의 '지금 영업 중' 판정을 자동으로 거둔다."
     },
+    "contact": {
+      "type": "object",
+      "required_keys": [
+        "tel",
+        "confirmed_at",
+        "source"
+      ],
+      "note": "연락처. forbidden_labels가 막는 자유 문자열 '전화번호'와 달리 검증된 구조체라 별도 경로로 열었다 — hours와 같은 판단이다(금지를 푸는 것이 아니라 옆에 확인되는 길을 낸다). 금지의 이유는 '출처가 없어 확인할 수 없다'였고, 여기서는 source와 confirmed_at이 필수라 그 이유가 사라진다. demo_allowlist를 걸지 않는다 — 무엇이 들어올지 모르는 자유 문자열을 가두는 장치가 허용 목록이고, 여기는 키가 셋으로 고정되어 있다.",
+      "tel_note": "출처 페이지에 적힌 표기를 따르되 앞뒤 구분기호와 사이 공백만 다듬는다(예: 02-3277-0132 · 대표번호 1522-3232). 걸기 좋게 숫자만 남기는 것은 화면 몫이다 — 서버가 다듬으면 '그 페이지에서 확인했다'는 말과 값이 어긋난다. 자릿수가 모자란 값은 채우지 말고 뺀다. 무엇이 빠졌는지 모르는 채 채우면 없는 번호가 생긴다.",
+      "staleness_note": "confirmed_at은 필수이고 미래 날짜는 거부한다. 번호는 영업시간처럼 매일 달라지지 않지만 매장이 바뀌면 조용히 거짓이 된다. 마지막으로 확인한 날을 남기는 것이 다시 열어볼 근거가 된다."
+    },
     "notice": {
       "type": "object",
       "required_keys": [
@@ -139,7 +150,7 @@
     "평점",
     "리뷰"
   ],
-  "forbidden_labels_note": "출처가 없어 검증할 수 없고, 영업시간류는 시간이 지나면 자동으로 거짓이 된다. keyValue와 businessInfo 양쪽에 적용된다 — 한때 businessInfo가 이 검사를 건너뛰어 출처 없는 영업시간·대표번호가 응답에 실려 나간 적이 있다. 영업시간은 자유 문자열 대신 구조체 필드 hours를 쓰고(전 매장 가능), 그 밖의 낡는 값은 demoInfo와 demo_allowlist를 쓴다.",
+  "forbidden_labels_note": "출처가 없어 검증할 수 없고, 영업시간류는 시간이 지나면 자동으로 거짓이 된다. keyValue와 businessInfo 양쪽에 적용된다 — 한때 businessInfo가 이 검사를 건너뛰어 출처 없는 영업시간·대표번호가 응답에 실려 나간 적이 있다. 영업시간은 자유 문자열 대신 구조체 필드 hours를, 전화번호는 contact를 쓴다(둘 다 전 매장 가능하고 source·confirmed_at이 필수다). 그 밖의 낡는 값은 demoInfo와 demo_allowlist를 쓴다.",
   "demo_allowlist": [
     "PO-HU40njvml1512",
     "PO-mvfAMXogB1772",

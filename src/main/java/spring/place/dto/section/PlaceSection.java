@@ -14,6 +14,7 @@ public sealed interface PlaceSection
         permits HeroSection,
                 NoticeSection,
                 HoursSection,
+                ContactSection,
                 TagsSection,
                 SummarySection,
                 MenuSection,
