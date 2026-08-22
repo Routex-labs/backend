@@ -32,9 +32,14 @@ python tools/thehyundai_web/build_overlays.py 2026-08-22               # 오버�
 
 `hero.local_asset`·`menu.image_asset`은 **앱 번들 경로**다. 원격 URL을 그대로 적을 수
 없어서 `fetch_assets.py`가 먼저 클라이언트 저장소(`Routee`)의
-`client/assets/place_details/`로 받아 놓는다. 파일 이름은 원본 URL의
-basename(내용 해시)을 그대로 써서, 같은 사진을 두 번 받지 않고 사이트가 사진을 바꾸면
-이름이 달라져 눈에 띈다.
+`client/assets/place_details/`로 받아 놓는다(시설 19 · 식당 87 · 메뉴 173, 합쳐 24MB).
+파일 이름은 원본 URL의 basename(내용 해시)을 그대로 써서, 같은 사진을 두 번 받지 않고
+사이트가 사진을 바꾸면 이름이 달라져 눈에 띈다.
+
+**원본을 그대로 받지 않는다.** 원본에 4000×2667짜리가 섞여 있는데, 화면은 그 크기를
+쓰지 않으면서 디코딩에만 40MB 넘게 먹는다. 사이트의 이미지 프록시(`/_next/image`)에
+`w=1080`으로 요청해 기존 번들 사진과 규격을 맞춘다 — 그 한 장이 647KB에서 106KB가
+됐다. 프록시는 키우지는 않으므로 원본이 작으면 그대로 온다.
 
 **이름 규칙이 두 파일에 나뉘어 있다**(`fetch_assets.asset_name`과
 `build_overlays.hero`). 갈라지면 등록은 됐는데 카드만 빈 채로 뜨고 빌드는 성공한다.
@@ -43,7 +48,7 @@ basename(내용 해시)을 그대로 써서, 같은 사진을 두 번 받지 않
 
 | 파일 | 건수 | 무엇 |
 |---|---|---|
-| `thehyundai-restaurants.json` | 47 | 소개글 · `hours` · `contact` |
+| `thehyundai-restaurants.json` | 47 | 소개글 · `hours` · `contact` · 사진 · 메뉴 |
 | `thehyundai-brands.json` | 360 | `contact`만 |
 | `thehyundai-facilities.json` | 25 | 소개글 · 사진 |
 
