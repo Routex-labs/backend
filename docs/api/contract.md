@@ -33,6 +33,37 @@
 | `footprint_wgs84` | 위 외곽선을 6-DOF affine으로 옮긴 위경도. 외곽선이 비면 `null` |
 | `tile_revision` | 타일 URL에 `?v=`로 붙일 버전 토큰 |
 
+## 행사 — `event`
+
+### `GET /buildings/{building_id}/events`
+
+```json
+{"captured_on":"2026-08-21",
+ "diaries":[{"key":"popup","title":"WEEKLY POP-UP","image":"assets/events/diary_popup.png"}],
+ "events":[{"title":"모드나인","start":"2026-08-14","end":"2026-09-10",
+            "place":"3층 POP-UP (CP컴퍼니 옆)","diary":"popup","floor":"3F",
+            "store_id":"PO-EKH6IFeex9644","image":"assets/events/ev01.jpg",
+            "details":[{"t":"p","text":"…"}]}]}
+```
+
+| 필드 | 뜻 |
+|---|---|
+| `diaries` | 원본 이슈 다이어리 쪽. 화면에서는 카드 한 장이고, 행사의 `diary`가 `key`를 가리킨다. |
+| `start`·`end` | `YYYY-MM-DD`. 사전순이 곧 날짜순이라 비교에 파싱이 필요 없다. |
+| `store_id` | 안내를 걸 매장. `null`이면 장소 문구만 있고 지도로는 못 간다 — 그래도 목록에서 빼지 않는다. |
+| `image` | **클라이언트 자산 경로다.** 매장 상세 오버레이와 같은 방식이며 이유는 `PlaceOverlays`에 있다. |
+| `details` | 포스터 아래 본문. 종류(`t`)를 서버가 못 박지 않는다 — 원본이 늘려도 응답이 깨지면 안 되고, 그릴 수 없는 것은 화면이 건너뛴다. |
+
+**날짜 파라미터가 없다.** "오늘 열리는 것"을 서버가 고르면 그 응답은 만들어진 순간부터 틀리기
+시작하고 캐시가 더 오래 살린다. 서버는 기간이라는 규칙만 주고 지금 날짜와의 비교는 화면이 한다 —
+영업시간(`hours`)과 같은 판단이다. 기기 로컬 날짜로 재는 것도 같은 이유다.
+
+**모아 둔 것이 없는 건물은 빈 목록이 아니라 404다.** 행사를 모은 건물이 하나뿐이라, 빈 목록을
+주면 "행사가 없는 건물"과 "아직 안 모은 건물"이 같은 화면이 된다.
+
+**자동 갱신이 없다.** `captured_on` 이후로는 원본과 어긋날 수 있고, 기간이 다 지나면 화면이
+조용히 빈다. 수집 경로는 Navigation `docs/client/thehyundai-event-source.md`가 단일 출처다.
+
 ## 층 지도 — `floormap`
 
 ### `GET /buildings/{id}/floors/{floor}`
