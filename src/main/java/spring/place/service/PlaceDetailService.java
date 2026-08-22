@@ -8,6 +8,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import spring.common.geometry.LocalPoint;
+import spring.common.text.PlaceNames;
 import spring.place.domain.Store;
 import spring.place.dto.PlaceActionResponse;
 import spring.place.dto.PlaceDetailResponse;
@@ -46,7 +47,7 @@ public class PlaceDetailService {
         return new PlaceDetailResponse(
                 kind,
                 store.getId(),
-                store.getName(),
+                PlaceNames.display(store.getName()),
                 subtitle(store),
                 OverlayReader.text(overlay, "logo"),
                 store.getCategory(),
@@ -70,7 +71,7 @@ public class PlaceDetailService {
     static String subtitle(Store store) {
         String floorLabel = store.getFloor() == null ? null : store.getFloor().getName();
         String detail = store.getSubcategory() != null ? store.getSubcategory() : store.getCategory();
-        if (detail != null && !detail.equals(store.getName())) {
+        if (detail != null && !detail.equals(PlaceNames.display(store.getName()))) {
             return floorLabel != null ? floorLabel + " · " + detail : detail;
         }
         return floorLabel != null ? floorLabel : "";
