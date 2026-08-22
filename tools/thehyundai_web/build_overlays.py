@@ -4,27 +4,31 @@
 조인 키는 매장 id다. 사이트는 id를 모르므로 배포된 백엔드의 store-index에서
 (층, 이름) → id를 얻어 붙인다.
 
-    python tools/thehyundai_web/build_overlays.py
+    python tools/thehyundai_web/build_overlays.py 2026-08-22
 
 **무엇을 싣고 무엇을 버리는지가 이 파일의 요점이다.** `_schema.json`이 막는 것과
 낡는 것을 여기서 걸러 낸다.
 
-  싣는다  summary  식당·시설 소개글. `※`로 시작하는 운영 고지는 잘라 낸다 —
-                  "LAST ORDER 19:20" 같은 값이 소개글에 섞여 들어오는데, 소개는
-                  안 낡고 그 줄은 낡는다.
+  싣는다  summary  식당·시설 소개글. `※` 뒤 운영 고지는 잘라 낸다 — "LAST ORDER
+                  19:20" 같은 값이 소개글에 섞여 들어오는데, 소개는 안 낡고 그
+                  줄은 낡는다.
           hours    "10:30 ~ 20:00"과 브레이크타임을 요일 7개 구조체로 편다.
-                   `_schema.json`이 자유 문자열 영업시간을 막는 대신 낸 길이다.
+          contact  전화번호. 스키마 v5에서 열린 구조체다 — 자유 문자열 "전화번호"는
+                  여전히 금지이고, source·confirmed_at을 붙여야만 나간다.
           source   그 문구가 실제로 적혀 있던 페이지.
 
-  버린다  전화번호  `forbidden_labels`가 keyValue·businessInfo 양쪽에서 막는다.
-                   구조체 자리도 없다. 534건을 받아 두고도 싣지 않는 이유다.
-          lastOrder  같은 이유. hours 구조체에 라스트오더 자리가 없다.
+  버린다  lastOrder  `hours` 구조체에 자리가 없다. 자유 문자열로 넣으면
+                   `forbidden_labels`가 막는다.
           사진·메뉴   `hero.local_asset`·`menu.image_asset`은 앱 번들 경로여서
                    원격 URL을 그대로 넣을 수 없다. 이미지를 클라이언트
                    저장소에 받아 넣는 것은 별도 작업이다.
           휴점일     사이트가 요일 규칙으로 공지하지 않는다. 요일에서 유추하면
                    확인되지 않은 값이 확인된 값과 같은 모양으로 저장된다
                    (`_schema.json`의 exceptions_upkeep_note와 같은 판단).
+
+**한 id는 한 파일에만 쓴다.** 로더(`PlaceOverlays`)는 같은 id가 두 파일에 있으면
+나중 파일이 **통째로** 이긴다 — 병합이 아니다. 식당이 층별 브랜드 목록에도 들어 있어,
+그대로 두면 소개글·영업시간이 전화번호만 있는 오버레이에 덮인다.
 """
 import json, os, re, subprocess, sys
 
@@ -35,10 +39,16 @@ OUT = os.path.abspath(os.path.join(HERE, "..", "..", "src", "main", "resources",
 API = "https://navigation-api-465890645804.asia-northeast3.run.app"
 BUILDING = "thehyundai-seoul"
 RESTAURANTS_URL = "https://thehyundaiseoul.ehyundai.com/store/restaurants"
+FLOOR_GUIDE_URL = "https://thehyundaiseoul.ehyundai.com/store/floor-guide"
 FACILITIES_URL = "https://thehyundaiseoul.ehyundai.com/about/facilities"
 KST_OFFSET_MIN = 540
 
 WEEKDAYS = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
+
+RESTAURANTS_FILE = "thehyundai-restaurants.json"
+BRANDS_FILE = "thehyundai-brands.json"
+FACILITIES_FILE = "thehyundai-facilities.json"
+OUTPUT_FILES = (RESTAURANTS_FILE, BRANDS_FILE, FACILITIES_FILE)
 
 # 사이트 이름과 도면 이름이 다른 것들. 자동 매칭이 닿지 않아 사람이 정한 짝이다.
 # 왼쪽이 사이트, 오른쪽이 도면(store-index) 이름.
@@ -70,25 +80,23 @@ def store_index():
     return json.loads(out.decode("utf-8"))
 
 
-OUTPUT_FILES = ("thehyundai-restaurants.json", "thehyundai-facilities.json")
+def existing_overlays():
+    """이미 손으로 써 둔 오버레이. id → 그 오버레이가 연락처를 이미 담았나.
 
-
-def existing_ids():
-    """이미 손으로 써 둔 오버레이의 id.
-
-    로더는 같은 id가 두 파일에 있으면 나중 파일이 이긴다 — 사진·메뉴까지 채워 둔
-    수작업 오버레이를 소개글만 있는 자동 생성본이 덮을 수 있다. 겹치면 **자동
-    생성 쪽을 비운다**: 사람이 더 많이 아는 쪽이 이겨야 한다.
+    사진·메뉴까지 채운 수작업 오버레이를 자동 생성본이 덮지 않게 막는다.
+    겹치면 **자동 생성 쪽을 비운다**: 사람이 더 많이 아는 쪽이 이겨야 한다.
+    연락처 유무까지 보는 것은, 사람이 손으로 채워야 할 곳만 로그에 남기기 위해서다.
     """
-    ids = set()
+    found = {}
     if not os.path.isdir(OUT):
-        return ids
+        return found
     for name in sorted(os.listdir(OUT)):
         if not name.endswith(".json") or name.startswith("_") or name in OUTPUT_FILES:
             continue
         with open(os.path.join(OUT, name), encoding="utf-8") as f:
-            ids.update(json.load(f))
-    return ids
+            for place_id, overlay in json.load(f).items():
+                found[place_id] = bool(overlay.get("contact"))
+    return found
 
 
 def load(name):
@@ -100,9 +108,33 @@ def clean_summary(text):
     """소개글에서 운영 고지(`※` 이후)를 떼고 빈 줄을 정리한다."""
     if not text:
         return None
-    body = text.split("※")[0]
-    body = re.sub(r"\n{2,}", "\n", body).strip()
+    body = re.sub(r"\n{2,}", "\n", text.split("※")[0]).strip()
     return body or None
+
+
+# 지역번호형(02-3277-0132)과 대표번호형(1522-3232) 둘만 받는다.
+TEL_SHAPES = (re.compile(r"^\d{2,4}-\d{3,4}-\d{4}$"), re.compile(r"^\d{4}-\d{4}$"))
+
+
+def clean_tel(tel):
+    """사이트 표기를 그대로 두되 앞뒤 구분기호와 사이 공백만 다듬는다.
+
+    대표번호를 `1522-3232-`처럼 줄표를 달고 주는데, 그대로 실으면 화면이 걸 수 없는
+    번호가 된다. 반대로 `02-3277- 070`처럼 자릿수가 모자란 것은 **고치지 않고 버린다** —
+    무엇이 빠졌는지 모르는 채 채우면 없는 번호를 만들어 낸다.
+    """
+    if not tel:
+        return None
+    cleaned = re.sub(r"\s+", "", tel).strip("-").strip()
+    return cleaned if any(shape.match(cleaned) for shape in TEL_SHAPES) else None
+
+
+def contact(tel, source, today):
+    """전화번호 구조체. 번호로 읽히지 않으면 키 자체를 만들지 않는다."""
+    cleaned = clean_tel(tel)
+    if not cleaned:
+        return None
+    return {"tel": cleaned, "confirmed_at": today, "source": source}
 
 
 def parse_span(text):
@@ -143,22 +175,34 @@ def build_hours(rest, today):
             "source": RESTAURANTS_URL}
 
 
-def match_restaurants(rests, stores):
-    """(층, 이름)으로 먼저 붙이고, 남은 것은 별칭으로 붙인다."""
-    by_floor_name = {}
-    by_name = {}
+def index_stores(stores):
+    by_floor_name, by_name = {}, {}
     for e in stores:
         by_floor_name.setdefault((e["floor_name"], norm(e["name"])), e)
         by_name.setdefault(norm(e["name"]), e)
+    return by_floor_name, by_name
+
+
+def match_restaurants(rests, stores):
+    """(층, 이름)으로 먼저 붙이고, 남은 것은 별칭으로 붙인다."""
+    by_floor_name, by_name = index_stores(stores)
     pairs, missed = [], []
     for r in rests:
-        floor = "B1" if r.get("floor", "").startswith("지하") else (r.get("floor", "").replace("층", "F"))
+        floor = r.get("floor", "")
+        floor = "B1" if floor.startswith("지하") else floor.replace("층", "F")
         target = RESTAURANT_ALIASES.get(r["name"], r["name"])
         hit = by_floor_name.get((floor, norm(target))) or by_name.get(norm(target))
-        if hit:
-            pairs.append((hit, r))
-        else:
-            missed.append(r["name"])
+        pairs.append((hit, r)) if hit else missed.append(r["name"])
+    return pairs, missed
+
+
+def match_brands(brands, stores):
+    """브랜드는 층까지 맞춘다 — 같은 이름이 여러 층에 있다."""
+    by_floor_name, _ = index_stores(stores)
+    pairs, missed = [], []
+    for b in brands:
+        hit = by_floor_name.get((b["floor"], norm(b["name"])))
+        pairs.append((hit, b)) if hit else missed.append(b["name"])
     return pairs, missed
 
 
@@ -177,10 +221,7 @@ def match_facilities(cards, facs, stores):
             # 포함 관계는 시설 쪽에서만 본다 — 매장 이름은 짧아 엉뚱하게 걸린다.
             hits = [e for e in facs
                     if target and (target in norm(e["name"]) or norm(e["name"]) in target)]
-        if hits:
-            pairs.append((hits, c))
-        else:
-            missed.append(c["name"])
+        pairs.append((hits, c)) if hits else missed.append(c["name"])
     return pairs, missed
 
 
@@ -189,18 +230,33 @@ def main(today):
     stores = [e for e in idx if e.get("kind") == "store"]
     facs = [e for e in idx if e.get("kind") == "facility"]
 
-    rests = load("restaurants.json")
-    cards = load("facilities.json")
-
-    taken = existing_ids()
+    rests, brands, cards = load("restaurants.json"), load("brands.json"), load("facilities.json")
     r_pairs, r_missed = match_restaurants(rests, stores)
+    b_pairs, b_missed = match_brands(brands, stores)
     f_pairs, f_missed = match_facilities(cards, facs, stores)
 
-    out_rest = {}
-    no_summary, no_hours, skipped = [], [], []
+    # 손으로 쓴 오버레이가 먼저다. 그다음은 이 안에서 먼저 쓴 파일이 자리를 잡는다.
+    handwritten = existing_overlays()
+    used = set(handwritten)
+    # 건너뛴 이유를 갈라 둔다. "이번에 이미 썼다"는 정상이고(식당이 브랜드 목록에도
+    # 있다), "수작업본이 있다"만 사람이 볼 일이 남은 쪽이다.
+    blocked_by_hand, already_written = [], []
+
+    def claim(place_id, name):
+        if place_id in handwritten:
+            # 이미 연락처가 있는 수작업본은 남길 일이 없다.
+            if not handwritten[place_id]:
+                blocked_by_hand.append(name)
+            return False
+        if place_id in used:
+            already_written.append(name)
+            return False
+        used.add(place_id)
+        return True
+
+    out_rest, no_summary, no_hours = {}, [], []
     for store, r in r_pairs:
-        if store["id"] in taken:
-            skipped.append(store["name"])
+        if not claim(store["id"], store["name"]):
             continue
         overlay = {"name": store["name"], "updated_at": today}
         summary = clean_summary(r.get("description"))
@@ -214,6 +270,9 @@ def main(today):
             overlay["hours"] = hours
         else:
             no_hours.append(store["name"])
+        tel = contact(r.get("tel"), RESTAURANTS_URL, today)
+        if tel:
+            overlay["contact"] = tel
         if len(overlay) > 2:
             out_rest[store["id"]] = overlay
 
@@ -223,15 +282,25 @@ def main(today):
         if not summary:
             continue
         for e in hits:
-            if e["id"] in taken:
-                skipped.append(e["name"])
+            if not claim(e["id"], e["name"]):
                 continue
             out_fac[e["id"]] = {"name": e["name"], "updated_at": today,
                                 "summary": summary, "source": FACILITIES_URL}
 
+    # 브랜드는 전화번호뿐이다 — 소개글은 현대 쪽에 아예 없다(README 참고).
+    out_brand, no_tel = {}, []
+    for store, b in b_pairs:
+        tel = contact(b.get("tel"), FLOOR_GUIDE_URL, today)
+        if not tel:
+            no_tel.append(store["name"])
+            continue
+        if not claim(store["id"], store["name"]):
+            continue
+        out_brand[store["id"]] = {"name": store["name"], "updated_at": today, "contact": tel}
+
     os.makedirs(OUT, exist_ok=True)
-    for name, payload in (("thehyundai-restaurants.json", out_rest),
-                          ("thehyundai-facilities.json", out_fac)):
+    for name, payload in ((RESTAURANTS_FILE, out_rest), (FACILITIES_FILE, out_fac),
+                          (BRANDS_FILE, out_brand)):
         with open(os.path.join(OUT, name), "w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2, sort_keys=True)
             f.write("\n")
@@ -239,12 +308,22 @@ def main(today):
 
     print("식당 매칭 %d/%d  못 붙음: %s" % (len(r_pairs), len(rests), r_missed))
     print("시설 매칭 %d/%d  못 붙음: %s" % (len(f_pairs), len(cards), f_missed))
+    print("브랜드 매칭 %d/%d  (도면에 없는 것 %d건)" % (len(b_pairs), len(brands), len(b_missed)))
     if no_summary:
         print("소개글 없음:", no_summary)
     if no_hours:
         print("영업시간 못 읽음:", no_hours)
-    if skipped:
-        print("수작업 오버레이가 이미 있어 건너뜀 %d건: %s" % (len(skipped), skipped))
+    if no_tel:
+        print("전화번호가 없거나 번호로 읽히지 않아 뺀 매장 %d건" % len(no_tel))
+    if already_written:
+        print("앞선 파일이 이미 담아 건너뜀 %d건 (식당·시설이 브랜드 목록에도 있어 정상)"
+              % len(already_written))
+    if blocked_by_hand:
+        # 줄표(—)를 쓰지 않는다. 윈도우 콘솔 기본 코드페이지(cp949)에 없어
+        # 리다이렉트하면 여기서 UnicodeEncodeError로 죽는다.
+        print("수작업 오버레이가 있어 자동 생성을 비움 %d건. 전화번호는 사람이 넣어야 한다:"
+              % len(blocked_by_hand))
+        print("  " + ", ".join(sorted(set(blocked_by_hand))))
 
 
 if __name__ == "__main__":
