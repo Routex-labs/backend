@@ -71,6 +71,11 @@
         "price": "18,000원",
         "description": "고소한 차슈와 매콤한 마라 국물이 어우러진 얼큰한 사천식 탕면"
       }
-    ]
+    ],
+    "contact": {
+      "tel": "02-3277-0665",
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/floor-guide"
+    }
   }
 }

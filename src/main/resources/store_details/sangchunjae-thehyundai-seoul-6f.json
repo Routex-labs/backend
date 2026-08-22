@@ -74,6 +74,11 @@
         "image_asset": "assets/place_details/sangchunjae_menu_2b856bdd727e484e.jpg",
         "price": "25,000원"
       }
-    ]
+    ],
+    "contact": {
+      "tel": "02-3277-0657",
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/floor-guide"
+    }
   }
 }

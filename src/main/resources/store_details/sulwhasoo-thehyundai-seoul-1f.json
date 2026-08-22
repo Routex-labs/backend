@@ -9,6 +9,11 @@
         "label": "주소",
         "value": "서울특별시 영등포구 여의대로 108, 더현대서울 1F"
       }
-    ]
+    ],
+    "contact": {
+      "tel": "02-3277-0152",
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/floor-guide"
+    }
   }
 }

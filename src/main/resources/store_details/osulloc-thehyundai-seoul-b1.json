@@ -3109,6 +3109,11 @@
       "utc_offset_minutes": 540,
       "confirmed_at": "2026-08-13",
       "source": "https://www.osulloc.com/kr/ko/store-introduction"
+    },
+    "contact": {
+      "tel": "02-3277-8532",
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/floor-guide"
     }
   }
 }

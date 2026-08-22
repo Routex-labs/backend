@@ -2,14 +2,6 @@
   "PO-NCpMNrEp82723": {
     "name": "송",
     "updated_at": "2026-08-21",
-    "demoInfo": [
-      {
-        "label": "전화",
-        "value": "02-3277-0655",
-        "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
-        "confirmed_at": "2026-08-21"
-      }
-    ],
     "summary": "30년간 한결같은 맛으로 자리를 지켜온 일본식 우동 & 메밀 전문점입니다. 익숙하지만 늘 생각나는 맛으로 유명합니다.",
     "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
     "hours": {
@@ -85,6 +77,11 @@
         "price": "19,000원",
         "description": "바삭한 돈까스와 따뜻한 우동이 어루어진 푸짐한 정식 메뉴"
       }
-    ]
+    ],
+    "contact": {
+      "tel": "02-3277-0655",
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    }
   }
 }

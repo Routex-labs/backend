@@ -3335,12 +3335,42 @@
             "close": "20:00"
           }
         ],
-        "tue": [{ "open": "10:30", "close": "20:00" }],
-        "wed": [{ "open": "10:30", "close": "20:00" }],
-        "thu": [{ "open": "10:30", "close": "20:00" }],
-        "fri": [{ "open": "10:30", "close": "20:30" }],
-        "sat": [{ "open": "10:30", "close": "20:30" }],
-        "sun": [{ "open": "10:30", "close": "20:30" }]
+        "tue": [
+          {
+            "open": "10:30",
+            "close": "20:00"
+          }
+        ],
+        "wed": [
+          {
+            "open": "10:30",
+            "close": "20:00"
+          }
+        ],
+        "thu": [
+          {
+            "open": "10:30",
+            "close": "20:00"
+          }
+        ],
+        "fri": [
+          {
+            "open": "10:30",
+            "close": "20:30"
+          }
+        ],
+        "sat": [
+          {
+            "open": "10:30",
+            "close": "20:30"
+          }
+        ],
+        "sun": [
+          {
+            "open": "10:30",
+            "close": "20:30"
+          }
+        ]
       },
       "exceptions": [
         {
@@ -3355,12 +3385,6 @@
       "source": "https://www.starbucks.co.kr/store/store_map.do?store_cd=1762"
     },
     "demoInfo": [
-      {
-        "label": "고객센터",
-        "value": "1522-3232 (평일 09:00–18:00)",
-        "source": "https://www.starbucks.co.kr/store/store_map.do?store_cd=1762",
-        "confirmed_at": "2026-08-10"
-      },
       {
         "label": "매장 타입",
         "value": "스타벅스 리저브",

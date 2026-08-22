@@ -86,6 +86,11 @@
         "price": "21,000원",
         "description": "짭짤한 베이컨과 진한 계란, 그라나파노 치즈가 한데 어우러진 로마의 전통 레시피"
       }
-    ]
+    ],
+    "contact": {
+      "tel": "02-3277-0658",
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/floor-guide"
+    }
   }
 }

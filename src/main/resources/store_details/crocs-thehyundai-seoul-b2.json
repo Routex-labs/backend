@@ -10,20 +10,17 @@
         "value": "서울특별시 영등포구 여의대로 108, 더현대서울 B2"
       }
     ],
-    "demoInfo": [
-      {
-        "label": "전화",
-        "value": "02-3277-0838",
-        "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
-        "confirmed_at": "2026-08-21"
-      }
-    ],
     "links": [
       {
         "label": "브랜드 공식몰",
         "url": "https://www.crocs.co.kr"
       }
     ],
-    "logo": "assets/place_details/logo_crocs.png"
+    "logo": "assets/place_details/logo_crocs.png",
+    "contact": {
+      "tel": "02-3277-0838",
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    }
   }
 }

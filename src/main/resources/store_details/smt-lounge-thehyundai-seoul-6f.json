@@ -102,6 +102,11 @@
         "price": "21,000원",
         "description": "신선한 시금치와 치즈가 듬뿍 들어간 고소하고 담백한 시금치 퀘사디아"
       }
-    ]
+    ],
+    "contact": {
+      "tel": "02-3277-0659",
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/floor-guide"
+    }
   }
 }

@@ -85,7 +85,12 @@
         "label": "주소",
         "value": "서울특별시 영등포구 여의대로 108, 더현대서울 6F"
       }
-    ]
+    ],
+    "contact": {
+      "tel": "02-785-1985",
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/floor-guide"
+    }
   },
   "PO-zbWA20Ae85369": {
     "name": "ALT. 1",
@@ -123,6 +128,11 @@
         "label": "작가",
         "value": "하이메 아욘"
       }
-    ]
+    ],
+    "contact": {
+      "tel": "02-3277-8444",
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/floor-guide"
+    }
   }
 }
