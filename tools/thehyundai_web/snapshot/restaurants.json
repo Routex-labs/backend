@@ -1,0 +1,971 @@
+[
+ {
+  "breakTime": null,
+  "category": "한식",
+  "description": "강호연파는 깊고 진한 육수와 신선한 식재료로 누구나 부담없이 즐길 수 있는 샤브샤브 브랜드입니다.\n깊은 맛과 따뜻한 정성이 담긴 특별한 한 끼를 제공합니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/2b28f025ee894ff8b9bd5d3ad3828f18.jpg"
+  ],
+  "lastOrder": "19:20",
+  "name": "강호연파",
+  "seq": 2140,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "한식",
+  "description": "장인의 손맛과 43시간의 기다림으로\n깊은 맛이 일품인 곰탕 전문점'\n'공탕'을 더현대 서울에서 새로 만나보세요.\n\n※ LAST ORDER(평일) : 19:20\n\n※ LAST ORDER(주말) : 19:40",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/d1f20b3fa5a44c93b84f03af6cd03879.jpg"
+  ],
+  "lastOrder": null,
+  "name": "공탕",
+  "seq": 1711,
+  "tel": "02-3277-0764"
+ },
+ {
+  "breakTime": null,
+  "category": "한식",
+  "description": "금옥당은 전통 다과의 가치를 현대적인 감각으로 재해석하는 프리미엄 한국 디저트 브랜드입니다.100% 국산 팥과 엄선된 원재료를 사용하여 직접 만든 앙금을 바탕으로 수제 생양갱과 다양한 전통 다과를 선보이며, 일상은 물론 소중한 분께 마음을 전하는 선물까지 품격 있는 디저트 경험을 제공합니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/68777e30a5c945aa84fa617f52948c3b.jpg"
+  ],
+  "lastOrder": null,
+  "name": "금옥당",
+  "seq": 2143,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "한식",
+  "description": "옛날부터 '솥밥'은 우리나라에서 귀한 손님을 대접할 때 내놓는 음식중 하나입니다. 만학은 따뜻한 집밥이 그리울 때 생각나는 맛집처럼 정성을 담아 내어드립니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/af505d37c2b44ba8898db185afdb0fe6.jpg"
+  ],
+  "lastOrder": "19:30",
+  "name": "만학",
+  "seq": 2142,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "한식",
+  "description": "푸짐하게 담긴 신선한 해물과 원재료\n고유의 맛을 살린 시원한 제주도 해물탕 집입니다.\n제주 바다를 그대로 가져온 시원한 국물은\n해산물 요리의 진수를 보여줍니다.\n\n※ LAST ORDER(평일) : 19:30\n※ LAST ORDER(주말) : 20:00",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/34a1056fff67449a83cd796856ce5326.jpg"
+  ],
+  "lastOrder": null,
+  "name": "삼성혈해물탕",
+  "seq": 1245,
+  "tel": "02-3277-0766"
+ },
+ {
+  "breakTime": null,
+  "category": "한식",
+  "description": "35년 전통을 가진 나의 가야는 \n불고기 및 각종 전골 요리가 유명합니다.\n매장에서 메밀면을 제면하거나 정육 작업을 하는 등 \n신선함을 요리에 그대로 담아냅니다.",
+  "floor": "6층",
+  "floorCode": "B01000600",
+  "hours": "11:00 ~ 22:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/20210209104434346.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/20220906040216729.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/7b13a9e742ea4416803bb88dda12f96d.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/9f9728fb90b8475886cb462609fd2c78.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/dd694a02f4a449b093ea116cfa423a30.jpg"
+  ],
+  "lastOrder": "21:00",
+  "name": "나의 가야",
+  "seq": 597,
+  "tel": "02-3277-0650"
+ },
+ {
+  "breakTime": null,
+  "category": "한식",
+  "description": "정갈한 한상차림에 담긴 신선한 해산물과\n프리미엄 식재료의 조화,\n미식가들을 사로잡은 제주 상춘재.",
+  "floor": "6층",
+  "floorCode": "B01000600",
+  "hours": "10:30 ~ 22:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/6c33a5baa8df430fa076c2d114ba25fd.jpg"
+  ],
+  "lastOrder": "21:00",
+  "name": "상춘재",
+  "seq": 1933,
+  "tel": "02-3277-0657"
+ },
+ {
+  "breakTime": null,
+  "category": "일식",
+  "description": "더라멘워는 일본 오사카의 정통 쇼유 라멘을 기반으로 한 라멘 전문 브랜드입니다. 닭과 조개를 블렌딩한 특제 육수에 깊은 간장의 풍미를 더해 깔끔하면서도 감칠맛이 살아있는 한그릇을 선보입니다. 자가제면한 면과 엄선된 재료를 사용하여 정통 일본 라멘의 맛을 제공합니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/4a7f0944b7af43d6a5819d937c787d70.jpg"
+  ],
+  "lastOrder": "19:30",
+  "name": "더라멘워",
+  "seq": 2150,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "일식",
+  "description": "24시간 숙성된 반죽에 탄산수를 더해 풍미가 깊은 튀김옷이 장점인 튀김덮밥 전문점입니다.\n마츠노하나는 일본어로 정절과 장수를 뜻하는 소나무 꽃입니다.\n본점은 대학로 소나무길에 있습니다.\n일본식 요리를 캐주얼하게 즐길 수 있습니다.\n\n※ LAST ORDER(평일) : 19:30\n※ LAST ORDER(주말) : 20:00",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/20221109024959886.jpg"
+  ],
+  "lastOrder": null,
+  "name": "마츠노하나",
+  "seq": 1233,
+  "tel": "02-3277-0760"
+ },
+ {
+  "breakTime": null,
+  "category": "일식",
+  "description": "본가스시는 기본을 중시하고, 전통을 지키는 本家를 의미합니다.\n고객에게 고품질과 서비스를 제공하는 마음으로\n고객의 니즈에 맞는 60여종의 다양하고 엄선된 메뉴를 제공합니다.\n\n※ LAST ORDER(평일) : 19:30\n※ LAST ORDER(주말) : 20:00",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/d2cde3c898b84967a924a421c9455087.jpg"
+  ],
+  "lastOrder": null,
+  "name": "본가스시",
+  "seq": 1224,
+  "tel": "02-3277-0765"
+ },
+ {
+  "breakTime": null,
+  "category": "일식",
+  "description": "신사동 우니 카이센동 명가 \"우니도\"\n화려한 비주얼과 신선한 숙성회의 맛집으로 초대합니다.\n\n※ LAST ORDER(평일) : 19:30\n※ LAST ORDER(주말) : 20:00",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/39c25f8ea7ac43e59e63e20d691b5652.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/efe6bd2367314b65acc495a1d9250d36.jpg"
+  ],
+  "lastOrder": null,
+  "name": "우니도",
+  "seq": 1710,
+  "tel": "02-3277-0790"
+ },
+ {
+  "breakTime": null,
+  "category": "일식",
+  "description": "1952년 일본 고치에서 시작하여, 3대째 이어온 일본 정통 고구마 간식 브랜드 이모야킨지로입니다.고구마, 식용유, 설탕만을 사용한 전통 방식으로 신선하고 바삭한 이모켄피를 만들어오며 많은 고객에게 사랑받고 있는 브랜드입니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/8fb6aafe5a5d4e63bec37003abee223d.jpg"
+  ],
+  "lastOrder": null,
+  "name": "이모야킨지로",
+  "seq": 2148,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "일식",
+  "description": "일본식의 정통 우동을 기반으로 다양한 메뉴를 준비해 방문객의 입맛을 사롭잡습니다. 텐붓가케우동, 명란크림우동 등 인기 있는 메뉴는 우동의 깊은 맛과 함께 특별한 조합으로 다채로운 맛을 제공합니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/9a95a512c8274f45bd4686dc8870de6a.jpg"
+  ],
+  "lastOrder": "19:30",
+  "name": "토나리우동",
+  "seq": 2149,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": "15:00 ~ 17:00",
+  "category": "일식",
+  "description": "교토의 사계와 정갈한 마음을 담은 한 상으로 \n다양한 일본식 미학을 경험할 수 있는 로바\n\n※ LAST ORDER(코스요리) : 20:00\n※ LAST ORDER(단품메뉴) : 21:00",
+  "floor": "6층",
+  "floorCode": "B01000600",
+  "hours": "11:00 ~ 22:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/dae9363e577e4626b2bae05d874d951a.jpg"
+  ],
+  "lastOrder": null,
+  "name": "로바",
+  "seq": 607,
+  "tel": "02-3277-0652"
+ },
+ {
+  "breakTime": null,
+  "category": "일식",
+  "description": "30년간 한결같은 맛으로 자리를 지켜온 일본식 우동 & 메밀 전문점입니다.\n익숙하지만 늘 생각나는 맛으로 유명합니다.",
+  "floor": "6층",
+  "floorCode": "B01000600",
+  "hours": "10:30 ~ 22:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/20210209104006273.jpg"
+  ],
+  "lastOrder": "21:00",
+  "name": "송",
+  "seq": 599,
+  "tel": "02-3277-0655"
+ },
+ {
+  "breakTime": null,
+  "category": "일식",
+  "description": "정통 일본식 돈카츠 브랜드 정돈 프리미엄은 등심, 안심, 특수부위를 부위별\n저온 튀김 기법으로 조리하여 풍부한 육즙과 다채로운 식감을 선보입니다.",
+  "floor": "6층",
+  "floorCode": "B01000600",
+  "hours": "10:30 ~ 22:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/ce81e49facad4be69eccfad007b7e433.jpg"
+  ],
+  "lastOrder": "21:00",
+  "name": "정돈 프리미엄",
+  "seq": 1530,
+  "tel": "02-3277-0670"
+ },
+ {
+  "breakTime": null,
+  "category": "중식",
+  "description": "45년 중식 세프의 특별한 레시피, 어디서도 맛볼 수 있없는 깊고 진한 마라탕",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/dcaf5bc070974111b1953852483e9a62.jpg"
+  ],
+  "lastOrder": "19:30",
+  "name": "마유유마라탕",
+  "seq": 2147,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "중식",
+  "description": "중화요리 4대 문파 중 한명으로 손꼽히는 유방녕 셰프의 프리미엄 중식 레스토랑입니다.우뚝한 삼대, 백년에 걸친 가문의 비법을 맛보실 수 있습니다.\n\n※ LAST ORDER(평일) : 19:30\n※ LAST ORDER(주말) : 20:00",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/f64ad5afc82d4329b677a78c7b054a47.jpg"
+  ],
+  "lastOrder": null,
+  "name": "유방녕",
+  "seq": 1234,
+  "tel": "02-3277-0769"
+ },
+ {
+  "breakTime": null,
+  "category": "중식",
+  "description": "타이베이 로컬의 감성과 대만식 중화요리를\n새로운 시선으로 담아낸 푸만만\n타이베이의 유명 식당 ‘진신타이차이’와 \n20년 경력의 대만 셰프가 함께 완성한 맛을 \n더현대 서울에서 만나보세요.\n\n※ LAST ORDER(평일) : 19:30\n※ LAST ORDER(주말) : 20:00",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/a547919d404049cf89d5cbb2af798eef.jpg"
+  ],
+  "lastOrder": "19:30",
+  "name": "푸만만",
+  "seq": 2084,
+  "tel": "02-3277-0757"
+ },
+ {
+  "breakTime": "15:00 ~ 17:00",
+  "category": "중식",
+  "description": "정통 중식을 현대적인 공간에서 만날 수 있습니다.\n다채로운 중화요리법에 서양식 연출을 가미한\n도원스타일의 새로운 버전을 선보입니다.",
+  "floor": "6층",
+  "floorCode": "B01000600",
+  "hours": "11:00 ~ 22:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/937669f9f2b74e069b18c7805a40c92e.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/539315b8f6bc4cdb805a71881896d2d7.jpg"
+  ],
+  "lastOrder": "21:00",
+  "name": "도원 스타일",
+  "seq": 606,
+  "tel": "02-3277-0653"
+ },
+ {
+  "breakTime": null,
+  "category": "중식",
+  "description": "프리미엄 중식 브랜드 JS가든의 매운 사천식 중식 요리 브랜드.\n불의 미학을 선보입니다.",
+  "floor": "6층",
+  "floorCode": "B01000600",
+  "hours": "10:30 ~ 22:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/cd6114e479f94819939753d2ea4cd0cb.jpg"
+  ],
+  "lastOrder": "21:00",
+  "name": "사천화가",
+  "seq": 1967,
+  "tel": "02-3277-0665"
+ },
+ {
+  "breakTime": null,
+  "category": "양식",
+  "description": "정통 이탈리안 요리를 새롭게 해석한 캐주얼 레스토랑",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 21:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/0f1cc898c9fa4ee98f7f9c82a18005b3.jpg"
+  ],
+  "lastOrder": "20:00",
+  "name": "라그릴리아",
+  "seq": 1240,
+  "tel": "02-3277-0755"
+ },
+ {
+  "breakTime": null,
+  "category": "양식",
+  "description": "와인 복합 문화 공간으로, 와인과 어울리는 다양한 문화 콘텐츠를 즐길 수 있는 와인웍스 더현대 서울점입니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 22:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/4837cf9cd47f4ebd931efeb2927ed7d0.jpg"
+  ],
+  "lastOrder": "21:00",
+  "name": "와인웍스",
+  "seq": 2152,
+  "tel": "02-3277-0713"
+ },
+ {
+  "breakTime": "15:00 ~ 17:20",
+  "category": "양식",
+  "description": "2006년부터 어윤권 셰프가 청담동에서 선보인 정통 이탈리안 컨템포러리 다이닝입니다.신선한 제철 식재료 본연의 맛을 살린 요리로 이탈리안 코스를 제대로 만끽할 수 있습니다.",
+  "floor": "6층",
+  "floorCode": "B01000600",
+  "hours": "10:30 ~ 22:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/a3a538e0e3e549fd926c5c026128cf95.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/6f7fe4b69d5c487389874ec4da4e0941.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/152ee86bd67642bdb46493b7c77d2cc0.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/1c658475292b426abacd158e0b5f7e0a.jpg"
+  ],
+  "lastOrder": "20:30",
+  "name": "리스토란테 에오",
+  "seq": 601,
+  "tel": "02-3277-0651"
+ },
+ {
+  "breakTime": null,
+  "category": "양식",
+  "description": "현지에서 공수한 양질의 식재료를 사용한 음식으로 이탈리안 식문화를 제대로 즐길 수 있습니다.\n레스토랑과 함께 이탈리아 요리에 필요한 식재료 마켓도 함께 있는 그로서란트 매장입니다.",
+  "floor": "6층",
+  "floorCode": "B01000600",
+  "hours": "10:30 ~ 22:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/12db4ef8d30b4141b2e346f1c450659a.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/74cccd0cad95444798cef50aba8efa54.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/2c393e352c774093ba6784a18146a275.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/ae69adfd39f94a97a0704d798e7858af.jpg"
+  ],
+  "lastOrder": "21:00",
+  "name": "이탈리",
+  "seq": 603,
+  "tel": "02-3277-0658"
+ },
+ {
+  "breakTime": null,
+  "category": "아시안",
+  "description": "아시안 누들 &스낵바성수, 더현대 서울, 용산, 강남, 더현대판교에 위치하고 있습니다. 곳곳에 숨어있는 세잎클로바를 찾아보세요!",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/90171c187ceb4d96a11e4eaf14e3a873.jpg"
+  ],
+  "lastOrder": "19:30",
+  "name": "데이릿",
+  "seq": 2153,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "아시안",
+  "description": "아시아 각국의 다채로운 아시안 누들&라이스를 선보입니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 21:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/d2629f780a82410a8e25cd552f53b640.jpg"
+  ],
+  "lastOrder": "20:00",
+  "name": "스트릿",
+  "seq": 1243,
+  "tel": "02-3277-0756"
+ },
+ {
+  "breakTime": null,
+  "category": "아시안",
+  "description": "베트남 셰프들과 정호균쉐프가 직접 만나며 그들의 레시피를 현지화 하였습니다.\n기존의 획일화 된 베트남 음식과 다른 더욱 로컬화한 메뉴들을 맛보세요.\n\n※ LAST ORDER(평일) : 19:30\n※ LAST ORDER(주말) : 20:00",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/ebf54e376e2c49ddaf288cac713b955a.jpg"
+  ],
+  "lastOrder": null,
+  "name": "퍼부어",
+  "seq": 1237,
+  "tel": "02-3277-0761"
+ },
+ {
+  "breakTime": null,
+  "category": "아시안",
+  "description": "홍콩 골목을 돌면 만날 것 같은 홍콩식 대중 음식점 입니다.\n매일 먹어도 질리지 않는 딤섬, 면, 솥밥을 만들었습니다.\n오픈키친에서 홍콩의 소울푸드를 생생하게 맛보세요.\n\n※ LAST ORDER(평일) : 19:30\n※ LAST ORDER(주말) : 20:00",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/5666864354264afd9c4262a0674d257f.jpg"
+  ],
+  "lastOrder": null,
+  "name": "호우섬",
+  "seq": 1227,
+  "tel": "02-3277-0763"
+ },
+ {
+  "breakTime": null,
+  "category": "카페",
+  "description": "ARKET CAFE 는 지속가능한 먹거리를 추구하는 카페입니다. \n계절주의 베지테리언 식단부터 스페셜티 커피 그리고 노르딕 페이스트리가 준비되어 있습니다. \n우리의 메뉴는 뉴 노르딕 라이프의 비전을 반영합니다.\n전통적인 방법과 건강하고 윤리적인 방식으로 재배된 재료를 사용하며\n모던 노르딕과 해외 레시피가 결합된 현대적이고 지속 가능한 식단을 선보입니다.",
+  "floor": "지하2층",
+  "floorCode": "B010B200",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/919a9b15f35e4aada9cde961be6d0b31.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/6d9451fc2eb34f9a99778b0588c632c6.jpg"
+  ],
+  "lastOrder": null,
+  "name": "아르켓 카페",
+  "seq": 1724,
+  "tel": "070-4166-4663"
+ },
+ {
+  "breakTime": null,
+  "category": "카페",
+  "description": "맛있는 커피를 향한 이정표 since 2014 우리는 방문해주시는 모든 고객을 환대하는 마음으로 일합니다.건강한 마인드와 프로페셔널한 태도로 팀워크를 다지고, 작고 사소한 일 하나까지도 최선을 다하고자 합니다. 진심을 담아 내어드리는 커피 한 잔이 누군가의 하루에 작은 위로와 힘이 될 수 있다고 믿습니다.마일스톤의 변치 않는 꾸준함과 진솔함이 우리의 매개체인 커피를 통해 오래도록 전해지길 바랍니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/a3f63bef3d154d07bfa6798ae7e8070e.jpg"
+  ],
+  "lastOrder": null,
+  "name": "마일스톤",
+  "seq": 2146,
+  "tel": "02-3277-0713"
+ },
+ {
+  "breakTime": null,
+  "category": "카페",
+  "description": "빈티지한 공간의 맥코이, 클래식한 커피와\n당일 수제로 만드는 부드러운 티라미수를 즐겨보세요.\n\n※ LAST ORDER(평일) : 20:00\n※ LAST ORDER(주말) : 20:30",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/f8c28cbffbd7455682847791fba893c4.jpg"
+  ],
+  "lastOrder": null,
+  "name": "맥코이",
+  "seq": 1837,
+  "tel": null
+ },
+ {
+  "breakTime": null,
+  "category": "카페",
+  "description": "1A 등급의 우유와 이탈리아 현지에서 사용하는 프리미엄 원재료를 사용하여, 매일 정성스럽게 수제 젤라또를 만듭니다. 현지의 전통 레시피와 전통 제조 방식을 고수하여 재료 본연의 깊은 맛과 고급스러운 풍미를 그대로 담았습니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/78eac55616164a988c2c1f497ca3f4d0.jpg"
+  ],
+  "lastOrder": null,
+  "name": "쎄띠엠므",
+  "seq": 2144,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "카페",
+  "description": "오설록은 척박한 제주의 땅에서 푸른 차밭을 일구어 최고 품질의 차를 생산하고 있습니다.오설록과 함께 일상 속 쉼이 되는 찻자리를 가져보세요.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/5e78581917e145dbbfdfaf21c71cbead.jpg"
+  ],
+  "lastOrder": null,
+  "name": "오설록",
+  "seq": 1219,
+  "tel": "02-3277-0713"
+ },
+ {
+  "breakTime": null,
+  "category": "카페",
+  "description": "세계를 사로잡은 아사이 볼 브랜드 ‘오크베리’",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/42a19a9d510945688f01de93f4294dd8.png",
+   "https://www.ehyundai.com/attachfiles/branch/406d7c97db124e5ab336b333456fcd8c.png"
+  ],
+  "lastOrder": "19:00",
+  "name": "오크베리",
+  "seq": 1220,
+  "tel": null
+ },
+ {
+  "breakTime": null,
+  "category": "카페",
+  "description": "유럽의 작은 가게가 연상될 정도로 빈티지하고 엔틱한 인테리어와 시그니처 카멜 커피로 유명한 커피 전문점",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/20221004050753791.JPG",
+   "https://www.ehyundai.com/attachfiles/branch/20221004050812845.jpg"
+  ],
+  "lastOrder": null,
+  "name": "카멜 커피",
+  "seq": 1061,
+  "tel": "02-3277-0758"
+ },
+ {
+  "breakTime": null,
+  "category": "카페",
+  "description": "한정선은 한국의 전통과 계절을 정성으로 빚어 선물의 가치로 완성하는 K-디저트 브랜드입니다. 계절마다 엄선한 신선한 과일과 최상의 재료로 정성껏 빚어낸 찹쌀떡은 오직 한정선만이 만들어낼 수 있는 한국의 맛과 미감을 새로운 방식으로 전합니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/ed40054fe5b64f218f5682ba4134ce51.jpg"
+  ],
+  "lastOrder": null,
+  "name": "한정선",
+  "seq": 2141,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "카페",
+  "description": "맛있는 커피로 세상을 연결하는 믿음으로 카페를 찾는 손님들과 즐거운 경험을 만들어가고 있는 스페셜티 커피 브랜드\n주중(월~금) : 10:30~21:00\n\n주말(토,일 및 공휴일) : 10:30~21:30",
+  "floor": "5층",
+  "floorCode": "B01000500",
+  "hours": "10:30 ~ 21:30",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/20221008114456757.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/20221008114515753.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/20221008114525559.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/20221008114536379.jpg"
+  ],
+  "lastOrder": null,
+  "name": "블루보틀 커피",
+  "seq": 1075,
+  "tel": "02-1533-6906"
+ },
+ {
+  "breakTime": null,
+  "category": "카페",
+  "description": "95년의 역사를 가진 셰프 쇼콜라티에가 만든 벨기에 프리미엄 초콜릿 브랜드에\n걸맞은 전통의 맛을 지키면서 엄선된 재료와 최고의 기술로 고객의 기대를 뛰어넘는 고디바입니다.",
+  "floor": "6층",
+  "floorCode": "B01000600",
+  "hours": "10:30 ~ 22:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/20210209104641745.jpg"
+  ],
+  "lastOrder": null,
+  "name": "고디바",
+  "seq": 596,
+  "tel": "02-3277-0661"
+ },
+ {
+  "breakTime": null,
+  "category": "카페",
+  "description": "2019년 한남점을 시작으로 도산점, 서울숲점에 이어 4호점 더현대 서울에테이크아웃 전문점으로 고객님들께 선보이고 있습니다. 다양한 소프트 아이스크림과 커피, 르뱅쿠키를 함께 만나보세요.",
+  "floor": "6층",
+  "floorCode": "B01000600",
+  "hours": "10:30 ~ 22:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/dea2f851d58f41bb9ac3979ed4e20c1f.jpg"
+  ],
+  "lastOrder": "21:30",
+  "name": "베르그",
+  "seq": 1683,
+  "tel": "02-3277-0654"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "쑥과 팥같은 한국의 맛을 더해, 전통과 현대가 어우러진 새로운 풍미의 프리미엄 치즈케이크입니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/a154d2d3ab3e435d9e7f67f0c30ad36b.jpg"
+  ],
+  "lastOrder": null,
+  "name": "골든치즈",
+  "seq": 2162,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "골든피스(Golden Piece)는 한국 전통 약과를 현대적인 감각으로 재해석하여 세대와 문화를 잇는 프리미엄 K-디저트를 만드는 브랜드입니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/5e487bd5ec834859b2c8a818654e9e30.jpg"
+  ],
+  "lastOrder": null,
+  "name": "골든피스",
+  "seq": 2154,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "'근제'는 '마음을 담아 정성스럽게 만든다'는 의미입니다.좋은 재료를 정직하게 선택하고, 모든 공정을 세심하게 완성하여 정성껏 구워냅니다. 변하지 않는 깊은 맛과 한결같은 품질로 믿고 찾을 수 있는 카스텔라를 전합니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/8d75a03de8c3491a9c02d5ca57f7b9c2.jpg"
+  ],
+  "lastOrder": null,
+  "name": "근제 베이커리",
+  "seq": 2156,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "시트부터 직접 구워 혼합없이 순수 100% 동물성 생크림에 신선한 생과일을 듬뿍 넣어 만들어 달지 않고 건강한 'HAND MADE' 과일 생크림 케이크집",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/f08b1a5089694070af7f2567ef178000.jpg"
+  ],
+  "lastOrder": "19:50",
+  "name": "더닝",
+  "seq": 2163,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "다정한 스텝과 방금 나온 베이글.그리고 따뜻한 수프가 기다리는 가장 가까운 런던 속 베이글 뮤지엄,국내 어디에서도 맛볼 수 없었던 베이글의 식감과 무드를 선보입니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:30",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/22dd35f12992420083bc2008e3c37b74.jpg"
+  ],
+  "lastOrder": null,
+  "name": "런던베이글 뮤지엄",
+  "seq": 1729,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "신선한 재료로 건강한 빵을 만들며, 스테디셀러 밤파이로 유명한 브랜드",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/20221008031819535.jpg"
+  ],
+  "lastOrder": null,
+  "name": "리치몬드 과자점",
+  "seq": 1082,
+  "tel": "02-3277-0798"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "당신의 가장 특별한 순간을 완성하는 프리미엄 수제 케이크 전문점",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/a7f036f93f334b0db0dfc289b781c05b.jpg"
+  ],
+  "lastOrder": null,
+  "name": "멜로드도산",
+  "seq": 2160,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "좋은 원재료와 프랑스 정통 제법으로 갓 구운 빵만 판매하는 현대백화점의 프리미엄 베이커리 브랜드 베즐리(Vezzly)입니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/37c33eb79b2b4b7190b1b60cf28d7466.jpg"
+  ],
+  "lastOrder": null,
+  "name": "베즐리",
+  "seq": 2159,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "시트·크림·과일까지 모두 핸드메이드로 만드는 프리미엄 케이크신선한 과일로 완성하는 한 조각을 지향합니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/f3d55b9a69764fb7a172f294468533c2.jpg"
+  ],
+  "lastOrder": null,
+  "name": "블랑케이크",
+  "seq": 2155,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "아티스틱하고 이국적인 공간에서 경험할 수 있는\n독보적인 쫄깃한 식감의 소금빵",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/85274dd5b15347d19178f13933ee3c9d.jpg"
+  ],
+  "lastOrder": null,
+  "name": "아티스트 베이커리",
+  "seq": 2041,
+  "tel": null
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "ANNIV(애니브)는 일본의 정통 제과 기술과 섬세한 감성을 담아낸 프리미엄 파티세리입니다. 연희동 본점을 중심으로 나가사키 카스텔라와 쇼트케이크, 시즌 디저트를 선보이며, 좋은 재료와 정성을 바탕으로 오래 기억되는 맛을 전합니다. 정교한 기술과 시간이 만들어내는 깊은 풍미로 애니브만의 품격있는 디저트를 완성합니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/95c73a534f8742f9816641e18de5337f.jpg"
+  ],
+  "lastOrder": null,
+  "name": "애니브",
+  "seq": 2158,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "셰프의 상상이 맛있게 담겨진 우나하우스생크림 케이크가 도자기가 되고, 쿠키가 한 폭의 그림이 되고, 수플레가 구름이 되는 특별하고 맛있는 곳.우나하우스에 오신 걸 환영합니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/35a7b50c28d74f9389861099dd323975.jpg"
+  ],
+  "lastOrder": null,
+  "name": "우나하우스",
+  "seq": 2157,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "카페 레이어드는 영국 가정집을 연상시키는 빈티지한 무드속에서\n다양한 홈메이드 스콘과 케이크들을 즐길 수 있는 베이커리 카페입니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/20221008114850294.jpg"
+  ],
+  "lastOrder": null,
+  "name": "카페 레이어드",
+  "seq": 1077,
+  "tel": "02-3277-8551"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "삼각지의 작은 파리, '테디뵈르하우스'\n미슐랭 출신 파티쉐의 크루아상 전문점으로\n파리 노천 카페를 옮겨 놓은 인테리어와\n귀여운 테디베어들이 반겨주는 버터향 가득 풍기는 용리단길 웨이팅 맛집.\n\n\"Love is everywhere, Look for Love!\"",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/1da0d6fbb0974d35a55173e97816e5c8.jpg"
+  ],
+  "lastOrder": null,
+  "name": "테디뵈르하우스",
+  "seq": 1529,
+  "tel": "02-3277-8501"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "매일 반죽해 구운 빵과 디저트를 제공하는 고품격 프리미엄 베이커리 입니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 22:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/5f1b55b152df41a6849304734b9b0f13.jpg"
+  ],
+  "lastOrder": null,
+  "name": "파리크라상",
+  "seq": 1222,
+  "tel": "02-3277-0754"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "1939년부터 이어진 할리우드의 전설,\n86년 전통의 미국 오리지널 핫도그\n\n※ LAST ORDER(평일) : 19:30\n※ LAST ORDER(주말) : 20:00",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/d362a1372ce44a5eab8147487f071403.jpg"
+  ],
+  "lastOrder": null,
+  "name": "핑크스 핫도그",
+  "seq": 2020,
+  "tel": null
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "러블리한 패키지에 담긴 깨먹는 티라미수, 감성·비주얼·맛을 모두 잡은 프리미엄 디저트 브랜드입니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/1eba0b79703141b2aff39faa18cba0ac.jpg"
+  ],
+  "lastOrder": null,
+  "name": "하트티라미수",
+  "seq": 2161,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "베이커리",
+  "description": "‘till white’는 순수와 본질을 향한 여정을 담은 카페입니다.\n식빵과 스프레드, 스페셜티 커피에 카다멈 라떼까지\n기본에 충실하면서도 특별한 감각을 더한 경험을 선물합니다.",
+  "floor": "2층",
+  "floorCode": "B01000200",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/069ad0b097634d279ea8911c22f6939c.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/a3001cb92d714ab192de571afb78dca1.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/39c8c699878e46eca3264771d5250e9d.jpg"
+  ],
+  "lastOrder": null,
+  "name": "틸 화이트",
+  "seq": 1962,
+  "tel": "02-3277-0268"
+ },
+ {
+  "breakTime": null,
+  "category": "기타",
+  "description": "미국 본토의 맛, FIVE GUYS\n신선한 재료들로 커스터마이제이션하여 만드는 버거와\n땅콩 기름으로 튀겨내는 생감자 프라이즈 등\n차별화된 맛을 지금 더현대 서울에서 즐겨보세요!\n\n※ LAST ORDER(평일) : 20:00\n※ LAST ORDER(주말) : 20:30",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:30",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/1423fc7a9dfb49dd8c713503bc4e1fb8.jpg"
+  ],
+  "lastOrder": null,
+  "name": "FIVE GUYS",
+  "seq": 1545,
+  "tel": "02-3277-0777"
+ },
+ {
+  "breakTime": null,
+  "category": "기타",
+  "description": "BITTLES TOCO(비틀스 타코)는 멕시칸 푸드를 유쾌하고 감각적으로 재해석한 타코 전문 브랜드입니다.다양한 소스와 신선한 식재료를 활용해 비틀스타코만의 개성 있는 메뉴를 선보이며, 고객에게 즐겁고 특별한 맛의 경험을 제공합니다.",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/6b12a8f257264cf892e2d2b45db3ea33.jpg"
+  ],
+  "lastOrder": null,
+  "name": "비틀스타코",
+  "seq": 2164,
+  "tel": "02-3277-0707"
+ },
+ {
+  "breakTime": null,
+  "category": "기타",
+  "description": "입안 가득 크런치가 바삭! 디저트처럼 찐하게 맛있는 단백질쉐이크",
+  "floor": "지하1층",
+  "floorCode": "B010B100",
+  "hours": "10:30 ~ 20:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/b3440cb24af34898be6978f227366cda.jpg"
+  ],
+  "lastOrder": null,
+  "name": "코코밥",
+  "seq": 2165,
+  "tel": "02-3277-0713"
+ },
+ {
+  "breakTime": null,
+  "category": "기타",
+  "description": "'번과 패티'라는 본질에 충실한 수제 버거 전문점입니다. 자체 숙성을 거친 육즙 가득한 소고기 패티 등 좋은 재료를 사용한 수제 버거의 정수를 보여줍니다.",
+  "floor": "5층",
+  "floorCode": "B01000500",
+  "hours": "10:30 ~ 21:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/20210210102638503.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/20220906023332756.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/20220906023403755.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/20220906023431123.jpg"
+  ],
+  "lastOrder": "20:30",
+  "name": "번패티번",
+  "seq": 604,
+  "tel": "02-3277-0549"
+ },
+ {
+  "breakTime": "15:30 ~ 17:30",
+  "category": "기타",
+  "description": "'Chinatown in Mexico City'라는 컨셉으로 준비한\n이국적인 테라스 공간에서 로컬 스파이스와 고수를 공통분모로 한\n홍콩식 요리와 멕시칸 요리를 선보입니다.",
+  "floor": "6층",
+  "floorCode": "B01000600",
+  "hours": "10:30 ~ 22:00",
+  "images": [
+   "https://www.ehyundai.com/attachfiles/branch/9461a55635fb41cfb4e9a5aabca72f3f.jpg",
+   "https://www.ehyundai.com/attachfiles/branch/56f4e750e4f944e3bb78a6195a190529.jpg"
+  ],
+  "lastOrder": "21:00",
+  "name": "SMT라운지",
+  "seq": 605,
+  "tel": "02-3277-0659"
+ }
+]

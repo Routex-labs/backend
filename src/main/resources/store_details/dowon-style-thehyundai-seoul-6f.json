@@ -108,6 +108,11 @@
         "price": "25,000원",
         "description": "소고기 안심, 수란, 트러플로 고유의 풍미를 완성한 도원스타일만의 프리미엄 볶음 짜장면"
       }
-    ]
+    ],
+    "contact": {
+      "tel": "02-3277-0653",
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/floor-guide"
+    }
   }
 }

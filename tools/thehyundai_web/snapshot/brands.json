@@ -1,0 +1,4808 @@
+[
+ {
+  "brandCode": "F23853",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "휴대전화 충전기 대여(유료)",
+  "nameKo": "휴대전화 충전기 대여(유료)",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F24231",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "TAX REFUND KIOSK",
+  "nameKo": "TAX REFUND KIOSK",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F24411",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "포토그램",
+  "nameKo": "포토그램",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F26031",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "와우패스 무인 키오스크",
+  "nameKo": "와우패스 무인 키오스크",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "135195",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "OIC(OIOI COLLECTION)",
+  "nameKo": "OIC(OIOI COLLECTION)",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-0876"
+ },
+ {
+  "brandCode": "A36132",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "POP-UP EAST",
+  "nameKo": "POP-UP EAST",
+  "section": "영 캐릭터 & 컨템",
+  "tel": null
+ },
+ {
+  "brandCode": "129790",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "구호플러스",
+  "nameKo": "구호플러스",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-0880"
+ },
+ {
+  "brandCode": "142912",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "데우스엑스마키나",
+  "nameKo": "데우스엑스마키나",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-0846"
+ },
+ {
+  "brandCode": "144125",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "락피쉬 웨더웨어",
+  "nameKo": "락피쉬 웨더웨어",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-0896"
+ },
+ {
+  "brandCode": "134264",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "레이브",
+  "nameKo": "레이브",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-8429"
+ },
+ {
+  "brandCode": "134890",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "루에브르",
+  "nameKo": "루에브르",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-8430"
+ },
+ {
+  "brandCode": "136116",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "세터",
+  "nameKo": "세터",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-8427"
+ },
+ {
+  "brandCode": "133023",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "시스티나",
+  "nameKo": "시스티나",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-0857"
+ },
+ {
+  "brandCode": "134664",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "시에",
+  "nameKo": "시에",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-0848"
+ },
+ {
+  "brandCode": "132018",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "오스트카카 오브제 서울",
+  "nameKo": "오스트카카 오브제 서울",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-0840"
+ },
+ {
+  "brandCode": "141463",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "오픈 Yy",
+  "nameKo": "오픈 Yy",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-0861"
+ },
+ {
+  "brandCode": "135642",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "유니폼브릿지",
+  "nameKo": "유니폼브릿지",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-0898"
+ },
+ {
+  "brandCode": "138584",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "이미스",
+  "nameKo": "이미스",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-0874"
+ },
+ {
+  "brandCode": "134252",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "인사일런스",
+  "nameKo": "인사일런스",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-8400"
+ },
+ {
+  "brandCode": "133670",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "케이스티파이",
+  "nameKo": "케이스티파이",
+  "section": "영 캐릭터 & 컨템",
+  "tel": null
+ },
+ {
+  "brandCode": "141968",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "틸아이다이",
+  "nameKo": "틸아이다이",
+  "section": "영 캐릭터 & 컨템",
+  "tel": "02-3277-0837"
+ },
+ {
+  "brandCode": "135953",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "29CM HOME",
+  "nameKo": "29CM HOME",
+  "section": "진 · 스트리트",
+  "tel": "02-3277-0853"
+ },
+ {
+  "brandCode": "144842",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "AAPE",
+  "nameKo": "AAPE",
+  "section": "진 · 스트리트",
+  "tel": "02-3277-0864"
+ },
+ {
+  "brandCode": "102143",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "MLB",
+  "nameKo": "MLB",
+  "section": "진 · 스트리트",
+  "tel": "02-3277-0821"
+ },
+ {
+  "brandCode": "A36154",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "POP-UP WEST",
+  "nameKo": "POP-UP WEST",
+  "section": "진 · 스트리트",
+  "tel": null
+ },
+ {
+  "brandCode": "132090",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "THISISNEVERTHAT",
+  "nameKo": "THISISNEVERTHAT",
+  "section": "진 · 스트리트",
+  "tel": "02-3277-0826"
+ },
+ {
+  "brandCode": "132447",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "마리떼프랑소와저버/LMC",
+  "nameKo": "마리떼프랑소와저버/LMC",
+  "section": "진 · 스트리트",
+  "tel": "02-3277-0840"
+ },
+ {
+  "brandCode": "139193",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "산산기어",
+  "nameKo": "산산기어",
+  "section": "진 · 스트리트",
+  "tel": "02-3277-0883"
+ },
+ {
+  "brandCode": "116704",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "칼하트윕",
+  "nameKo": "칼하트윕",
+  "section": "진 · 스트리트",
+  "tel": "02-3277-0868"
+ },
+ {
+  "brandCode": "100120",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "캘빈클라인 진",
+  "nameKo": "캘빈클라인 진",
+  "section": "진 · 스트리트",
+  "tel": "02-3277-0835"
+ },
+ {
+  "brandCode": "A36152",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "코이세이오",
+  "nameKo": "코이세이오",
+  "section": "진 · 스트리트",
+  "tel": "02-3277-0822"
+ },
+ {
+  "brandCode": "129753",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "쿠어",
+  "nameKo": "쿠어",
+  "section": "진 · 스트리트",
+  "tel": "02-3277-0825"
+ },
+ {
+  "brandCode": "133411",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "트리밍버드",
+  "nameKo": "트리밍버드",
+  "section": "진 · 스트리트",
+  "tel": "02-3277-8419"
+ },
+ {
+  "brandCode": "132458",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "하이츠 익스체인지",
+  "nameKo": "하이츠 익스체인지",
+  "section": "진 · 스트리트",
+  "tel": "02-3277-0843"
+ },
+ {
+  "brandCode": "132412",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "ARKET",
+  "nameKo": "ARKET",
+  "section": "편집샵 · SPA",
+  "tel": "070-4166-4663"
+ },
+ {
+  "brandCode": "144991",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "Be CLEAN(비클린)",
+  "nameKo": "Be CLEAN(비클린)",
+  "section": "편집샵 · SPA",
+  "tel": "02-3277-0891"
+ },
+ {
+  "brandCode": "136365",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "EQL",
+  "nameKo": "EQL",
+  "section": "편집샵 · SPA",
+  "tel": "02-3277-0855"
+ },
+ {
+  "brandCode": "A36157",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "PEER",
+  "nameKo": "PEER",
+  "section": "편집샵 · SPA",
+  "tel": "02-3277-0844"
+ },
+ {
+  "brandCode": "144999",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "더바넷",
+  "nameKo": "더바넷",
+  "section": "편집샵 · SPA",
+  "tel": "02-3277-0894"
+ },
+ {
+  "brandCode": "137465",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "드파운드",
+  "nameKo": "드파운드",
+  "section": "편집샵 · SPA",
+  "tel": "02-3277-0882"
+ },
+ {
+  "brandCode": "A44455",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "망고매니플리즈",
+  "nameKo": "망고매니플리즈",
+  "section": "편집샵 · SPA",
+  "tel": "02-3277-0842"
+ },
+ {
+  "brandCode": "135669",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "베흐트",
+  "nameKo": "베흐트",
+  "section": "편집샵 · SPA",
+  "tel": "02-3277-0824"
+ },
+ {
+  "brandCode": "133476",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "스미스앤레더",
+  "nameKo": "스미스앤레더",
+  "section": "편집샵 · SPA",
+  "tel": "02-3277-0872"
+ },
+ {
+  "brandCode": "135602",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "스탠드오일",
+  "nameKo": "스탠드오일",
+  "section": "편집샵 · SPA",
+  "tel": "02-3277-0875"
+ },
+ {
+  "brandCode": "137287",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "HDEX",
+  "nameKo": "HDEX",
+  "section": "스포츠",
+  "tel": "02-3277-0831"
+ },
+ {
+  "brandCode": "A36172",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "나이키 라이즈",
+  "nameKo": "나이키 라이즈",
+  "section": "스포츠",
+  "tel": "02-3277-0830"
+ },
+ {
+  "brandCode": "113476",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "노스페이스 화이트라벨",
+  "nameKo": "노스페이스 화이트라벨",
+  "section": "스포츠",
+  "tel": "02-3277-0834"
+ },
+ {
+  "brandCode": "117919",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "뉴발란스",
+  "nameKo": "뉴발란스",
+  "section": "스포츠",
+  "tel": "02-3277-0447"
+ },
+ {
+  "brandCode": "112779",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "아디다스 스타디움",
+  "nameKo": "아디다스 스타디움",
+  "section": "스포츠",
+  "tel": "02-3277-0827"
+ },
+ {
+  "brandCode": "136246",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "코닥x디오디",
+  "nameKo": "코닥x디오디",
+  "section": "스포츠",
+  "tel": "02-3277-0427"
+ },
+ {
+  "brandCode": "138458",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "크록스",
+  "nameKo": "크록스",
+  "section": "스포츠",
+  "tel": "02-3277-0838"
+ },
+ {
+  "brandCode": "100692",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "캘빈클라인 언더웨어",
+  "nameKo": "캘빈클라인 언더웨어",
+  "section": "언더웨어 · 잡화",
+  "tel": "02-3277-0873"
+ },
+ {
+  "brandCode": "141807",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "팝마트",
+  "nameKo": "팝마트",
+  "section": "언더웨어 · 잡화",
+  "tel": "02-3277-0854"
+ },
+ {
+  "brandCode": "132473",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "포터",
+  "nameKo": "포터",
+  "section": "언더웨어 · 잡화",
+  "tel": "02-3277-0888"
+ },
+ {
+  "brandCode": "120348",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "아프리카안경",
+  "nameKo": "아프리카안경",
+  "section": "주얼리 · 워치",
+  "tel": "02-3277-0860"
+ },
+ {
+  "brandCode": "A45531",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "ATTAG",
+  "nameKo": "ATTAG",
+  "section": "컬쳐 · 라이프스타일",
+  "tel": null
+ },
+ {
+  "brandCode": "132427",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "LISTENING ROOM BY ODE",
+  "nameKo": "LISTENING ROOM BY ODE",
+  "section": "컬쳐 · 라이프스타일",
+  "tel": "02-3277-0889"
+ },
+ {
+  "brandCode": "A36204",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "POP-UP ICONIC B2",
+  "nameKo": "POP-UP ICONIC B2",
+  "section": "컬쳐 · 라이프스타일",
+  "tel": null
+ },
+ {
+  "brandCode": "132664",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "나이스웨더",
+  "nameKo": "나이스웨더",
+  "section": "컬쳐 · 라이프스타일",
+  "tel": "02-3277-0845"
+ },
+ {
+  "brandCode": "136569",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "노매뉴얼",
+  "nameKo": "노매뉴얼",
+  "section": "컬쳐 · 라이프스타일",
+  "tel": "02-3277-8422"
+ },
+ {
+  "brandCode": "133430",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "마뗑킴",
+  "nameKo": "마뗑킴",
+  "section": "컬쳐 · 라이프스타일",
+  "tel": "02-3277-0879"
+ },
+ {
+  "brandCode": "138702",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "시티브리즈",
+  "nameKo": "시티브리즈",
+  "section": "컬쳐 · 라이프스타일",
+  "tel": "02-3277-0823"
+ },
+ {
+  "brandCode": "132339",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "포인트 오브 뷰",
+  "nameKo": "포인트 오브 뷰",
+  "section": "컬쳐 · 라이프스타일",
+  "tel": "02-3277-0890"
+ },
+ {
+  "brandCode": "132412",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "ARKET CAFE",
+  "nameKo": "ARKET CAFE",
+  "section": "F&B",
+  "tel": "070-4166-4663"
+ },
+ {
+  "brandCode": "146080",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "ETF베이커리",
+  "nameKo": "ETF베이커리",
+  "section": "F&B",
+  "tel": "02-3277-0897"
+ },
+ {
+  "brandCode": "139769",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "더치랩",
+  "nameKo": "더치랩",
+  "section": "F&B",
+  "tel": "02-3277-0881"
+ },
+ {
+  "brandCode": "132094",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "스타벅스 리저브",
+  "nameKo": "스타벅스 리저브",
+  "section": "F&B",
+  "tel": "1522-3232-"
+ },
+ {
+  "brandCode": "A37810",
+  "floor": "B2",
+  "floorCode": "B010B200",
+  "name": "YPHAUS",
+  "nameKo": "YPHAUS",
+  "section": "VIP 서비스",
+  "tel": "02-3277-8444"
+ },
+ {
+  "brandCode": "F21284",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "고객상담실",
+  "nameKo": "고객상담실",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F21285",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "물품 보관함",
+  "nameKo": "물품 보관함",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F21286",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "사은 데스크",
+  "nameKo": "사은 데스크",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F21303",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "교환 / 환불 데스크",
+  "nameKo": "교환 / 환불 데스크",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F21304",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "배송 접수 데스크",
+  "nameKo": "배송 접수 데스크",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F21411",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "수유실",
+  "nameKo": "수유실",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F23585",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "POP-UP ICONIC B1",
+  "nameKo": "POP-UP ICONIC B1",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F23991",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "휴대전화 충전기 대여(유료)",
+  "nameKo": "휴대전화 충전기 대여(유료)",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "140845",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "더웰니스하우스",
+  "nameKo": "더웰니스하우스",
+  "section": "차 · 건강",
+  "tel": "02-3277-0713"
+ },
+ {
+  "brandCode": "110567",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "오설록",
+  "nameKo": "오설록",
+  "section": "차 · 건강",
+  "tel": "02-3277-8532"
+ },
+ {
+  "brandCode": "132545",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "일상다완",
+  "nameKo": "일상다완",
+  "section": "차 · 건강",
+  "tel": "02-3277-8533"
+ },
+ {
+  "brandCode": "100355",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "정관장",
+  "nameKo": "정관장",
+  "section": "차 · 건강",
+  "tel": "02-3277-0774"
+ },
+ {
+  "brandCode": "141016",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "코코밥",
+  "nameKo": "코코밥",
+  "section": "차 · 건강",
+  "tel": "02-3277-0713"
+ },
+ {
+  "brandCode": "141649",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "데이릿",
+  "nameKo": "데이릿",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0707"
+ },
+ {
+  "brandCode": "A36498",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "POP-UP STUDIO",
+  "nameKo": "POP-UP STUDIO",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0771"
+ },
+ {
+  "brandCode": "132675",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "강호연파 밥굽남",
+  "nameKo": "강호연파 밥굽남",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0787"
+ },
+ {
+  "brandCode": "142060",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "공탕",
+  "nameKo": "공탕",
+  "section": "푸드스트리트/델리파크",
+  "tel": null
+ },
+ {
+  "brandCode": "139206",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "꾸온",
+  "nameKo": "꾸온",
+  "section": "푸드스트리트/델리파크",
+  "tel": null
+ },
+ {
+  "brandCode": "144276",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "능동미나리(오픈 준비중)",
+  "nameKo": "능동미나리(오픈 준비중)",
+  "section": "푸드스트리트/델리파크",
+  "tel": null
+ },
+ {
+  "brandCode": "143159",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "대도 깍밥",
+  "nameKo": "대도 깍밥",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0707"
+ },
+ {
+  "brandCode": "142433",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "더라멘워",
+  "nameKo": "더라멘워",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0707"
+ },
+ {
+  "brandCode": "132583",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "돈모노by사이카보",
+  "nameKo": "돈모노by사이카보",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0784"
+ },
+ {
+  "brandCode": "122796",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "라그릴리아",
+  "nameKo": "라그릴리아",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0755"
+ },
+ {
+  "brandCode": "138946",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "마유유마라탕",
+  "nameKo": "마유유마라탕",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0707"
+ },
+ {
+  "brandCode": "132589",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "마츠노하나",
+  "nameKo": "마츠노하나",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0760"
+ },
+ {
+  "brandCode": "138835",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "만학",
+  "nameKo": "만학",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0707"
+ },
+ {
+  "brandCode": "143207",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "미야기",
+  "nameKo": "미야기",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277- 070"
+ },
+ {
+  "brandCode": "120848",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "본가스시",
+  "nameKo": "본가스시",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0765"
+ },
+ {
+  "brandCode": "142386",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "비틀스타코",
+  "nameKo": "비틀스타코",
+  "section": "푸드스트리트/델리파크",
+  "tel": null
+ },
+ {
+  "brandCode": "132650",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "삼성혈해물탕",
+  "nameKo": "삼성혈해물탕",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0766"
+ },
+ {
+  "brandCode": "117994",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "서울만두",
+  "nameKo": "서울만두",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0775"
+ },
+ {
+  "brandCode": "127325",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "스트릿",
+  "nameKo": "스트릿",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0756"
+ },
+ {
+  "brandCode": "135592",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "아이엠바오",
+  "nameKo": "아이엠바오",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-8433"
+ },
+ {
+  "brandCode": "142240",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "우니도",
+  "nameKo": "우니도",
+  "section": "푸드스트리트/델리파크",
+  "tel": null
+ },
+ {
+  "brandCode": "132466",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "유방녕",
+  "nameKo": "유방녕",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0769"
+ },
+ {
+  "brandCode": "136206",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "유부로",
+  "nameKo": "유부로",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-8433"
+ },
+ {
+  "brandCode": "146122",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "이모야킨지로",
+  "nameKo": "이모야킨지로",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0706"
+ },
+ {
+  "brandCode": "147641",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "이쿠라(오픈 준비중)",
+  "nameKo": "이쿠라(오픈 준비중)",
+  "section": "푸드스트리트/델리파크",
+  "tel": null
+ },
+ {
+  "brandCode": "141499",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "죠죠",
+  "nameKo": "죠죠",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0739"
+ },
+ {
+  "brandCode": "148224",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "통통오징어",
+  "nameKo": "통통오징어",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277- 070"
+ },
+ {
+  "brandCode": "A42489",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "파이브가이즈",
+  "nameKo": "파이브가이즈",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0777"
+ },
+ {
+  "brandCode": "138069",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "퍼부어",
+  "nameKo": "퍼부어",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0761"
+ },
+ {
+  "brandCode": "146116",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "푸만만",
+  "nameKo": "푸만만",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0757"
+ },
+ {
+  "brandCode": "148329",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "하니칼국수",
+  "nameKo": "하니칼국수",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277- 070"
+ },
+ {
+  "brandCode": "132272",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "호우섬",
+  "nameKo": "호우섬",
+  "section": "푸드스트리트/델리파크",
+  "tel": "02-3277-0763"
+ },
+ {
+  "brandCode": "141292",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "고디바 베이커리",
+  "nameKo": "고디바 베이커리",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0663"
+ },
+ {
+  "brandCode": "143995",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "골든치즈",
+  "nameKo": "골든치즈",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0707"
+ },
+ {
+  "brandCode": "139385",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "골든피스",
+  "nameKo": "골든피스",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0708"
+ },
+ {
+  "brandCode": "132533",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "공차",
+  "nameKo": "공차",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0776"
+ },
+ {
+  "brandCode": "139716",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "근제베이커리",
+  "nameKo": "근제베이커리",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0708"
+ },
+ {
+  "brandCode": "126095",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "금옥당",
+  "nameKo": "금옥당",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-8512"
+ },
+ {
+  "brandCode": "147347",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "니드쿠키앤베이커리",
+  "nameKo": "니드쿠키앤베이커리",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0706"
+ },
+ {
+  "brandCode": "148231",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "더닝",
+  "nameKo": "더닝",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0706"
+ },
+ {
+  "brandCode": "143962",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "더커피",
+  "nameKo": "더커피",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0713"
+ },
+ {
+  "brandCode": "139251",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "도조커피",
+  "nameKo": "도조커피",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-8509"
+ },
+ {
+  "brandCode": "142138",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "런던베이글 뮤지엄",
+  "nameKo": "런던베이글 뮤지엄",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0771"
+ },
+ {
+  "brandCode": "132122",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "리치몬드 과자점",
+  "nameKo": "리치몬드 과자점",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0798"
+ },
+ {
+  "brandCode": "138393",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "마사비스",
+  "nameKo": "마사비스",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0707"
+ },
+ {
+  "brandCode": "143874",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "마일스톤",
+  "nameKo": "마일스톤",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0751"
+ },
+ {
+  "brandCode": "143223",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "맥코이",
+  "nameKo": "맥코이",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": null
+ },
+ {
+  "brandCode": "136051",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "멜로드도산",
+  "nameKo": "멜로드도산",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0707"
+ },
+ {
+  "brandCode": "136154",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "뮤제오",
+  "nameKo": "뮤제오",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277- 071"
+ },
+ {
+  "brandCode": "123101",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "베이크/PBS",
+  "nameKo": "베이크/PBS",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0708"
+ },
+ {
+  "brandCode": "124914",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "베즐리",
+  "nameKo": "베즐리",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0792"
+ },
+ {
+  "brandCode": "137120",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "브레더스",
+  "nameKo": "브레더스",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0706"
+ },
+ {
+  "brandCode": "145780",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "블랑케이크",
+  "nameKo": "블랑케이크",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0706"
+ },
+ {
+  "brandCode": "109292",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "세띠엠므",
+  "nameKo": "세띠엠므",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-8503"
+ },
+ {
+  "brandCode": "145787",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "아티스트베이커리",
+  "nameKo": "아티스트베이커리",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": null
+ },
+ {
+  "brandCode": "142232",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "애니브",
+  "nameKo": "애니브",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0707"
+ },
+ {
+  "brandCode": "140827",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "오크베리",
+  "nameKo": "오크베리",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": null
+ },
+ {
+  "brandCode": "141689",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "우나하우스",
+  "nameKo": "우나하우스",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0759"
+ },
+ {
+  "brandCode": "131174",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "카멜커피",
+  "nameKo": "카멜커피",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0706"
+ },
+ {
+  "brandCode": "132584",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "카페레이어드",
+  "nameKo": "카페레이어드",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-8551"
+ },
+ {
+  "brandCode": "138887",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "테디뵈르하우스",
+  "nameKo": "테디뵈르하우스",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-8501"
+ },
+ {
+  "brandCode": "101462",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "파리크라상",
+  "nameKo": "파리크라상",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0754"
+ },
+ {
+  "brandCode": "118586",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "피에르에르메",
+  "nameKo": "피에르에르메",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0706"
+ },
+ {
+  "brandCode": "144241",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "핑크스핫도그",
+  "nameKo": "핑크스핫도그",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": null
+ },
+ {
+  "brandCode": "141040",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "하트 티라미수",
+  "nameKo": "하트 티라미수",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0708"
+ },
+ {
+  "brandCode": "140090",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "한정선",
+  "nameKo": "한정선",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-463-1369"
+ },
+ {
+  "brandCode": "143298",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "해례커피",
+  "nameKo": "해례커피",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0707"
+ },
+ {
+  "brandCode": "A36506",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "돈까스 1985/샐러드다이브",
+  "nameKo": "돈까스 1985/샐러드다이브",
+  "section": "22 푸드트럭 피아자",
+  "tel": "02-3277-8553"
+ },
+ {
+  "brandCode": "A36503",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "돌장각",
+  "nameKo": "돌장각",
+  "section": "22 푸드트럭 피아자",
+  "tel": "02-3277-8536"
+ },
+ {
+  "brandCode": "122029",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "들춘닭 막국수",
+  "nameKo": "들춘닭 막국수",
+  "section": "22 푸드트럭 피아자",
+  "tel": "02-3277-0707"
+ },
+ {
+  "brandCode": "A36540",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "릴버거",
+  "nameKo": "릴버거",
+  "section": "22 푸드트럭 피아자",
+  "tel": "02-3277-8541"
+ },
+ {
+  "brandCode": "A36507",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "메이루",
+  "nameKo": "메이루",
+  "section": "22 푸드트럭 피아자",
+  "tel": "02-3277-8538"
+ },
+ {
+  "brandCode": "A36541",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "방방＆든든행",
+  "nameKo": "방방＆든든행",
+  "section": "22 푸드트럭 피아자",
+  "tel": "02-3277-8542"
+ },
+ {
+  "brandCode": "145647",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "빠리가옥",
+  "nameKo": "빠리가옥",
+  "section": "22 푸드트럭 피아자",
+  "tel": "02-3277-8540"
+ },
+ {
+  "brandCode": "A36546",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "사루카메",
+  "nameKo": "사루카메",
+  "section": "22 푸드트럭 피아자",
+  "tel": "02-3277-0717"
+ },
+ {
+  "brandCode": "145648",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "샤브미담",
+  "nameKo": "샤브미담",
+  "section": "22 푸드트럭 피아자",
+  "tel": "02-3277-8552"
+ },
+ {
+  "brandCode": "130892",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "온드린",
+  "nameKo": "온드린",
+  "section": "22 푸드트럭 피아자",
+  "tel": "02-3277-8535"
+ },
+ {
+  "brandCode": "132545",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "익스첼",
+  "nameKo": "익스첼",
+  "section": "22 푸드트럭 피아자",
+  "tel": "02-3277-8544"
+ },
+ {
+  "brandCode": "A36504",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "전주선비빔",
+  "nameKo": "전주선비빔",
+  "section": "22 푸드트럭 피아자",
+  "tel": "02-3277-8537"
+ },
+ {
+  "brandCode": "147765",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "커리샵 단풍",
+  "nameKo": "커리샵 단풍",
+  "section": "22 푸드트럭 피아자",
+  "tel": "02-3277-8547"
+ },
+ {
+  "brandCode": "A36501",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "한솔냉면",
+  "nameKo": "한솔냉면",
+  "section": "22 푸드트럭 피아자",
+  "tel": "02-3277-8534"
+ },
+ {
+  "brandCode": "A36226",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "금양와인/나라와인/비노에이치",
+  "nameKo": "금양와인/나라와인/비노에이치",
+  "section": "와인웍스",
+  "tel": "02-3277-8523"
+ },
+ {
+  "brandCode": "100363",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "신동와인/까브드뱅/아영와인",
+  "nameKo": "신동와인/까브드뱅/아영와인",
+  "section": "와인웍스",
+  "tel": "02-3277-8526"
+ },
+ {
+  "brandCode": "127171",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "와인웍스(다이닝)",
+  "nameKo": "와인웍스(다이닝)",
+  "section": "와인웍스",
+  "tel": "02-3277-8522"
+ },
+ {
+  "brandCode": "132416",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "동방미인",
+  "nameKo": "동방미인",
+  "section": "명인명촌 · 쌀 · 떡",
+  "tel": null
+ },
+ {
+  "brandCode": "113166",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "명인명촌",
+  "nameKo": "명인명촌",
+  "section": "명인명촌 · 쌀 · 떡",
+  "tel": "02-3277-0752"
+ },
+ {
+  "brandCode": "114596",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "르플로럼 (플라워)",
+  "nameKo": "르플로럼 (플라워)",
+  "section": "기타",
+  "tel": "02-3277-0753"
+ },
+ {
+  "brandCode": "138386",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "핏타민 (약국)",
+  "nameKo": "핏타민 (약국)",
+  "section": "기타",
+  "tel": "02-3277-0772"
+ },
+ {
+  "brandCode": "A42764",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "HMR/간편식/주류",
+  "nameKo": "HMR/간편식/주류",
+  "section": "테이스티 서울 마켓",
+  "tel": null
+ },
+ {
+  "brandCode": "122029",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "K-STREET FOOD(오픈 준비중)",
+  "nameKo": "K-STREET FOOD(오픈 준비중)",
+  "section": "테이스티 서울 마켓",
+  "tel": null
+ },
+ {
+  "brandCode": "A42761",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "과일",
+  "nameKo": "과일",
+  "section": "테이스티 서울 마켓",
+  "tel": null
+ },
+ {
+  "brandCode": "A42763",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "그로서리/음료/유제품/치즈",
+  "nameKo": "그로서리/음료/유제품/치즈",
+  "section": "테이스티 서울 마켓",
+  "tel": null
+ },
+ {
+  "brandCode": "A37140",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "기프트가든 (과일 기프트 데스크)",
+  "nameKo": "기프트가든 (과일 기프트 데스크)",
+  "section": "테이스티 서울 마켓",
+  "tel": "02-3277-0741"
+ },
+ {
+  "brandCode": "A37138",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "수산",
+  "nameKo": "수산",
+  "section": "테이스티 서울 마켓",
+  "tel": "02-3277-0724"
+ },
+ {
+  "brandCode": "A37143",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "야채",
+  "nameKo": "야채",
+  "section": "테이스티 서울 마켓",
+  "tel": "02-3277-0746"
+ },
+ {
+  "brandCode": "123180",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "에코맘의 산골이유식",
+  "nameKo": "에코맘의 산골이유식",
+  "section": "테이스티 서울 마켓",
+  "tel": "02-3277-0712"
+ },
+ {
+  "brandCode": "100939",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "예향",
+  "nameKo": "예향",
+  "section": "테이스티 서울 마켓",
+  "tel": "02-3277-0712"
+ },
+ {
+  "brandCode": "140756",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "일미어담",
+  "nameKo": "일미어담",
+  "section": "테이스티 서울 마켓",
+  "tel": "02-3277-0712"
+ },
+ {
+  "brandCode": "A37137",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "친환경농산물",
+  "nameKo": "친환경농산물",
+  "section": "테이스티 서울 마켓",
+  "tel": "02-3277-0743"
+ },
+ {
+  "brandCode": "A37142",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "프레쉬테이블",
+  "nameKo": "프레쉬테이블",
+  "section": "테이스티 서울 마켓",
+  "tel": "02-3277-0743"
+ },
+ {
+  "brandCode": "A37141",
+  "floor": "B1",
+  "floorCode": "B010B100",
+  "name": "후르츠온",
+  "nameKo": "후르츠온",
+  "section": "테이스티 서울 마켓",
+  "tel": "02-3277-0742"
+ },
+ {
+  "brandCode": "A43169",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "박선기 작가 작품",
+  "nameKo": "박선기 작가 작품",
+  "section": "컬쳐&공간",
+  "tel": null
+ },
+ {
+  "brandCode": "A43170",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "서혜영 작가 작품",
+  "nameKo": "서혜영 작가 작품",
+  "section": "컬쳐&공간",
+  "tel": null
+ },
+ {
+  "brandCode": "A36329",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "워터폴가든",
+  "nameKo": "워터폴가든",
+  "section": "컬쳐&공간",
+  "tel": null
+ },
+ {
+  "brandCode": "120162",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "젠틀몬스터",
+  "nameKo": "젠틀몬스터",
+  "section": "패션잡화",
+  "tel": "02-3277-0182"
+ },
+ {
+  "brandCode": "101676",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "구찌",
+  "nameKo": "구찌",
+  "section": "럭셔리부띠끄",
+  "tel": "02-1577-1921"
+ },
+ {
+  "brandCode": "119171",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "다미아니",
+  "nameKo": "다미아니",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0177"
+ },
+ {
+  "brandCode": "114755",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "레페토",
+  "nameKo": "레페토",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0198"
+ },
+ {
+  "brandCode": "101841",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "로에베",
+  "nameKo": "로에베",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0166"
+ },
+ {
+  "brandCode": "101752",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "루이비통",
+  "nameKo": "루이비통",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3432-1854"
+ },
+ {
+  "brandCode": "110747",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "리모와",
+  "nameKo": "리모와",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0159"
+ },
+ {
+  "brandCode": "116721",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "몽클레르",
+  "nameKo": "몽클레르",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0136"
+ },
+ {
+  "brandCode": "114931",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "미우미우",
+  "nameKo": "미우미우",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0144"
+ },
+ {
+  "brandCode": "101939",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "반클리프아펠",
+  "nameKo": "반클리프아펠",
+  "section": "럭셔리부띠끄",
+  "tel": "02-1877-4128"
+ },
+ {
+  "brandCode": "111324",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "발렌시아가",
+  "nameKo": "발렌시아가",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0137"
+ },
+ {
+  "brandCode": "100014",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "발렌티노",
+  "nameKo": "발렌티노",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0138"
+ },
+ {
+  "brandCode": "100465",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "버버리",
+  "nameKo": "버버리",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-8556"
+ },
+ {
+  "brandCode": "102674",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "보테가베네타",
+  "nameKo": "보테가베네타",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0132"
+ },
+ {
+  "brandCode": "102666",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "부쉐론",
+  "nameKo": "부쉐론",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0148"
+ },
+ {
+  "brandCode": "101944",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "불가리",
+  "nameKo": "불가리",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0140"
+ },
+ {
+  "brandCode": "116636",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "생로랑",
+  "nameKo": "생로랑",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0131"
+ },
+ {
+  "brandCode": "A45733",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "셀린느",
+  "nameKo": "셀린느",
+  "section": "럭셔리부띠끄",
+  "tel": "1577-8841-"
+ },
+ {
+  "brandCode": "100449",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "크리스챤 디올(남/여)",
+  "nameKo": "크리스챤 디올(남/여)",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-8566"
+ },
+ {
+  "brandCode": "107627",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "토즈",
+  "nameKo": "토즈",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0135"
+ },
+ {
+  "brandCode": "138381",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "톰브라운",
+  "nameKo": "톰브라운",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0149"
+ },
+ {
+  "brandCode": "102015",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "티파니앤코",
+  "nameKo": "티파니앤코",
+  "section": "럭셔리부띠끄",
+  "tel": "02-6250-8720"
+ },
+ {
+  "brandCode": "100634",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "페라가모",
+  "nameKo": "페라가모",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-8573"
+ },
+ {
+  "brandCode": "102559",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "펜디",
+  "nameKo": "펜디",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0134"
+ },
+ {
+  "brandCode": "100635",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "프라다",
+  "nameKo": "프라다",
+  "section": "럭셔리부띠끄",
+  "tel": "02-3277-0130"
+ },
+ {
+  "brandCode": "143223",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "MAC",
+  "nameKo": "MAC",
+  "section": "화장품",
+  "tel": "02-3277-0170"
+ },
+ {
+  "brandCode": "115119",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "나스",
+  "nameKo": "나스",
+  "section": "화장품",
+  "tel": "02-3277-0171"
+ },
+ {
+  "brandCode": "100610",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "디올 뷰티",
+  "nameKo": "디올 뷰티",
+  "section": "화장품",
+  "tel": "02-3277-0151"
+ },
+ {
+  "brandCode": "115222",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "딥티크",
+  "nameKo": "딥티크",
+  "section": "화장품",
+  "tel": "02-3277-0178"
+ },
+ {
+  "brandCode": "111359",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "록시땅",
+  "nameKo": "록시땅",
+  "section": "화장품",
+  "tel": "02-3277-0127"
+ },
+ {
+  "brandCode": "124028",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "르 라보",
+  "nameKo": "르 라보",
+  "section": "화장품",
+  "tel": "02-3277-0161"
+ },
+ {
+  "brandCode": "144849",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "마티에프리미에르",
+  "nameKo": "마티에프리미에르",
+  "section": "화장품",
+  "tel": "02-3277-0193"
+ },
+ {
+  "brandCode": "130730",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "메모 파리",
+  "nameKo": "메모 파리",
+  "section": "화장품",
+  "tel": "02-3277-0164"
+ },
+ {
+  "brandCode": "136524",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "메종마르지엘라 퍼퓸",
+  "nameKo": "메종마르지엘라 퍼퓸",
+  "section": "화장품",
+  "tel": "02-3277-0197"
+ },
+ {
+  "brandCode": "144923",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "메종프란시스커정",
+  "nameKo": "메종프란시스커정",
+  "section": "화장품",
+  "tel": "02-3277-0181"
+ },
+ {
+  "brandCode": "141497",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "바이레도",
+  "nameKo": "바이레도",
+  "section": "화장품",
+  "tel": "02-3277-0179"
+ },
+ {
+  "brandCode": "114873",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "산타마리아노벨라",
+  "nameKo": "산타마리아노벨라",
+  "section": "화장품",
+  "tel": "02-3277-0165"
+ },
+ {
+  "brandCode": "100606",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "샤넬 뷰티",
+  "nameKo": "샤넬 뷰티",
+  "section": "화장품",
+  "tel": "02-3277-0150"
+ },
+ {
+  "brandCode": "101801",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "설화수",
+  "nameKo": "설화수",
+  "section": "화장품",
+  "tel": "02-3277-0152"
+ },
+ {
+  "brandCode": "100035",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "시슬리",
+  "nameKo": "시슬리",
+  "section": "화장품",
+  "tel": "02-3277-0153"
+ },
+ {
+  "brandCode": "116686",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "아르마니뷰티",
+  "nameKo": "아르마니뷰티",
+  "section": "화장품",
+  "tel": "02-3277-0172"
+ },
+ {
+  "brandCode": "112052",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "아쿠아 디 파르마",
+  "nameKo": "아쿠아 디 파르마",
+  "section": "화장품",
+  "tel": "02-3277-0186"
+ },
+ {
+  "brandCode": "130607",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "에르메스뷰티",
+  "nameKo": "에르메스뷰티",
+  "section": "화장품",
+  "tel": "02-3277-0125"
+ },
+ {
+  "brandCode": "101805",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "에스티로더",
+  "nameKo": "에스티로더",
+  "section": "화장품",
+  "tel": "02-3277-0154"
+ },
+ {
+  "brandCode": "101803",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "오휘/후",
+  "nameKo": "오휘/후",
+  "section": "화장품",
+  "tel": "02-3277-0160"
+ },
+ {
+  "brandCode": "111921",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "이솝",
+  "nameKo": "이솝",
+  "section": "화장품",
+  "tel": "02-3277-0156"
+ },
+ {
+  "brandCode": "117030",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "입생로랑",
+  "nameKo": "입생로랑",
+  "section": "화장품",
+  "tel": "02-3277-0169"
+ },
+ {
+  "brandCode": "119276",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "조 말론 런던",
+  "nameKo": "조 말론 런던",
+  "section": "화장품",
+  "tel": "02-3277-0176"
+ },
+ {
+  "brandCode": "129995",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "쿠오카",
+  "nameKo": "쿠오카",
+  "section": "화장품",
+  "tel": "02-3277-0162"
+ },
+ {
+  "brandCode": "111708",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "크리드",
+  "nameKo": "크리드",
+  "section": "화장품",
+  "tel": "02-3277-0163"
+ },
+ {
+  "brandCode": "108261",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "키엘",
+  "nameKo": "키엘",
+  "section": "화장품",
+  "tel": "02-3277-0155"
+ },
+ {
+  "brandCode": "126210",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "킬리안 파리",
+  "nameKo": "킬리안 파리",
+  "section": "화장품",
+  "tel": "02-3277-0167"
+ },
+ {
+  "brandCode": "134475",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "탬버린즈",
+  "nameKo": "탬버린즈",
+  "section": "화장품",
+  "tel": "02-3277-8593"
+ },
+ {
+  "brandCode": "119440",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "톰포드 뷰티",
+  "nameKo": "톰포드 뷰티",
+  "section": "화장품",
+  "tel": "02-3277-0173"
+ },
+ {
+  "brandCode": "141117",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "프라다 뷰티",
+  "nameKo": "프라다 뷰티",
+  "section": "화장품",
+  "tel": "02-3277-0128"
+ },
+ {
+  "brandCode": "120849",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "프레데릭말",
+  "nameKo": "프레데릭말",
+  "section": "화장품",
+  "tel": "02-3277-0180"
+ },
+ {
+  "brandCode": "112822",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "헤라",
+  "nameKo": "헤라",
+  "section": "화장품",
+  "tel": "02-3277-0158"
+ },
+ {
+  "brandCode": "A41730",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "커뮤니티라운지",
+  "nameKo": "커뮤니티라운지",
+  "section": "라운지",
+  "tel": null
+ },
+ {
+  "brandCode": "F21295",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "컨시어지 (안내데스크)",
+  "nameKo": "컨시어지 (안내데스크)",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F23356",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "발레 라운지",
+  "nameKo": "발레 라운지",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F23586",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "스킨케어룸",
+  "nameKo": "스킨케어룸",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F24111",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "투어리스트 데스크 서비스 - 캐리어 보관 서비스",
+  "nameKo": "투어리스트 데스크 서비스 - 캐리어 보관 서비스",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F24591",
+  "floor": "1F",
+  "floorCode": "B0100100",
+  "name": "투어리스트 데스크 서비스 - 유모차 대여",
+  "nameKo": "투어리스트 데스크 서비스 - 유모차 대여",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "141123",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "MSGM",
+  "nameKo": "MSGM",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0227"
+ },
+ {
+  "brandCode": "142450",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "R13",
+  "nameKo": "R13",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0296"
+ },
+ {
+  "brandCode": "144606",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "Y-3",
+  "nameKo": "Y-3",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0273"
+ },
+ {
+  "brandCode": "117416",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "골든구스",
+  "nameKo": "골든구스",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0231"
+ },
+ {
+  "brandCode": "122071",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "꼼데가르송 (포켓/남성 컬렉션)",
+  "nameKo": "꼼데가르송 (포켓/남성 컬렉션)",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0267"
+ },
+ {
+  "brandCode": "117598",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "노비스",
+  "nameKo": "노비스",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0282"
+ },
+ {
+  "brandCode": "102274",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "듀퐁",
+  "nameKo": "듀퐁",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0212"
+ },
+ {
+  "brandCode": "142731",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "드롤드무슈",
+  "nameKo": "드롤드무슈",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0265"
+ },
+ {
+  "brandCode": "113890",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "랑방컬렉션",
+  "nameKo": "랑방컬렉션",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0255"
+ },
+ {
+  "brandCode": "104293",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "롱샴",
+  "nameKo": "롱샴",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0247"
+ },
+ {
+  "brandCode": "124123",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "르메르(남/여)",
+  "nameKo": "르메르(남/여)",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0254"
+ },
+ {
+  "brandCode": "101850",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "막스마라",
+  "nameKo": "막스마라",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0238"
+ },
+ {
+  "brandCode": "136524",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "메종마르지엘라(남/여)",
+  "nameKo": "메종마르지엘라(남/여)",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0297"
+ },
+ {
+  "brandCode": "116720",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "무이(남/여)",
+  "nameKo": "무이(남/여)",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0224"
+ },
+ {
+  "brandCode": "144092",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "베이프",
+  "nameKo": "베이프",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0226"
+ },
+ {
+  "brandCode": "103996",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "스톤아일랜드",
+  "nameKo": "스톤아일랜드",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0285"
+ },
+ {
+  "brandCode": "137726",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "아더에러 글라스샵",
+  "nameKo": "아더에러 글라스샵",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0290"
+ },
+ {
+  "brandCode": "127399",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "아미(남/여)",
+  "nameKo": "아미(남/여)",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0260"
+ },
+ {
+  "brandCode": "136087",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "아워레가시",
+  "nameKo": "아워레가시",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0381"
+ },
+ {
+  "brandCode": "138987",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "아크네 스튜디오",
+  "nameKo": "아크네 스튜디오",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0263"
+ },
+ {
+  "brandCode": "142774",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "알로",
+  "nameKo": "알로",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0286"
+ },
+ {
+  "brandCode": "142768",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "언더커버",
+  "nameKo": "언더커버",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0291"
+ },
+ {
+  "brandCode": "136521",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "에르노",
+  "nameKo": "에르노",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0230"
+ },
+ {
+  "brandCode": "134453",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "옴므플리세",
+  "nameKo": "옴므플리세",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0233"
+ },
+ {
+  "brandCode": "141263",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "우영미",
+  "nameKo": "우영미",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0274"
+ },
+ {
+  "brandCode": "116722",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "이자벨마랑(남/여)",
+  "nameKo": "이자벨마랑(남/여)",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0223"
+ },
+ {
+  "brandCode": "141125",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "일레븐티",
+  "nameKo": "일레븐티",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0256"
+ },
+ {
+  "brandCode": "117513",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "캐나다구스",
+  "nameKo": "캐나다구스",
+  "section": "글로벌 패션",
+  "tel": "02-3277-8492"
+ },
+ {
+  "brandCode": "109762",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "코치",
+  "nameKo": "코치",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0284"
+ },
+ {
+  "brandCode": "142418",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "타임파리",
+  "nameKo": "타임파리",
+  "section": "글로벌 패션",
+  "tel": "02-3277-8568"
+ },
+ {
+  "brandCode": "136968",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "토템",
+  "nameKo": "토템",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0239"
+ },
+ {
+  "brandCode": "111839",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "플리츠플리츠",
+  "nameKo": "플리츠플리츠",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0229"
+ },
+ {
+  "brandCode": "137105",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "피어오브갓",
+  "nameKo": "피어오브갓",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0220"
+ },
+ {
+  "brandCode": "123205",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "헬렌카민스키",
+  "nameKo": "헬렌카민스키",
+  "section": "글로벌 패션",
+  "tel": "02-3277-0259"
+ },
+ {
+  "brandCode": "A35852",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "쟈스민 블랙 라운지",
+  "nameKo": "쟈스민 블랙 라운지",
+  "section": "VIP 서비스",
+  "tel": "02-3277-0950"
+ },
+ {
+  "brandCode": "120526",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "라이카",
+  "nameKo": "라이카",
+  "section": "리빙",
+  "tel": "02-3277-0257"
+ },
+ {
+  "brandCode": "147765",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "오프레임",
+  "nameKo": "오프레임",
+  "section": "리빙",
+  "tel": "02-3277-8494"
+ },
+ {
+  "brandCode": "124529",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "프린트베이커리",
+  "nameKo": "프린트베이커리",
+  "section": "리빙",
+  "tel": "02-3277-0283"
+ },
+ {
+  "brandCode": "137400",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "구찌(선글라스)",
+  "nameKo": "구찌(선글라스)",
+  "section": "패션잡화 · ACC",
+  "tel": "02-3277-0261"
+ },
+ {
+  "brandCode": "100041",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "디올(선글라스)",
+  "nameKo": "디올(선글라스)",
+  "section": "패션잡화 · ACC",
+  "tel": "02-3277-0258"
+ },
+ {
+  "brandCode": "107849",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "마르니(선글라스)",
+  "nameKo": "마르니(선글라스)",
+  "section": "패션잡화 · ACC",
+  "tel": "02-3277-0253"
+ },
+ {
+  "brandCode": "146311",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "메종미하라야스히로",
+  "nameKo": "메종미하라야스히로",
+  "section": "패션잡화 · ACC",
+  "tel": "02-3277-8491"
+ },
+ {
+  "brandCode": "114931",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "미우미우(선글라스)",
+  "nameKo": "미우미우(선글라스)",
+  "section": "패션잡화 · ACC",
+  "tel": "02-3277-0298"
+ },
+ {
+  "brandCode": "122186",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "바오바오(남/여)",
+  "nameKo": "바오바오(남/여)",
+  "section": "패션잡화 · ACC",
+  "tel": "02-3277-0250"
+ },
+ {
+  "brandCode": "101748",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "스와로브스키",
+  "nameKo": "스와로브스키",
+  "section": "패션잡화 · ACC",
+  "tel": "02-3277-0859"
+ },
+ {
+  "brandCode": "110113",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "지미추",
+  "nameKo": "지미추",
+  "section": "패션잡화 · ACC",
+  "tel": "02-3277-0262"
+ },
+ {
+  "brandCode": "119799",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "크롬하츠",
+  "nameKo": "크롬하츠",
+  "section": "패션잡화 · ACC",
+  "tel": "02-3277-0276"
+ },
+ {
+  "brandCode": "112531",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "투미",
+  "nameKo": "투미",
+  "section": "패션잡화 · ACC",
+  "tel": "02-3277-0234"
+ },
+ {
+  "brandCode": "123205",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "헬렌카민스키",
+  "nameKo": "헬렌카민스키",
+  "section": "패션잡화 · ACC",
+  "tel": "02-3277-0259"
+ },
+ {
+  "brandCode": "114454",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "메이린 클리닉",
+  "nameKo": "메이린 클리닉",
+  "section": "기타 · 편의시설",
+  "tel": "02-3277-0292"
+ },
+ {
+  "brandCode": "117846",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "쿨화이트",
+  "nameKo": "쿨화이트",
+  "section": "기타 · 편의시설",
+  "tel": "02-3277-0294"
+ },
+ {
+  "brandCode": "132617",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "타임닥터",
+  "nameKo": "타임닥터",
+  "section": "기타 · 편의시설",
+  "tel": "02-3277-0295"
+ },
+ {
+  "brandCode": "144758",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "틸 화이트",
+  "nameKo": "틸 화이트",
+  "section": "기타 · 편의시설",
+  "tel": "02-3277-0268"
+ },
+ {
+  "brandCode": "113629",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "IWC",
+  "nameKo": "IWC",
+  "section": "워치",
+  "tel": "02-3277-0142"
+ },
+ {
+  "brandCode": "101933",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "몽블랑",
+  "nameKo": "몽블랑",
+  "section": "워치",
+  "tel": "02-3277-0145"
+ },
+ {
+  "brandCode": "120749",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "미도",
+  "nameKo": "미도",
+  "section": "워치",
+  "tel": "02-3277-0252"
+ },
+ {
+  "brandCode": "100647",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "브라이틀링",
+  "nameKo": "브라이틀링",
+  "section": "워치",
+  "tel": "02-3277-8589"
+ },
+ {
+  "brandCode": "112755",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "오메가",
+  "nameKo": "오메가",
+  "section": "워치",
+  "tel": "02-3277-0139"
+ },
+ {
+  "brandCode": "114298",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "위블로",
+  "nameKo": "위블로",
+  "section": "워치",
+  "tel": "02-3277-0185"
+ },
+ {
+  "brandCode": "114707",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "태그호이어",
+  "nameKo": "태그호이어",
+  "section": "워치",
+  "tel": "02-3277-0147"
+ },
+ {
+  "brandCode": "126357",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "튜더",
+  "nameKo": "튜더",
+  "section": "워치",
+  "tel": "02-3277-0146"
+ },
+ {
+  "brandCode": "114651",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "해밀턴",
+  "nameKo": "해밀턴",
+  "section": "워치",
+  "tel": "02-3277-0251"
+ },
+ {
+  "brandCode": "133440",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "루이비통(남)",
+  "nameKo": "루이비통(남)",
+  "section": "남성 럭셔리패션",
+  "tel": null
+ },
+ {
+  "brandCode": "116932",
+  "floor": "2F",
+  "floorCode": "B0100200",
+  "name": "프라다(남)",
+  "nameKo": "프라다(남)",
+  "section": "남성 럭셔리패션",
+  "tel": "02-3277-0271"
+ },
+ {
+  "brandCode": "108984",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "띠어리",
+  "nameKo": "띠어리",
+  "section": "남/여 복합",
+  "tel": "02-3277-0245"
+ },
+ {
+  "brandCode": "110931",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "클럽모나코",
+  "nameKo": "클럽모나코",
+  "section": "남/여 복합",
+  "tel": "02-3277-0242"
+ },
+ {
+  "brandCode": "104194",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "폴로",
+  "nameKo": "폴로",
+  "section": "남/여 복합",
+  "tel": "02-3277-0322"
+ },
+ {
+  "brandCode": "110470",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "A.P.C.",
+  "nameKo": "A.P.C.",
+  "section": "컨템포러리",
+  "tel": "02-3277-0221"
+ },
+ {
+  "brandCode": "110594",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "DKNY",
+  "nameKo": "DKNY",
+  "section": "컨템포러리",
+  "tel": "02-3277-0244"
+ },
+ {
+  "brandCode": "A44748",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "POP-UP STUDIO A",
+  "nameKo": "POP-UP STUDIO A",
+  "section": "컨템포러리",
+  "tel": null
+ },
+ {
+  "brandCode": "143988",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "노이스",
+  "nameKo": "노이스",
+  "section": "컨템포러리",
+  "tel": "02-3277-0369"
+ },
+ {
+  "brandCode": "137342",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "데바스테",
+  "nameKo": "데바스테",
+  "section": "컨템포러리",
+  "tel": "02-3277-0240"
+ },
+ {
+  "brandCode": "139178",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "듀베티카",
+  "nameKo": "듀베티카",
+  "section": "컨템포러리",
+  "tel": "02-3277-0341"
+ },
+ {
+  "brandCode": "130064",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "룰루레몬",
+  "nameKo": "룰루레몬",
+  "section": "컨템포러리",
+  "tel": "02-3277-0280"
+ },
+ {
+  "brandCode": "128964",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "메종키츠네(남/여)",
+  "nameKo": "메종키츠네(남/여)",
+  "section": "컨템포러리",
+  "tel": "02-3277-0279"
+ },
+ {
+  "brandCode": "142024",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "모드나인",
+  "nameKo": "모드나인",
+  "section": "컨템포러리",
+  "tel": "02-3277-0316"
+ },
+ {
+  "brandCode": "100481",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "바네사브루노",
+  "nameKo": "바네사브루노",
+  "section": "컨템포러리",
+  "tel": "02-3277-0264"
+ },
+ {
+  "brandCode": "116456",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "비이커",
+  "nameKo": "비이커",
+  "section": "컨템포러리",
+  "tel": "02-3277-0329"
+ },
+ {
+  "brandCode": "138679",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "아스페시",
+  "nameKo": "아스페시",
+  "section": "컨템포러리",
+  "tel": "02-3277-0236"
+ },
+ {
+  "brandCode": "134753",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "앤더슨벨",
+  "nameKo": "앤더슨벨",
+  "section": "컨템포러리",
+  "tel": "02-3277-0299"
+ },
+ {
+  "brandCode": "145404",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "온",
+  "nameKo": "온",
+  "section": "컨템포러리",
+  "tel": "02-3277-0375"
+ },
+ {
+  "brandCode": "131718",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "준지",
+  "nameKo": "준지",
+  "section": "컨템포러리",
+  "tel": "02-3277-0246"
+ },
+ {
+  "brandCode": "137166",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "톰그레이하운드(남)",
+  "nameKo": "톰그레이하운드(남)",
+  "section": "컨템포러리",
+  "tel": "02-3277-0373"
+ },
+ {
+  "brandCode": "116378",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "톰그레이하운드(여)",
+  "nameKo": "톰그레이하운드(여)",
+  "section": "컨템포러리",
+  "tel": "02-3277-0248"
+ },
+ {
+  "brandCode": "132495",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "프레이트",
+  "nameKo": "프레이트",
+  "section": "컨템포러리",
+  "tel": "02-3277-0338"
+ },
+ {
+  "brandCode": "100110",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "SJSJ",
+  "nameKo": "SJSJ",
+  "section": "여성패션",
+  "tel": "02-3277-0852"
+ },
+ {
+  "brandCode": "136531",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "가니",
+  "nameKo": "가니",
+  "section": "여성패션",
+  "tel": "02-3277-0319"
+ },
+ {
+  "brandCode": "102457",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "구호",
+  "nameKo": "구호",
+  "section": "여성패션",
+  "tel": "02-3277-0353"
+ },
+ {
+  "brandCode": "125004",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "더일마",
+  "nameKo": "더일마",
+  "section": "여성패션",
+  "tel": "02-3277-0869"
+ },
+ {
+  "brandCode": "119030",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "더캐시미어",
+  "nameKo": "더캐시미어",
+  "section": "여성패션",
+  "tel": "02-3277-0354"
+ },
+ {
+  "brandCode": "140448",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "리던",
+  "nameKo": "리던",
+  "section": "여성패션",
+  "tel": "02-3277-0249"
+ },
+ {
+  "brandCode": "101310",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "마인",
+  "nameKo": "마인",
+  "section": "여성패션",
+  "tel": "02-3277-0351"
+ },
+ {
+  "brandCode": "110604",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "마쥬",
+  "nameKo": "마쥬",
+  "section": "여성패션",
+  "tel": "02-3277-0349"
+ },
+ {
+  "brandCode": "137485",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "베로니카비어드",
+  "nameKo": "베로니카비어드",
+  "section": "여성패션",
+  "tel": "02-3277-0372"
+ },
+ {
+  "brandCode": "114928",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "산드로",
+  "nameKo": "산드로",
+  "section": "여성패션",
+  "tel": "02-3277-0243"
+ },
+ {
+  "brandCode": "101298",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "시스템",
+  "nameKo": "시스템",
+  "section": "여성패션",
+  "tel": "02-3277-0851"
+ },
+ {
+  "brandCode": "100480",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "타임",
+  "nameKo": "타임",
+  "section": "여성패션",
+  "tel": "02-3277-0352"
+ },
+ {
+  "brandCode": "122392",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "CP컴퍼니",
+  "nameKo": "CP컴퍼니",
+  "section": "남성패션",
+  "tel": "02-3277-0241"
+ },
+ {
+  "brandCode": "144094",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "TEN-C",
+  "nameKo": "TEN-C",
+  "section": "남성패션",
+  "tel": "02-3277-0327"
+ },
+ {
+  "brandCode": "112222",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "닥스 셔츠",
+  "nameKo": "닥스 셔츠",
+  "section": "남성패션",
+  "tel": "02-3277-0344"
+ },
+ {
+  "brandCode": "104048",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "듀퐁 셔츠",
+  "nameKo": "듀퐁 셔츠",
+  "section": "남성패션",
+  "tel": "02-3277-0345"
+ },
+ {
+  "brandCode": "134875",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "모드맨",
+  "nameKo": "모드맨",
+  "section": "남성패션",
+  "tel": "02-3277-0376"
+ },
+ {
+  "brandCode": "134035",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "바버",
+  "nameKo": "바버",
+  "section": "남성패션",
+  "tel": "02-3277-0320"
+ },
+ {
+  "brandCode": "104011",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "솔리드옴므",
+  "nameKo": "솔리드옴므",
+  "section": "남성패션",
+  "tel": "02-3277-0399"
+ },
+ {
+  "brandCode": "104076",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "송지오",
+  "nameKo": "송지오",
+  "section": "남성패션",
+  "tel": "02-3277-0366"
+ },
+ {
+  "brandCode": "123181",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "수트서플라이",
+  "nameKo": "수트서플라이",
+  "section": "남성패션",
+  "tel": "02-3277-0237"
+ },
+ {
+  "brandCode": "141212",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "슈트패브릭",
+  "nameKo": "슈트패브릭",
+  "section": "남성패션",
+  "tel": "02-3277-0350"
+ },
+ {
+  "brandCode": "132497",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "스컬프",
+  "nameKo": "스컬프",
+  "section": "남성패션",
+  "tel": "02-3277-0379"
+ },
+ {
+  "brandCode": "113889",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "시스템옴므",
+  "nameKo": "시스템옴므",
+  "section": "남성패션",
+  "tel": "02-3277-0331"
+ },
+ {
+  "brandCode": "135979",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "시프트G",
+  "nameKo": "시프트G",
+  "section": "남성패션",
+  "tel": "02-3277-0346"
+ },
+ {
+  "brandCode": "104515",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "아뜰리에 디 갤럭시",
+  "nameKo": "아뜰리에 디 갤럭시",
+  "section": "남성패션",
+  "tel": "02-3277-0378"
+ },
+ {
+  "brandCode": "132496",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "아이엠샵",
+  "nameKo": "아이엠샵",
+  "section": "남성패션",
+  "tel": "02-3277-0377"
+ },
+ {
+  "brandCode": "104000",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "카운테스마라",
+  "nameKo": "카운테스마라",
+  "section": "남성패션",
+  "tel": "02-3277-0347"
+ },
+ {
+  "brandCode": "104012",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "타임옴므",
+  "nameKo": "타임옴므",
+  "section": "남성패션",
+  "tel": "02-3277-0330"
+ },
+ {
+  "brandCode": "132395",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "버윅",
+  "nameKo": "버윅",
+  "section": "슈즈&백 갤러리",
+  "tel": "02-3277-0374"
+ },
+ {
+  "brandCode": "143766",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "버켄스탁",
+  "nameKo": "버켄스탁",
+  "section": "슈즈&백 갤러리",
+  "tel": "02-3277-0318"
+ },
+ {
+  "brandCode": "133897",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "아떼바네사브루노",
+  "nameKo": "아떼바네사브루노",
+  "section": "슈즈&백 갤러리",
+  "tel": "02-3277-0389"
+ },
+ {
+  "brandCode": "117686",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "어그",
+  "nameKo": "어그",
+  "section": "슈즈&백 갤러리",
+  "tel": "02-3277-0371"
+ },
+ {
+  "brandCode": "120885",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "조이그라이슨",
+  "nameKo": "조이그라이슨",
+  "section": "슈즈&백 갤러리",
+  "tel": "02-3277-0386"
+ },
+ {
+  "brandCode": "112296",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "캠퍼",
+  "nameKo": "캠퍼",
+  "section": "슈즈&백 갤러리",
+  "tel": "02-3277-0356"
+ },
+ {
+  "brandCode": "121323",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "쿠에른 컨셉스토어",
+  "nameKo": "쿠에른 컨셉스토어",
+  "section": "슈즈&백 갤러리",
+  "tel": "02-3277-0358"
+ },
+ {
+  "brandCode": "101669",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "탠디",
+  "nameKo": "탠디",
+  "section": "슈즈&백 갤러리",
+  "tel": "02-3277-0368"
+ },
+ {
+  "brandCode": "141224",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "레이로우",
+  "nameKo": "레이로우",
+  "section": "란제리",
+  "tel": "02-3277-0392"
+ },
+ {
+  "brandCode": "101040",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "바바라",
+  "nameKo": "바바라",
+  "section": "란제리",
+  "tel": "02-3277-0394"
+ },
+ {
+  "brandCode": "100999",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "비너스",
+  "nameKo": "비너스",
+  "section": "란제리",
+  "tel": "02-3277-0392"
+ },
+ {
+  "brandCode": "101041",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "비비안",
+  "nameKo": "비비안",
+  "section": "란제리",
+  "tel": "02-3277-0394"
+ },
+ {
+  "brandCode": "100468",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "와코루",
+  "nameKo": "와코루",
+  "section": "란제리",
+  "tel": "02-3277-0392"
+ },
+ {
+  "brandCode": "141223",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "피앳유즈",
+  "nameKo": "피앳유즈",
+  "section": "란제리",
+  "tel": "02-3277-0394"
+ },
+ {
+  "brandCode": "100618",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "골든듀",
+  "nameKo": "골든듀",
+  "section": "패션잡화",
+  "tel": "02-3277-0269"
+ },
+ {
+  "brandCode": "111357",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "금강안경",
+  "nameKo": "금강안경",
+  "section": "패션잡화",
+  "tel": "02-3277-0317"
+ },
+ {
+  "brandCode": "125101",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "누니주얼리",
+  "nameKo": "누니주얼리",
+  "section": "패션잡화",
+  "tel": "02-3277-0266"
+ },
+ {
+  "brandCode": "A45214",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "다이아미",
+  "nameKo": "다이아미",
+  "section": "패션잡화",
+  "tel": "02-3277-0270"
+ },
+ {
+  "brandCode": "116663",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "디디에두보",
+  "nameKo": "디디에두보",
+  "section": "패션잡화",
+  "tel": "02-3277-0886"
+ },
+ {
+  "brandCode": "130694",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "벨벳트렁크",
+  "nameKo": "벨벳트렁크",
+  "section": "패션잡화",
+  "tel": "02-3277-0343"
+ },
+ {
+  "brandCode": "127604",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "분크",
+  "nameKo": "분크",
+  "section": "패션잡화",
+  "tel": "02-3277-0384"
+ },
+ {
+  "brandCode": "110733",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "스톤헨지",
+  "nameKo": "스톤헨지",
+  "section": "패션잡화",
+  "tel": "02-3277-0884"
+ },
+ {
+  "brandCode": "107636",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "제이에스티나",
+  "nameKo": "제이에스티나",
+  "section": "패션잡화",
+  "tel": "02-3277-0885"
+ },
+ {
+  "brandCode": "141378",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "크림",
+  "nameKo": "크림",
+  "section": "패션잡화",
+  "tel": "02-3277-0363"
+ },
+ {
+  "brandCode": "132586",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "로라스블랑",
+  "nameKo": "로라스블랑",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0302"
+ },
+ {
+  "brandCode": "A36392",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "아뜰리에 아티산 (의류 수선)",
+  "nameKo": "아뜰리에 아티산 (의류 수선)",
+  "section": "기타 · 편의시설",
+  "tel": "02-3277-0300"
+ },
+ {
+  "brandCode": "132711",
+  "floor": "3F",
+  "floorCode": "B0100300",
+  "name": "애브뉴준오 (헤어숍)",
+  "nameKo": "애브뉴준오 (헤어숍)",
+  "section": "기타 · 편의시설",
+  "tel": "02-3277-0303"
+ },
+ {
+  "brandCode": "136365",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "EQL퍼포먼스",
+  "nameKo": "EQL퍼포먼스",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0479"
+ },
+ {
+  "brandCode": "131718",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "POP-UP STUDIO A",
+  "nameKo": "POP-UP STUDIO A",
+  "section": "스포츠 · 아웃도어",
+  "tel": null
+ },
+ {
+  "brandCode": "145922",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "가민",
+  "nameKo": "가민",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0463"
+ },
+ {
+  "brandCode": "132262",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "굿러너 컴퍼니",
+  "nameKo": "굿러너 컴퍼니",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0456"
+ },
+ {
+  "brandCode": "127336",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "나이키스윔",
+  "nameKo": "나이키스윔",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0449"
+ },
+ {
+  "brandCode": "100171",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "노스페이스",
+  "nameKo": "노스페이스",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0425"
+ },
+ {
+  "brandCode": "145954",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "뉴마핏",
+  "nameKo": "뉴마핏",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0433"
+ },
+ {
+  "brandCode": "141851",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "라이다",
+  "nameKo": "라이다",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0472"
+ },
+ {
+  "brandCode": "104049",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "라코스테",
+  "nameKo": "라코스테",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0324"
+ },
+ {
+  "brandCode": "101633",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "만다리나덕",
+  "nameKo": "만다리나덕",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0465"
+ },
+ {
+  "brandCode": "142132",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "몽벨",
+  "nameKo": "몽벨",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0474"
+ },
+ {
+  "brandCode": "140208",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "바스통",
+  "nameKo": "바스통",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0485"
+ },
+ {
+  "brandCode": "104517",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "빈폴",
+  "nameKo": "빈폴",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0325"
+ },
+ {
+  "brandCode": "118788",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "살로몬",
+  "nameKo": "살로몬",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0495"
+ },
+ {
+  "brandCode": "130195",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "스노우피크",
+  "nameKo": "스노우피크",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-8476"
+ },
+ {
+  "brandCode": "131791",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "시다스",
+  "nameKo": "시다스",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0467"
+ },
+ {
+  "brandCode": "135643",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "시에라디자인",
+  "nameKo": "시에라디자인",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0457"
+ },
+ {
+  "brandCode": "100172",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "아레나",
+  "nameKo": "아레나",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0461"
+ },
+ {
+  "brandCode": "145001",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "아크테릭스",
+  "nameKo": "아크테릭스",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0421"
+ },
+ {
+  "brandCode": "127673",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "안다르",
+  "nameKo": "안다르",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0459"
+ },
+ {
+  "brandCode": "141379",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "윌슨",
+  "nameKo": "윌슨",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0455"
+ },
+ {
+  "brandCode": "146279",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "칼렉",
+  "nameKo": "칼렉",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0422"
+ },
+ {
+  "brandCode": "145767",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "코토팍시",
+  "nameKo": "코토팍시",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0445"
+ },
+ {
+  "brandCode": "104050",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "타미힐피거",
+  "nameKo": "타미힐피거",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0321"
+ },
+ {
+  "brandCode": "122393",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "파타고니아",
+  "nameKo": "파타고니아",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-8440"
+ },
+ {
+  "brandCode": "144699",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "포스엘리먼트",
+  "nameKo": "포스엘리먼트",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0431"
+ },
+ {
+  "brandCode": "104039",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "헤지스",
+  "nameKo": "헤지스",
+  "section": "스포츠 · 아웃도어",
+  "tel": "02-3277-0323"
+ },
+ {
+  "brandCode": "139354",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "프롤라",
+  "nameKo": "프롤라",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0450"
+ },
+ {
+  "brandCode": "139072",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "DJI",
+  "nameKo": "DJI",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0568"
+ },
+ {
+  "brandCode": "A36122",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "POP-UP STUDIO B",
+  "nameKo": "POP-UP STUDIO B",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": null
+ },
+ {
+  "brandCode": "107967",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "USM/허먼밀러",
+  "nameKo": "USM/허먼밀러",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0491"
+ },
+ {
+  "brandCode": "107958",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "나뚜찌",
+  "nameKo": "나뚜찌",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0493"
+ },
+ {
+  "brandCode": "127914",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "노르딕슬립",
+  "nameKo": "노르딕슬립",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0470"
+ },
+ {
+  "brandCode": "134018",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "두오모라이팅",
+  "nameKo": "두오모라이팅",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0418"
+ },
+ {
+  "brandCode": "139257",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "로보락",
+  "nameKo": "로보락",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0565"
+ },
+ {
+  "brandCode": "108340",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "리네로제",
+  "nameKo": "리네로제",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0482"
+ },
+ {
+  "brandCode": "102910",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "리바트 토탈",
+  "nameKo": "리바트 토탈",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0475"
+ },
+ {
+  "brandCode": "138611",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "무브먼트랩",
+  "nameKo": "무브먼트랩",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0451"
+ },
+ {
+  "brandCode": "121596",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "바디프랜드",
+  "nameKo": "바디프랜드",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0579"
+ },
+ {
+  "brandCode": "141356",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "바이리네",
+  "nameKo": "바이리네",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0478"
+ },
+ {
+  "brandCode": "128389",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "세라젬",
+  "nameKo": "세라젬",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0578"
+ },
+ {
+  "brandCode": "100224",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "시몬스",
+  "nameKo": "시몬스",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0488"
+ },
+ {
+  "brandCode": "116233",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "씰리",
+  "nameKo": "씰리",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0487"
+ },
+ {
+  "brandCode": "131299",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "에싸",
+  "nameKo": "에싸",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0442"
+ },
+ {
+  "brandCode": "131485",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "에이스 프리미엄 스토어",
+  "nameKo": "에이스 프리미엄 스토어",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0489"
+ },
+ {
+  "brandCode": "123605",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "웨스트엘름",
+  "nameKo": "웨스트엘름",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0496"
+ },
+ {
+  "brandCode": "134263",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "지누스",
+  "nameKo": "지누스",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0458"
+ },
+ {
+  "brandCode": "126709",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "칼한센앤선",
+  "nameKo": "칼한센앤선",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-8425"
+ },
+ {
+  "brandCode": "110800",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "템퍼",
+  "nameKo": "템퍼",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0490"
+ },
+ {
+  "brandCode": "140467",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "피레넥스",
+  "nameKo": "피레넥스",
+  "section": "가구 · 침구 · 소형가전",
+  "tel": "02-3277-0448"
+ },
+ {
+  "brandCode": "136868",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "A.P.C골프",
+  "nameKo": "A.P.C골프",
+  "section": "골프",
+  "tel": "02-3277-0426"
+ },
+ {
+  "brandCode": "124024",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "PXG",
+  "nameKo": "PXG",
+  "section": "골프",
+  "tel": "02-3277-0436"
+ },
+ {
+  "brandCode": "120783",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "나이키골프",
+  "nameKo": "나이키골프",
+  "section": "골프",
+  "tel": "02-3277-0435"
+ },
+ {
+  "brandCode": "136015",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "랑방블랑",
+  "nameKo": "랑방블랑",
+  "section": "골프",
+  "tel": "02-3277-0486"
+ },
+ {
+  "brandCode": "133711",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "말본골프",
+  "nameKo": "말본골프",
+  "section": "골프",
+  "tel": "02-3277-8479"
+ },
+ {
+  "brandCode": "137223",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "보스골프",
+  "nameKo": "보스골프",
+  "section": "골프",
+  "tel": "02-3277-0469"
+ },
+ {
+  "brandCode": "147012",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "브리핑골프",
+  "nameKo": "브리핑골프",
+  "section": "골프",
+  "tel": null
+ },
+ {
+  "brandCode": "131614",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "사우스케이프",
+  "nameKo": "사우스케이프",
+  "section": "골프",
+  "tel": "02-3277-0468"
+ },
+ {
+  "brandCode": "128798",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "세인트앤드류스",
+  "nameKo": "세인트앤드류스",
+  "section": "골프",
+  "tel": "02-3277-0440"
+ },
+ {
+  "brandCode": "133709",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "어메이징크리",
+  "nameKo": "어메이징크리",
+  "section": "골프",
+  "tel": "02-3277-8426"
+ },
+ {
+  "brandCode": "118816",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "제이린드버그",
+  "nameKo": "제이린드버그",
+  "section": "골프",
+  "tel": "02-3277-0438"
+ },
+ {
+  "brandCode": "132391",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "지포어",
+  "nameKo": "지포어",
+  "section": "골프",
+  "tel": "02-3277-0434"
+ },
+ {
+  "brandCode": "133487",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "캘러웨이",
+  "nameKo": "캘러웨이",
+  "section": "골프",
+  "tel": "02-3277-0430"
+ },
+ {
+  "brandCode": "138508",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "크랙앤칼",
+  "nameKo": "크랙앤칼",
+  "section": "골프",
+  "tel": "02-3277-0441"
+ },
+ {
+  "brandCode": "122389",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "타이틀리스트",
+  "nameKo": "타이틀리스트",
+  "section": "골프",
+  "tel": "02-3277-0437"
+ },
+ {
+  "brandCode": "132444",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "티노5",
+  "nameKo": "티노5",
+  "section": "골프",
+  "tel": "02-3277-0432"
+ },
+ {
+  "brandCode": "125009",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "풋조이",
+  "nameKo": "풋조이",
+  "section": "골프",
+  "tel": "02-3277-0443"
+ },
+ {
+  "brandCode": "A36157",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "HBYH",
+  "nameKo": "HBYH",
+  "section": "식기 · 홈데코",
+  "tel": "02-3277-8465"
+ },
+ {
+  "brandCode": "100216",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "WMF",
+  "nameKo": "WMF",
+  "section": "식기 · 홈데코",
+  "tel": "02-3277-8455"
+ },
+ {
+  "brandCode": "138737",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "레고트",
+  "nameKo": "레고트",
+  "section": "식기 · 홈데코",
+  "tel": "02-3277-0466"
+ },
+ {
+  "brandCode": "101515",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "로얄코펜하겐",
+  "nameKo": "로얄코펜하겐",
+  "section": "식기 · 홈데코",
+  "tel": "02-3277-8462"
+ },
+ {
+  "brandCode": "131430",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "루이스폴센",
+  "nameKo": "루이스폴센",
+  "section": "식기 · 홈데코",
+  "tel": "02-3277-8465"
+ },
+ {
+  "brandCode": "135899",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "베르판(엠비언스)",
+  "nameKo": "베르판(엠비언스)",
+  "section": "식기 · 홈데코",
+  "tel": "02-3277-0428"
+ },
+ {
+  "brandCode": "117403",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "빌레로이앤보흐",
+  "nameKo": "빌레로이앤보흐",
+  "section": "식기 · 홈데코",
+  "tel": "02-3277-8452"
+ },
+ {
+  "brandCode": "138658",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "사브르",
+  "nameKo": "사브르",
+  "section": "식기 · 홈데코",
+  "tel": "02-3277-8475"
+ },
+ {
+  "brandCode": "144524",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "소일베이커",
+  "nameKo": "소일베이커",
+  "section": "식기 · 홈데코",
+  "tel": "02-3277-0446"
+ },
+ {
+  "brandCode": "125167",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "알레시",
+  "nameKo": "알레시",
+  "section": "식기 · 홈데코",
+  "tel": "02-3277-8468"
+ },
+ {
+  "brandCode": "126003",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "움브라",
+  "nameKo": "움브라",
+  "section": "식기 · 홈데코",
+  "tel": "02-3277-8469"
+ },
+ {
+  "brandCode": "123916",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "윌리엄스 소노마",
+  "nameKo": "윌리엄스 소노마",
+  "section": "식기 · 홈데코",
+  "tel": "02-3277-0770"
+ },
+ {
+  "brandCode": "123975",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "쿠자",
+  "nameKo": "쿠자",
+  "section": "식기 · 홈데코",
+  "tel": "02-3277-0477"
+ },
+ {
+  "brandCode": "138729",
+  "floor": "4F",
+  "floorCode": "B0100400",
+  "name": "헤리터",
+  "nameKo": "헤리터",
+  "section": "식기 · 홈데코",
+  "tel": "02-3277-8485"
+ },
+ {
+  "brandCode": "139166",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "THE ANIMALS OBSERVATORY",
+  "nameKo": "THE ANIMALS OBSERVATORY",
+  "section": "아동",
+  "tel": "02-3277-0542"
+ },
+ {
+  "brandCode": "117919",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "뉴발란스 키즈",
+  "nameKo": "뉴발란스 키즈",
+  "section": "아동",
+  "tel": "02-3277-0535"
+ },
+ {
+  "brandCode": "100760",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "랄프로렌칠드런",
+  "nameKo": "랄프로렌칠드런",
+  "section": "아동",
+  "tel": "02-3277-0533"
+ },
+ {
+  "brandCode": "122815",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "레고LCS",
+  "nameKo": "레고LCS",
+  "section": "아동",
+  "tel": "02-3277-0546"
+ },
+ {
+  "brandCode": "116684",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "리틀그라운드",
+  "nameKo": "리틀그라운드",
+  "section": "아동",
+  "tel": "02-3277-0524"
+ },
+ {
+  "brandCode": "121007",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "매직에디션",
+  "nameKo": "매직에디션",
+  "section": "아동",
+  "tel": "02-3277-0522"
+ },
+ {
+  "brandCode": "102298",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "무냐무냐",
+  "nameKo": "무냐무냐",
+  "section": "아동",
+  "tel": "02-3277-0539"
+ },
+ {
+  "brandCode": "134478",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "스토케",
+  "nameKo": "스토케",
+  "section": "아동",
+  "tel": "02-3277-0530"
+ },
+ {
+  "brandCode": "119479",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "아이러브제이",
+  "nameKo": "아이러브제이",
+  "section": "아동",
+  "tel": "02-3277-0537"
+ },
+ {
+  "brandCode": "139213",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "아프리콧스튜디오",
+  "nameKo": "아프리콧스튜디오",
+  "section": "아동",
+  "tel": "02-3277-0583"
+ },
+ {
+  "brandCode": "136964",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "젤리멜로",
+  "nameKo": "젤리멜로",
+  "section": "아동",
+  "tel": "02-3277-0543"
+ },
+ {
+  "brandCode": "124763",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "캐리마켓",
+  "nameKo": "캐리마켓",
+  "section": "아동",
+  "tel": "02-3277-0523"
+ },
+ {
+  "brandCode": "132642",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "플레이인더박스",
+  "nameKo": "플레이인더박스",
+  "section": "아동",
+  "tel": "02-3277-0545"
+ },
+ {
+  "brandCode": "101125",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "압소바",
+  "nameKo": "압소바",
+  "section": "유아",
+  "tel": "02-3277-0529"
+ },
+ {
+  "brandCode": "102188",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "에뜨와",
+  "nameKo": "에뜨와",
+  "section": "유아",
+  "tel": "02-3277-0526"
+ },
+ {
+  "brandCode": "114140",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "인더스토리",
+  "nameKo": "인더스토리",
+  "section": "유아",
+  "tel": "02-3277-0544"
+ },
+ {
+  "brandCode": "119803",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "토박스",
+  "nameKo": "토박스",
+  "section": "유아",
+  "tel": "02-3277-0566"
+ },
+ {
+  "brandCode": "127158",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "다이슨",
+  "nameKo": "다이슨",
+  "section": "가전",
+  "tel": "02-3277-0597"
+ },
+ {
+  "brandCode": "135162",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "로지텍",
+  "nameKo": "로지텍",
+  "section": "가전",
+  "tel": "02-3277-0563"
+ },
+ {
+  "brandCode": "137223",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "보스",
+  "nameKo": "보스",
+  "section": "가전",
+  "tel": "02-3277-0589"
+ },
+ {
+  "brandCode": "125510",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "삼성스토어/ 바로서비스",
+  "nameKo": "삼성스토어/ 바로서비스",
+  "section": "가전",
+  "tel": "02-3277-0573"
+ },
+ {
+  "brandCode": "101661",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "소니/니콘",
+  "nameKo": "소니/니콘",
+  "section": "가전",
+  "tel": "02-3277-0587"
+ },
+ {
+  "brandCode": "122029",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "아이스토어(애플)",
+  "nameKo": "아이스토어(애플)",
+  "section": "가전",
+  "tel": "02-3277-0576"
+ },
+ {
+  "brandCode": "128977",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "엘지 메가스토어",
+  "nameKo": "엘지 메가스토어",
+  "section": "가전",
+  "tel": "02-3277-0570"
+ },
+ {
+  "brandCode": "132263",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "번패티번",
+  "nameKo": "번패티번",
+  "section": "F&B",
+  "tel": "02-3277-0549"
+ },
+ {
+  "brandCode": "131028",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "블루보틀",
+  "nameKo": "블루보틀",
+  "section": "F&B",
+  "tel": "1533-6906-"
+ },
+ {
+  "brandCode": "A42144",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "We,pet",
+  "nameKo": "We,pet",
+  "section": "컬쳐&공간",
+  "tel": "02-3277-0541"
+ },
+ {
+  "brandCode": "139842",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "더현대수비니어",
+  "nameKo": "더현대수비니어",
+  "section": "컬쳐&공간",
+  "tel": "02-3277-0564"
+ },
+ {
+  "brandCode": "A42128",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "디즈니스토어",
+  "nameKo": "디즈니스토어",
+  "section": "컬쳐&공간",
+  "tel": "02-3277-0569"
+ },
+ {
+  "brandCode": "A36336",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "사운즈포레스트 (정원)",
+  "nameKo": "사운즈포레스트 (정원)",
+  "section": "컬쳐&공간",
+  "tel": null
+ },
+ {
+  "brandCode": "A42758",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "에픽서울",
+  "nameKo": "에픽서울",
+  "section": "컬쳐&공간",
+  "tel": null
+ },
+ {
+  "brandCode": "137324",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "젤리캣",
+  "nameKo": "젤리캣",
+  "section": "컬쳐&공간",
+  "tel": "02-3277-0525"
+ },
+ {
+  "brandCode": "A36337",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "쟈스민 라운지",
+  "nameKo": "쟈스민 라운지",
+  "section": "VIP 서비스",
+  "tel": "02-3277-0951"
+ },
+ {
+  "brandCode": "F21279",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "유모차 대여 (쁘띠 데스크)",
+  "nameKo": "유모차 대여 (쁘띠 데스크)",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F23357",
+  "floor": "5F",
+  "floorCode": "B0100500",
+  "name": "쁘띠 라운지 (유아 휴게실)",
+  "nameKo": "쁘띠 라운지 (유아 휴게실)",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "A36326",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "SMT 라운지",
+  "nameKo": "SMT 라운지",
+  "section": "전문식당가",
+  "tel": "02-3277-0659"
+ },
+ {
+  "brandCode": "107727",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "나의 가야",
+  "nameKo": "나의 가야",
+  "section": "전문식당가",
+  "tel": "02-3277-0650"
+ },
+ {
+  "brandCode": "113848",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "도원 스타일",
+  "nameKo": "도원 스타일",
+  "section": "전문식당가",
+  "tel": "02-3277-0653"
+ },
+ {
+  "brandCode": "A36372",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "로바",
+  "nameKo": "로바",
+  "section": "전문식당가",
+  "tel": "02-3277-0652"
+ },
+ {
+  "brandCode": "119244",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "리스토란테 에오",
+  "nameKo": "리스토란테 에오",
+  "section": "전문식당가",
+  "tel": "02-3277-0651"
+ },
+ {
+  "brandCode": "144275",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "사천화가",
+  "nameKo": "사천화가",
+  "section": "전문식당가",
+  "tel": "02-3277-0665"
+ },
+ {
+  "brandCode": "140257",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "상춘재",
+  "nameKo": "상춘재",
+  "section": "전문식당가",
+  "tel": "02-3277-0657"
+ },
+ {
+  "brandCode": "104076",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "송",
+  "nameKo": "송",
+  "section": "전문식당가",
+  "tel": "02-3277-0655"
+ },
+ {
+  "brandCode": "A36320",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "이탈리",
+  "nameKo": "이탈리",
+  "section": "전문식당가",
+  "tel": "02-3277-0658"
+ },
+ {
+  "brandCode": "120763",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "이탈리 마켓",
+  "nameKo": "이탈리 마켓",
+  "section": "전문식당가",
+  "tel": "02-3277-0660"
+ },
+ {
+  "brandCode": "138236",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "정돈 프리미엄",
+  "nameKo": "정돈 프리미엄",
+  "section": "전문식당가",
+  "tel": "02-3277-0670"
+ },
+ {
+  "brandCode": "112603",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "고디바",
+  "nameKo": "고디바",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0661"
+ },
+ {
+  "brandCode": "141608",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "베르그",
+  "nameKo": "베르그",
+  "section": "카페 · 베이커리 · 디저트",
+  "tel": "02-3277-0654"
+ },
+ {
+  "brandCode": "A36472",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "ALT. 1",
+  "nameKo": "ALT. 1",
+  "section": "기타 · 편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "A36474",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "ATM (하나은행)",
+  "nameKo": "ATM (하나은행)",
+  "section": "기타 · 편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "A36471",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "CH 1985",
+  "nameKo": "CH 1985",
+  "section": "기타 · 편의시설",
+  "tel": "02-785-1985"
+ },
+ {
+  "brandCode": "A36470",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "TAX REFUND (Service Lounge)",
+  "nameKo": "TAX REFUND (Service Lounge)",
+  "section": "기타 · 편의시설",
+  "tel": "02-3277-0088"
+ },
+ {
+  "brandCode": "A42662",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "TAX REFUND KIOSK",
+  "nameKo": "TAX REFUND KIOSK",
+  "section": "기타 · 편의시설",
+  "tel": "02-3277-0088"
+ },
+ {
+  "brandCode": "142014",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "두두두 쇼룸",
+  "nameKo": "두두두 쇼룸",
+  "section": "기타 · 편의시설",
+  "tel": "02-3277-0680"
+ },
+ {
+  "brandCode": "A36469",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "상품권(서비스 라운지 안)",
+  "nameKo": "상품권(서비스 라운지 안)",
+  "section": "기타 · 편의시설",
+  "tel": "02-3277-0640"
+ },
+ {
+  "brandCode": "A41721",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "여행사데스크",
+  "nameKo": "여행사데스크",
+  "section": "기타 · 편의시설",
+  "tel": "02-3277-0642"
+ },
+ {
+  "brandCode": "A41284",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "클럽웨딩 (서비스라운지 안)",
+  "nameKo": "클럽웨딩 (서비스라운지 안)",
+  "section": "기타 · 편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "A36588",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "티켓 부스",
+  "nameKo": "티켓 부스",
+  "section": "기타 · 편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "A36468",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "현대백화점카드 (서비스 라운지 안)",
+  "nameKo": "현대백화점카드 (서비스 라운지 안)",
+  "section": "기타 · 편의시설",
+  "tel": "02-3277-0924"
+ },
+ {
+  "brandCode": "A36473",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "흡연실(전자담배 전용)",
+  "nameKo": "흡연실(전자담배 전용)",
+  "section": "기타 · 편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "A37085",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "세이지 라운지",
+  "nameKo": "세이지 라운지",
+  "section": "VIP 서비스",
+  "tel": "02-3277-0953"
+ },
+ {
+  "brandCode": "F21391",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "카페 H",
+  "nameKo": "카페 H",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F21455",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "수유실",
+  "nameKo": "수유실",
+  "section": "편의시설",
+  "tel": null
+ },
+ {
+  "brandCode": "F23994",
+  "floor": "6F",
+  "floorCode": "B0100600",
+  "name": "휴대전화 충전기 대여(유료)",
+  "nameKo": "휴대전화 충전기 대여(유료)",
+  "section": "편의시설",
+  "tel": null
+ }
+]

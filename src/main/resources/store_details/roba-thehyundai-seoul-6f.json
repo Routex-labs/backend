@@ -2,14 +2,6 @@
   "PO-YMLJzrGIy5754": {
     "name": "로바",
     "updated_at": "2026-08-21",
-    "demoInfo": [
-      {
-        "label": "전화",
-        "value": "02-3277-0652",
-        "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
-        "confirmed_at": "2026-08-21"
-      }
-    ],
     "summary": "교토의 사계와 정갈한 마음을 담은 한 상으로 다양한 일본식 미학을 경험할 수 있는 로바 ※ LAST ORDER(코스요리) : 20:00 ※ LAST ORDER(단품메뉴) : 21:00",
     "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
     "hours": {
@@ -115,6 +107,11 @@
         "image_asset": "assets/place_details/roba_menu_03d1a1691c6c481b.jpg",
         "price": "47,000원"
       }
-    ]
+    ],
+    "contact": {
+      "tel": "02-3277-0652",
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    }
   }
 }

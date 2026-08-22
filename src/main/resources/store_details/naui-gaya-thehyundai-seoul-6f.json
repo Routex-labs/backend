@@ -89,6 +89,11 @@
         "price": "25,000원",
         "description": "진한 육수에 각종 고명을 곁들인 푸짐한 나의가야 대표 메뉴"
       }
-    ]
+    ],
+    "contact": {
+      "tel": "02-3277-0650",
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/floor-guide"
+    }
   }
 }

@@ -10,6 +10,7 @@ import spring.category.dto.StoreIndexResponse;
 import spring.category.repository.CategoryQueryRepository;
 import spring.common.geo.BuildingGeoTransforms;
 import spring.common.geo.GeoTransform;
+import spring.common.text.PlaceNames;
 import spring.floormap.dto.StoreResponse;
 import spring.floormap.service.PlaceMapper;
 import spring.place.repository.StoreRepository;
@@ -49,7 +50,7 @@ public class CategoryService {
         return categoryQueryRepository.findStoreIndex(buildingId).stream()
                 .map(row -> new StoreIndexResponse(
                         (String) row[0],
-                        (String) row[1],
+                        PlaceNames.display((String) row[1]),
                         (String) row[2],
                         (String) row[3],
                         (String) row[4],

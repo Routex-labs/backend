@@ -2,14 +2,6 @@
   "PO-1loJl6otu4732": {
     "name": "르메르 (남/여)",
     "updated_at": "2026-08-21",
-    "demoInfo": [
-      {
-        "label": "전화",
-        "value": "02-3277-0254",
-        "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
-        "confirmed_at": "2026-08-21"
-      }
-    ],
     "links": [
       {
         "label": "브랜드 공식 사이트",
@@ -18,6 +10,11 @@
     ],
     "summary": "Discover LEMAIRE's collections for women and men, the collaborations and our know-how. LEMAIRE offers a timeless Parisian wardrobe.",
     "source": "https://www.lemaire.fr",
-    "logo": "assets/place_details/logo_lemaire.png"
+    "logo": "assets/place_details/logo_lemaire.png",
+    "contact": {
+      "tel": "02-3277-0254",
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    }
   }
 }

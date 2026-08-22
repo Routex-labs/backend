@@ -2,13 +2,10 @@
   "PO-3R0BuNWKG0009": {
     "name": "죠죠",
     "updated_at": "2026-08-21",
-    "demoInfo": [
-      {
-        "label": "전화",
-        "value": "02-3277-0739",
-        "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
-        "confirmed_at": "2026-08-21"
-      }
-    ]
+    "contact": {
+      "tel": "02-3277-0739",
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    }
   }
 }

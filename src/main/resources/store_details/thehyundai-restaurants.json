@@ -1,0 +1,3895 @@
+{
+  "PO--aFE42z_52604": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0268"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_069ad0b097634d279ea8911c22f6939c.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/dining_a3001cb92d714ab192de571afb78dca1.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/dining_39c8c699878e46eca3264771d5250e9d.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "*메뉴에 따라 금액 상이\n9,500원 ~ 10,500원",
+        "image_asset": "assets/place_details/menu_1d746b899ad94717b363125151777cdc.jpg",
+        "name": "타르틴",
+        "price": "9,500원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_15ecbc69f3c246b9ba845aa0f3e30b34.jpg",
+        "name": "우유 식빵",
+        "price": "7,000원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_047422f8b47b41a5bd36ccfcb4c3939a.jpg",
+        "name": "피스타치오 식빵",
+        "price": "12,000원"
+      }
+    ],
+    "name": "틸 화이트",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "‘till white’는 순수와 본질을 향한 여정을 담은 카페입니다.\n식빵과 스프레드, 스페셜티 커피에 카다멈 라떼까지\n기본에 충실하면서도 특별한 감각을 더한 경험을 선물합니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-05jU--Qxl4770": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_a154d2d3ab3e435d9e7f67f0c30ad36b.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "image_asset": "assets/place_details/menu_89947d0e82d048aebcc6c9bb94e5050d.jpg",
+        "name": "골든 쑥 팥 치즈케이크",
+        "price": "34,500원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_44f753f95ed34a5f88e354ae2a750829.jpg",
+        "name": "골든팥치즈케이크",
+        "price": "34,000원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_2635713b30954f2fabc6f93603c6c9b2.jpg",
+        "name": "골든치즈케이크",
+        "price": "32,000원"
+      }
+    ],
+    "name": "골든치즈",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "쑥과 팥같은 한국의 맛을 더해, 전통과 현대가 어우러진 새로운 풍미의 프리미엄 치즈케이크입니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-18fLBCrbY3182": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_f3d55b9a69764fb7a172f294468533c2.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "바삭 고소한 소보로와 100% 동물성 생크림\n달지 않은 커스터드 크림의 완벽한 조화",
+        "image_asset": "assets/place_details/menu_7988c9a3e14b420397014a0c88295987.jpg",
+        "name": "컵케이크(블랑베리)",
+        "price": "9,500원"
+      },
+      {
+        "description": "크림에 진심인 케이크 가게에서 선보이는 100% 동물성크림과 과일의 조화",
+        "image_asset": "assets/place_details/menu_5fcd9a3251b14afeb767a6672a1dde1f.jpg",
+        "name": "후르츠산도",
+        "price": "8,500원"
+      },
+      {
+        "description": "100% 동물성크림과 한여름에도 강원도 고랭지 딸기를 이용한 상큼함의 절정",
+        "image_asset": "assets/place_details/menu_e2107344d90b48c0ae54955c8fb8bbb7.jpg",
+        "name": "딸기 홀케이크",
+        "price": "35,000원"
+      }
+    ],
+    "name": "블랑 케이크",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "시트·크림·과일까지 모두 핸드메이드로 만드는 프리미엄 케이크신선한 과일로 완성하는 한 조각을 지향합니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-1_8JMDaT_7511": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0798"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_20221008031819535.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "국내산 통밤에 달콤하고 고소한 아몬드페이스트를 넣어 구워낸 바삭한 파이",
+        "image_asset": "assets/place_details/menu_20221008050106719.jpg",
+        "name": "밤파이",
+        "price": "3,900원"
+      },
+      {
+        "description": "상큼한 레몬향이 은은하게 풍기는 촉촉한 식감의 파운드 케이크",
+        "image_asset": "assets/place_details/menu_20221008050215906.jpg",
+        "name": "레몬케이크",
+        "price": "3,900원"
+      }
+    ],
+    "name": "리치몬드 과자점",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "신선한 재료로 건강한 빵을 만들며, 스테디셀러 밤파이로 유명한 브랜드",
+    "updated_at": "2026-08-22"
+  },
+  "PO-3HwLYeThD7045": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_1eba0b79703141b2aff39faa18cba0ac.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "image_asset": "assets/place_details/menu_8c94ca94e9d245228b45daa547e4dd18.jpg",
+        "name": "딸기우유 티라미수",
+        "price": "29,000원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_4798db3e969043cebff84c0ca122ee7d.jpg",
+        "name": "쿠키앤밀크 티라미수",
+        "price": "27,000원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_1f81fe28c25a4c008a4994c02213bf8b.jpg",
+        "name": "오리지널 티라미수",
+        "price": "26,000원"
+      }
+    ],
+    "name": "하트 티라미수",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "러블리한 패키지에 담긴 깨먹는 티라미수, 감성·비주얼·맛을 모두 잡은 프리미엄 디저트 브랜드입니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-4q5v1DIQ88962": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0756"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_d2629f780a82410a8e25cd552f53b640.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "소고기와 민찌소스, 계란 노른자 각종 토핑을 소스와 비벼먹는 라멘",
+        "image_asset": "assets/place_details/menu_dc4bfe50314c4961946338abcbef096f.jpg",
+        "name": "대만식 마제소바",
+        "price": "13,900원"
+      }
+    ],
+    "name": "스트릿",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "아시아 각국의 다채로운 아시안 누들&라이스를 선보입니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-6PZNqvRLZ3912": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_a7f036f93f334b0db0dfc289b781c05b.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "매달 새롭게 선보이는 멜로드도산의 시그니처 디자인 케이크",
+        "image_asset": "assets/place_details/menu_a64b96d96ea7435e940d3145ff803f04.jpg",
+        "name": "Monthly Editon 03"
+      },
+      {
+        "description": "원하는 문구를 담은 나만의 레터링 토퍼로 마음을 전하는 케이크",
+        "image_asset": "assets/place_details/menu_9853dd1282ed48809b527118354e8c8c.jpg",
+        "name": "Monthly Editon 05"
+      },
+      {
+        "description": "신선한 제철 가일을 아낌없이 담아 완성한 멜로드도산의 농장 시리즈 케이크",
+        "image_asset": "assets/place_details/menu_f13e3aad56744e0ba172d78918b16430.jpg",
+        "name": "Farm Farm Cake"
+      }
+    ],
+    "name": "멜로드도산",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "당신의 가장 특별한 순간을 완성하는 프리미엄 수제 케이크 전문점",
+    "updated_at": "2026-08-22"
+  },
+  "PO-Afs5vOkxX8221": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0777"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_1423fc7a9dfb49dd8c713503bc4e1fb8.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "image_asset": "assets/place_details/menu_20231010020602198.jpg",
+        "name": "파이브가이즈 쉐이크",
+        "price": "8,900원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_20231010020546792.jpg",
+        "name": "프라이즈(리틀 사이즈)",
+        "price": "7,400원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_20231010015941227.jpg",
+        "name": "치즈버거",
+        "price": "15,900원"
+      }
+    ],
+    "name": "파이브 가이즈",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "미국 본토의 맛, FIVE GUYS\n신선한 재료들로 커스터마이제이션하여 만드는 버거와\n땅콩 기름으로 튀겨내는 생감자 프라이즈 등\n차별화된 맛을 지금 더현대 서울에서 즐겨보세요!",
+    "updated_at": "2026-08-22"
+  },
+  "PO-AkEWFvfLO7773": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_78eac55616164a988c2c1f497ca3f4d0.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "인공적인 맛이 아닌, 엄선된 재료로 매일 매장에서 직접 제조하여 부담 없이 깔끔한 달콤함을 선사합니다.",
+        "image_asset": "assets/place_details/menu_9175d6db7f944b149531af7063e942ad.jpg",
+        "name": "젤라또(싱글)",
+        "price": "5,400원"
+      }
+    ],
+    "name": "세띠 엠므",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "1A 등급의 우유와 이탈리아 현지에서 사용하는 프리미엄 원재료를 사용하여, 매일 정성스럽게 수제 젤라또를 만듭니다. 현지의 전통 레시피와 전통 제조 방식을 고수하여 재료 본연의 깊은 맛과 고급스러운 풍미를 그대로 담았습니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-Azlfnmzx76821": {
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_f8c28cbffbd7455682847791fba893c4.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "image_asset": "assets/place_details/menu_433ed5dd076a471f9047d235ef1e18c1.jpg",
+        "name": "맥코이커피",
+        "price": "7,000원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_8ba93d49cd2d4c67941f9ba1829a0d97.jpg",
+        "name": "마체도니아",
+        "price": "7,000원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_a6929406ea2240a8b9182efe3abf1427.jpg",
+        "name": "카페 콘 파나",
+        "price": "5,000원"
+      }
+    ],
+    "name": "맥코이",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "빈티지한 공간의 맥코이, 클래식한 커피와\n당일 수제로 만드는 부드러운 티라미수를 즐겨보세요.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-EqgSNLcVn3717": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0754"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_5f1b55b152df41a6849304734b9b0f13.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "크림치즈와 사워크림으로 만든 타르트와 그 위에 올려진 싱싱한 딸기가 조화를 이루는 시그니처 케이크",
+        "image_asset": "assets/place_details/menu_90765d8e545a41ba885380d0c3f3a58d.jpg",
+        "name": "딸기레어치즈타르트",
+        "price": "53,000원"
+      },
+      {
+        "description": "풍부한 맛의 생크림과 케익, 그리고 딸기가 어우러진 생크림 케이크",
+        "image_asset": "assets/place_details/menu_5b930618557640f2ba04b58c8280818f.jpg",
+        "name": "딸기 생크림 케이크 (2호)",
+        "price": "47,000원"
+      },
+      {
+        "description": "치즈 케이크와 마스카포네 치즈 케익을 동시에 맛보는 치즈 케이크",
+        "image_asset": "assets/place_details/menu_a39a7e1ac68c443291a9ba875b8f90a7.jpg",
+        "name": "듀얼 치즈 케익",
+        "price": "47,000원"
+      }
+    ],
+    "name": "파리크라상",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "매일 반죽해 구운 빵과 디저트를 제공하는 고품격 프리미엄 베이커리 입니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-F-1gRTmq83709": {
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_85274dd5b15347d19178f13933ee3c9d.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "image_asset": "assets/place_details/menu_872e0d02a64949378720a0a1b476e610.jpg",
+        "name": "우유 크림 소금빵",
+        "price": "6,800원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_cf4e46a6dd7f400f92b32b2bf07769a4.jpg",
+        "name": "얼그레이 밀크잼 소금빵",
+        "price": "6,800원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_83a8786c56f444448f859fd469ed41ee.jpg",
+        "name": "플레인 소금빵",
+        "price": "3,800원"
+      }
+    ],
+    "name": "아티스트 베이커리",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "아티스틱하고 이국적인 공간에서 경험할 수 있는\n독보적인 쫄깃한 식감의 소금빵",
+    "updated_at": "2026-08-22"
+  },
+  "PO-H8l2Ls7vi9053": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0761"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_ebf54e376e2c49ddaf288cac713b955a.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "모둠 BBQ와 채소를 면과 함께 느억맘 소스에 찍어 먹는 요리",
+        "image_asset": "assets/place_details/menu_585f41633ed947b79e9465d3aff86a38.jpg",
+        "name": "분짜",
+        "price": "22,000원"
+      },
+      {
+        "description": "돼지고기와 채소가 들어간 볶음 쌀국수",
+        "image_asset": "assets/place_details/menu_2e233bf0fd8b4cb589e6d6bd0df53b44.jpg",
+        "name": "돼지고기 볶음 쌀국수",
+        "price": "16,800원"
+      },
+      {
+        "description": "소고기 고명이 듬뿍 들어간 쌀국수",
+        "image_asset": "assets/place_details/menu_86ea63aa5ba94af392aeb20413b531fa.jpg",
+        "name": "맑은 소고기 쌀국수",
+        "price": "12,500원"
+      }
+    ],
+    "name": "퍼부어",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "베트남 셰프들과 정호균쉐프가 직접 만나며 그들의 레시피를 현지화 하였습니다.\n기존의 획일화 된 베트남 음식과 다른 더욱 로컬화한 메뉴들을 맛보세요.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-IKH-XzoKG4613": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_37c33eb79b2b4b7190b1b60cf28d7466.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "바삭한 파이 안에 통단팥을 가득 넣어 남녀노소 누구나 좋아하는 파이만주",
+        "image_asset": "assets/place_details/menu_378c8f5c59b54b388d7d14ed3f921f51.jpg",
+        "name": "파이만쥬",
+        "price": "8,800원"
+      },
+      {
+        "description": "뭔가 다른 맘모스빵, 업그레이드된 단팥, 호두, 밤, 크림을 가득넣은 NEW 맘모스",
+        "image_asset": "assets/place_details/menu_4d93004a16da420280229805e8942c7f.jpg",
+        "name": "소보로의 밤(1입)",
+        "price": "4,400원"
+      },
+      {
+        "description": "100% 동물성크림과 생딸기가 가득 들어간 베즐리 인기 프레지에 케이크",
+        "image_asset": "assets/place_details/menu_45b908ba18f3410aad36bcd34e9aa174.jpg",
+        "name": "딸기프리지에",
+        "price": "42,000원"
+      }
+    ],
+    "name": "베즐리",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "좋은 원재료와 프랑스 정통 제법으로 갓 구운 빵만 판매하는 현대백화점의 프리미엄 베이커리 브랜드 베즐리(Vezzly)입니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-JL9KboZAH5926": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0765"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_d2cde3c898b84967a924a421c9455087.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "밥알을 손으로 살며시 쥐어 그 위에 원재료를 얹은 초밥을 말하며,\n손에 쥘때 공기를 넣어 부드럽게 만든 초밥이 입안에서\n녹아 내리듯 사라지는 진정한 초밥입니다.",
+        "image_asset": "assets/place_details/menu_20221108061849361.jpg",
+        "name": "만족초밥세트 20PCS",
+        "price": "38,000원"
+      },
+      {
+        "description": "본가 특제 초장소스와 함께 즐기는 신선함 가득\n활어회덮밥",
+        "image_asset": "assets/place_details/menu_20221108061528821.jpg",
+        "name": "활어회덮밥",
+        "price": "17,000원"
+      }
+    ],
+    "name": "본가 스시",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "본가스시는 기본을 중시하고, 전통을 지키는 本家를 의미합니다.\n고객에게 고품질과 서비스를 제공하는 마음으로\n고객의 니즈에 맞는 60여종의 다양하고 엄선된 메뉴를 제공합니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-Lhns5n7OH8229": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0766"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_34a1056fff67449a83cd796856ce5326.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "제주에서 줄서서 먹는 맛집의 제주산 해산물을 잔뜩 넣어 시원한 맛이 일품입니다.",
+        "image_asset": "assets/place_details/menu_20221110032559211.jpg",
+        "name": "스페셜 전복 해물탕 (大)",
+        "price": "82,000원"
+      },
+      {
+        "description": "살얼음 동동 띄운 시원한 육수에 한치와 야채, 곤약면으로 다이어트에도 좋습니다.",
+        "image_asset": "assets/place_details/menu_20221110033953777.png",
+        "name": "모듬물회",
+        "price": "23,000원"
+      }
+    ],
+    "name": "삼성혈 해물탕",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "푸짐하게 담긴 신선한 해물과 원재료\n고유의 맛을 살린 시원한 제주도 해물탕 집입니다.\n제주 바다를 그대로 가져온 시원한 국물은\n해산물 요리의 진수를 보여줍니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-MLIPLJflI7169": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0713"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_b3440cb24af34898be6978f227366cda.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "비린맛 zero! 속 편하게 즐기는 8가지 맛의 프로틴",
+        "image_asset": "assets/place_details/menu_624566fc76094b878845e37aa67a1344.jpg",
+        "name": "코코밥 단백질 쉐이크(50g)",
+        "price": "3,900원"
+      },
+      {
+        "description": "설탕 zero! 탱글탱글 씹어먹는 애사비 젤리",
+        "image_asset": "assets/place_details/menu_8eaaba66241f43a48eb6d3d27ca21d97.jpg",
+        "name": "코코팡 애사비 젤리(20g) 14개입",
+        "price": "12,900원"
+      }
+    ],
+    "name": "코코밥",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "입안 가득 크런치가 바삭! 디저트처럼 찐하게 맛있는 단백질쉐이크",
+    "updated_at": "2026-08-22"
+  },
+  "PO-MjkMb3Bu99187": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0757"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_a547919d404049cf89d5cbb2af798eef.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "image_asset": "assets/place_details/menu_8725266d1cbf4fcb952a975e6bb09d7b.jpg",
+        "name": "철판사자두",
+        "price": "20,000원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_cb56cd61173a45f6866a49514f0ac8b0.jpg",
+        "name": "금문우육면",
+        "price": "15,000원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_89b442c32fa341f99b7989ddbc2e60f6.jpg",
+        "name": "망고빙수",
+        "price": "15,000원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_153e4d22d1604a03b6cac9ebe915c2f9.jpg",
+        "name": "대만식짜장면",
+        "price": "12,000원"
+      }
+    ],
+    "name": "푸만만",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "타이베이 로컬의 감성과 대만식 중화요리를\n새로운 시선으로 담아낸 푸만만\n타이베이의 유명 식당 ‘진신타이차이’와 \n20년 경력의 대만 셰프가 함께 완성한 맛을 \n더현대 서울에서 만나보세요.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-N2J3XW-hG6429": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0763"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_5666864354264afd9c4262a0674d257f.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "두툼한 고기 두께가 일품!\n믿고 먹는 호우섬 대표요리",
+        "image_asset": "assets/place_details/menu_20221108064048092.jpg",
+        "name": "마늘칩 꿔바육",
+        "price": "29,900원"
+      },
+      {
+        "description": "새우와 돼지고기 완자를 올린 홍콩식 솥밥",
+        "image_asset": "assets/place_details/menu_20221108064359611.png",
+        "name": "새우 & 돼지고기 완자",
+        "price": "18,900원"
+      },
+      {
+        "description": "고기를 듬뿍 넣어 볶음 짜장에 비벼 먹는 도삭면",
+        "image_asset": "assets/place_details/menu_20221108064146328.jpg",
+        "name": "라구짜장 도삭면",
+        "price": "11,900원"
+      }
+    ],
+    "name": "호우섬",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "홍콩 골목을 돌면 만날 것 같은 홍콩식 대중 음식점 입니다.\n매일 먹어도 질리지 않는 딤섬, 면, 솥밥을 만들었습니다.\n오픈키친에서 홍콩의 소울푸드를 생생하게 맛보세요.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-QfXL2126z1597": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-8551"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_20221008114850294.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "초콜릿 칩을 넣은 스콘 위에 초콜릿 가나슈와 크림을 올린 스콘",
+        "image_asset": "assets/place_details/menu_20221008041954723.jpg",
+        "name": "더블초코스콘",
+        "price": "5,500원"
+      },
+      {
+        "description": "촉촉한 플레인 스콘에 달콤한 팥앙금과 고소한 버터를 샌드한 스콘",
+        "image_asset": "assets/place_details/menu_20221008041039809.jpg",
+        "name": "앙버터스콘",
+        "price": "5,500원"
+      }
+    ],
+    "name": "카페 레이어드",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "카페 레이어드는 영국 가정집을 연상시키는 빈티지한 무드속에서\n다양한 홈메이드 스콘과 케이크들을 즐길 수 있는 베이커리 카페입니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-QpPoW1v8F6749": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_6b12a8f257264cf892e2d2b45db3ea33.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "부드럽게 조리한 소고기를 활용해 비틀스 타코만의 스타일로 재해석한 시그니처 타코입니다.",
+        "image_asset": "assets/place_details/menu_9530586d375a4ddaa89ea550c2d2a272.jpg",
+        "name": "비리아타코"
+      },
+      {
+        "description": "부드러게 찢은 돼지고기의 깊은 풍미를 비틀스 타코만의 스타일로 완성한 타코입니다.",
+        "image_asset": "assets/place_details/menu_9e637fff62924f52b83c8c067dbf2671.jpg",
+        "name": "폴드포크타코"
+      },
+      {
+        "description": "풍미 깊은 양고리를 비틀스 타코만의 소스와 조리 방식으로 완성한 타코입니다.",
+        "image_asset": "assets/place_details/menu_e7d22dfb978b41cb89de17ba4d12e686.jpg",
+        "name": "램타코"
+      }
+    ],
+    "name": "비틀스타코",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "BITTLES TOCO(비틀스 타코)는 멕시칸 푸드를 유쾌하고 감각적으로 재해석한 타코 전문 브랜드입니다.다양한 소스와 신선한 식재료를 활용해 비틀스타코만의 개성 있는 메뉴를 선보이며, 고객에게 즐겁고 특별한 맛의 경험을 제공합니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-SvcnUx6Q-0597": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_22dd35f12992420083bc2008e3c37b74.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:30",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "image_asset": "assets/place_details/menu_adbee9e0d402418595a2f6d7311058e9.jpg",
+        "name": "통밀 호두 베이글",
+        "price": "4,700원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_619988a3630c42c1a57917cb22ade072.jpg",
+        "name": "토마토 허브 베이글",
+        "price": "4,700원"
+      },
+      {
+        "description": "부드럽고 쫄깃한 식감과 촉촉함이 매력적인 베이글",
+        "image_asset": "assets/place_details/menu_87c75f012a534b109538fe8bf054979d.jpg",
+        "name": "플레인 베이글",
+        "price": "3,800원"
+      }
+    ],
+    "name": "런던베이글 뮤지엄",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "다정한 스텝과 방금 나온 베이글.그리고 따뜻한 수프가 기다리는 가장 가까운 런던 속 베이글 뮤지엄,국내 어디에서도 맛볼 수 없었던 베이글의 식감과 무드를 선보입니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-SztY3IoCZ1053": {
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_d362a1372ce44a5eab8147487f071403.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "image_asset": "assets/place_details/menu_0aacb46bf3ff48aaa08efea893ba5e03.jpg",
+        "name": "어니언 링",
+        "price": "7,000원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_3e64126d41184a778aa1aa2ce38426b5.jpg",
+        "name": "베이컨 칠리 치즈 도그",
+        "price": "14,000원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_c54b3df93535439fa322d6c697f427d5.jpg",
+        "name": "클래식 칠리 도그",
+        "price": "13,000원"
+      }
+    ],
+    "name": "핑크스 핫도그",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "1939년부터 이어진 할리우드의 전설,\n86년 전통의 미국 오리지널 핫도그",
+    "updated_at": "2026-08-22"
+  },
+  "PO-VL2v3hP5R0218": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0651"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_a3a538e0e3e549fd926c5c026128cf95.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/dining_6f7fe4b69d5c487389874ec4da4e0941.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/dining_152ee86bd67642bdb46493b7c77d2cc0.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/dining_1c658475292b426abacd158e0b5f7e0a.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "15:00",
+            "open": "10:30"
+          },
+          {
+            "close": "22:00",
+            "open": "17:20"
+          }
+        ],
+        "mon": [
+          {
+            "close": "15:00",
+            "open": "10:30"
+          },
+          {
+            "close": "22:00",
+            "open": "17:20"
+          }
+        ],
+        "sat": [
+          {
+            "close": "15:00",
+            "open": "10:30"
+          },
+          {
+            "close": "22:00",
+            "open": "17:20"
+          }
+        ],
+        "sun": [
+          {
+            "close": "15:00",
+            "open": "10:30"
+          },
+          {
+            "close": "22:00",
+            "open": "17:20"
+          }
+        ],
+        "thu": [
+          {
+            "close": "15:00",
+            "open": "10:30"
+          },
+          {
+            "close": "22:00",
+            "open": "17:20"
+          }
+        ],
+        "tue": [
+          {
+            "close": "15:00",
+            "open": "10:30"
+          },
+          {
+            "close": "22:00",
+            "open": "17:20"
+          }
+        ],
+        "wed": [
+          {
+            "close": "15:00",
+            "open": "10:30"
+          },
+          {
+            "close": "22:00",
+            "open": "17:20"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "바쁜 일정과 무겁지 않은 다이닝을 위한 코스로 6코스 메뉴 및 커피/티가 제공",
+        "image_asset": "assets/place_details/menu_5885056252214f47850c2bd6f329f1bf.jpg",
+        "name": "컴팩트 디너코스 / 라운지에오 레카르테",
+        "price": "85,000원"
+      },
+      {
+        "description": "바쁜 일정과 무겁지 않은 다이닝을 위한 코스로 5코스 메뉴 및 커피/티가 제공",
+        "image_asset": "assets/place_details/menu_422a46ab798248c2b0ca50c04eae2996.jpg",
+        "name": "컴팩트 런치코스 / 라운지에오 레카르테",
+        "price": "65,000원"
+      }
+    ],
+    "name": "리스토란테 에오",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "2006년부터 어윤권 셰프가 청담동에서 선보인 정통 이탈리안 컨템포러리 다이닝입니다.신선한 제철 식재료 본연의 맛을 살린 요리로 이탈리안 코스를 제대로 만끽할 수 있습니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-Wowwey3Ec7901": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_68777e30a5c945aa84fa617f52948c3b.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "name": "금옥당",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "금옥당은 전통 다과의 가치를 현대적인 감각으로 재해석하는 프리미엄 한국 디저트 브랜드입니다.100% 국산 팥과 엄선된 원재료를 사용하여 직접 만든 앙금을 바탕으로 수제 생양갱과 다양한 전통 다과를 선보이며, 일상은 물론 소중한 분께 마음을 전하는 선물까지 품격 있는 디저트 경험을 제공합니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-WswUhxVR26639": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_8d75a03de8c3491a9c02d5ca57f7b9c2.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "깊은 카카오의 풍미가 어우러지는 달콤한 수플레 카스테라",
+        "image_asset": "assets/place_details/menu_d8f33f90f3e344359c52415f0b1faf89.jpg",
+        "name": "카카오 카스테라",
+        "price": "9,500원"
+      },
+      {
+        "description": "달걀의 깊은 풍미를 느낄 수 있는 촉촉하고 폭신한 수플레 카스텔라",
+        "image_asset": "assets/place_details/menu_4a44d2278de546fca25c14d828d3678b.jpg",
+        "name": "플레인카스테라",
+        "price": "9,000원"
+      },
+      {
+        "description": "은은한 달콤함과 쌉살함이 더해진 말차의 깊은 풍미를 느낄 수 있는 수플레 카스텔라",
+        "image_asset": "assets/place_details/menu_3afb63f2aa1b46ddbde3795c0cfa6388.jpg",
+        "name": "말차 카스테라",
+        "price": "10,500원"
+      }
+    ],
+    "name": "근제 베이커리",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "'근제'는 '마음을 담아 정성스럽게 만든다'는 의미입니다.좋은 재료를 정직하게 선택하고, 모든 공정을 세심하게 완성하여 정성껏 구워냅니다. 변하지 않는 깊은 맛과 한결같은 품질로 믿고 찾을 수 있는 카스텔라를 전합니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-X2JNWv9xB9684": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_95c73a534f8742f9816641e18de5337f.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "겹겹이 결을 살린 바삭한 페이스트리에 달콤한 사과를 풍성하게 담아 정성껏 구워낸 애니브의 클래식 애플파이",
+        "image_asset": "assets/place_details/menu_3c5d24a4dd52414085bbeffe99c3f3f8.jpg",
+        "name": "애플파이",
+        "price": "9,500원"
+      },
+      {
+        "description": "일본 정통 제법을 바탕으로 정성껏 구워낸 애니브의 대표 메뉴입니다.",
+        "image_asset": "assets/place_details/menu_b9cd8301ebc1463d9b659b78228da25b.jpg",
+        "name": "시그니처 카스텔라",
+        "price": "20,000원"
+      },
+      {
+        "description": "폭신한 제누아즈와 부드러운 생크림, 최고급 제철 과일이 조화를 이루는 애니브의 시그니처 쇼트케이크입니다.",
+        "image_asset": "assets/place_details/menu_b27553b57080432b9aaa9f22168fa5b1.jpg",
+        "name": "애니브 쇼트케이크",
+        "price": "13,800원"
+      }
+    ],
+    "name": "애니브",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "ANNIV(애니브)는 일본의 정통 제과 기술과 섬세한 감성을 담아낸 프리미엄 파티세리입니다. 연희동 본점을 중심으로 나가사키 카스텔라와 쇼트케이크, 시즌 디저트를 선보이며, 좋은 재료와 정성을 바탕으로 오래 기억되는 맛을 전합니다. 정교한 기술과 시간이 만들어내는 깊은 풍미로 애니브만의 품격있는 디저트를 완성합니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-_dI1Z9_d38301": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_4a7f0944b7af43d6a5819d937c787d70.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "바지락을 진하게 우려낸 시원한 육수와 쇼유의 감칠맛이 조화를 이루는 라멘",
+        "image_asset": "assets/place_details/menu_657b6ab1640844dc973b5fd728e44c78.jpg",
+        "name": "바지락 쇼유 라멘",
+        "price": "12,900원"
+      },
+      {
+        "description": "구운 마늘과 구운 양파의 고소한 풍미가 어우러진 깊고 진한 쇼유 라멘",
+        "image_asset": "assets/place_details/menu_e83b0f1283574830950526770a8710f5.jpg",
+        "name": "구운 마늘 라멘",
+        "price": "12,000원"
+      },
+      {
+        "description": "닭과 조개의 담백한 맛 사이에서도 깊은 풍미를\n자랑하는 육수와 특제 쇼유가 어우러진, 깊이 있는 대표 라멘",
+        "image_asset": "assets/place_details/menu_6c646fe769e14d139d3e37d919585553.jpg",
+        "name": "칸사이 소유 라멘",
+        "price": "12,000원"
+      }
+    ],
+    "name": "더라멘워",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "더라멘워는 일본 오사카의 정통 쇼유 라멘을 기반으로 한 라멘 전문 브랜드입니다. 닭과 조개를 블렌딩한 특제 육수에 깊은 간장의 풍미를 더해 깔끔하면서도 감칠맛이 살아있는 한그릇을 선보입니다. 자가제면한 면과 엄선된 재료를 사용하여 정통 일본 라멘의 맛을 제공합니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-aMpEQvi7e9388": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0769"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_f64ad5afc82d4329b677a78c7b054a47.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": ": <2인 이상 주문 가능>\n흑마늘 탕수육/명장 짜장면or짬뽕(짬뽕밥) 중 선택/\n탄산음료 인원수만큼 택 1",
+        "image_asset": "assets/place_details/menu_293552957e6846f5a7ae2f093288c71f.jpg",
+        "name": "시그니처 A 세트",
+        "price": "29,500원"
+      },
+      {
+        "description": "각종 채소와 소고기의 진한 풍미를 함께 느낄 수 있는 유방녕의 인기 메뉴입니다.",
+        "image_asset": "assets/place_details/menu_d05279146da7435a94ffcbbfd332c953.png",
+        "name": "소고기 짬뽕",
+        "price": "18,000원"
+      },
+      {
+        "description": "가문의 비법 짜장소스에 새우, 청양고추 고명을 곁들인 유방녕의 대표 메뉴입니다.",
+        "image_asset": "assets/place_details/menu_a9c34042411b47d2998a4c38200b3bb7.jpg",
+        "name": "명장 짜장면",
+        "price": "12,000원"
+      }
+    ],
+    "name": "유방녕",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "중화요리 4대 문파 중 한명으로 손꼽히는 유방녕 셰프의 프리미엄 중식 레스토랑입니다.우뚝한 삼대, 백년에 걸친 가문의 비법을 맛보실 수 있습니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-bawy_CfOO1219": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0654"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_dea2f851d58f41bb9ac3979ed4e20c1f.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "베르그 콜드브루 우유라떼 위에 고소한\n밀크 소프트아이스크림",
+        "image_asset": "assets/place_details/menu_ca30f2e3ae96490d84f69bac5469b449.jpg",
+        "name": "아이브제(시그니처)",
+        "price": "7,500원"
+      },
+      {
+        "description": "진한 말차 페스토와 코코넛 칩.\n오직 더현대 서울점에서만 만나볼 수 있습니다.",
+        "image_asset": "assets/place_details/menu_264ec1e5d4f4431bafc442c133a173a3.jpg",
+        "name": "포레스트 서울(Forest Seoul)",
+        "price": "7,000원"
+      },
+      {
+        "description": "바삭하고 쫀쫀한 프리미엄 웨이퍼콘 위에 밀크 소프트 아이스크림",
+        "image_asset": "assets/place_details/menu_cf77f06554674f17bb37c4df4625554f.jpg",
+        "name": "밀크 콘(Milk Cone)",
+        "price": "5,800원"
+      }
+    ],
+    "name": "베르그",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "2019년 한남점을 시작으로 도산점, 서울숲점에 이어 4호점 더현대 서울에테이크아웃 전문점으로 고객님들께 선보이고 있습니다. 다양한 소프트 아이스크림과 커피, 르뱅쿠키를 함께 만나보세요.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-e6KCPAGX12445": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_2b28f025ee894ff8b9bd5d3ad3828f18.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "볼카츠를 상추와 유린기 소스로 곁들여 먹을 수 있는 사이드 메뉴",
+        "image_asset": "assets/place_details/menu_7e102c702e3949cb98c4a0111d0fa714.jpg",
+        "name": "볼카츠",
+        "price": "5,500원"
+      },
+      {
+        "description": "가라아게를 양파와 크림소스로 곁들여 먹을 수 있는 사이드 메뉴",
+        "image_asset": "assets/place_details/menu_82df63ea540142329822ae492470bc1b.jpg",
+        "name": "가라아게",
+        "price": "5,000원"
+      },
+      {
+        "description": "진한 멸치 육수 본연의 맛을 즐길 수 있는 샤브샤브",
+        "image_asset": "assets/place_details/menu_85321c0c03bd48ed988bb14d198e2f1f.jpg",
+        "name": "샤브샤브",
+        "price": "14,900원"
+      }
+    ],
+    "name": "강호연파 밥굽남",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "강호연파는 깊고 진한 육수와 신선한 식재료로 누구나 부담없이 즐길 수 있는 샤브샤브 브랜드입니다.\n깊은 맛과 따뜻한 정성이 담긴 특별한 한 끼를 제공합니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-f81t7Phvl4541": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0764"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_d1f20b3fa5a44c93b84f03af6cd03879.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "오랫동안 돼지의 식감과 두께를 연구해 완성한 공탕 진 수육",
+        "image_asset": "assets/place_details/menu_86ea719f92104005ba96437091d5addf.jpg",
+        "name": "공탕 진 냉수육 한접시",
+        "price": "25,000원"
+      },
+      {
+        "description": "장인의 손맛과 43시간의 기다림으로 만들어진 깊은 육수로 만든 맑은 국물의 돼지 곰탕",
+        "image_asset": "assets/place_details/menu_36a9305f4499475ea0fa6106045f7158.jpg",
+        "name": "돼지공탕(기본)",
+        "price": "13,000원"
+      }
+    ],
+    "name": "공탕",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "장인의 손맛과 43시간의 기다림으로\n깊은 맛이 일품인 곰탕 전문점'\n'공탕'을 더현대 서울에서 새로 만나보세요.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-fXXA1AR_G6628": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0661"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_20210209104641745.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "부드러운 리얼 초콜릿 음료에 깊고 진한 소프트 아이스크림을 더한 메뉴 (밀크/다크)",
+        "image_asset": "assets/place_details/menu_ca3f4f40b479493cbfdc649101970a75.jpg",
+        "name": "아이스 초콜릿 + 아이스크림",
+        "price": "9,500원"
+      },
+      {
+        "description": "프리미엄 초콜릿을 직접 갈아만든 리얼 초콜릿 음료 꾸준히 사랑 받는 No.1 시그니처 메뉴",
+        "image_asset": "assets/place_details/menu_4d3666b7b50e43baa01e34246fb53be5.jpg",
+        "name": "다크 초콜릿 데카당스",
+        "price": "9,000원"
+      },
+      {
+        "description": "진하고 깊은 오리지널 초콜릿 풍미, 고디바만의 고급스럽고 실키한 텍스쳐의 소프트 아이스크림",
+        "image_asset": "assets/place_details/menu_9ed8927f882a47aa9841791980ea3986.jpg",
+        "name": "소프트 아이스크림",
+        "price": "8,000원"
+      }
+    ],
+    "name": "고디바",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "95년의 역사를 가진 셰프 쇼콜라티에가 만든 벨기에 프리미엄 초콜릿 브랜드에\n걸맞은 전통의 맛을 지키면서 엄선된 재료와 최고의 기술로 고객의 기대를 뛰어넘는 고디바입니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-gviTpXh5P4214": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_dcaf5bc070974111b1953852483e9a62.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "겉은 바삭 속은 쫀득한 꿔바로우에 부드럽고 달콤한 고구마 무스를 얹어 단짠의 조화를 더한 메뉴",
+        "image_asset": "assets/place_details/menu_2ab38ac4493b4bc1a735255a61230598.jpg",
+        "name": "스윗포테이토 꿔바로우",
+        "price": "7,500원"
+      },
+      {
+        "description": "알싸하고 매콤한 마라 양념에 소고기와 14가지 재료들을 감칠맛나게 볶아낸 요리",
+        "image_asset": "assets/place_details/menu_049572009c074ecda192e88febd95863.jpg",
+        "name": "소고기 마라샹궈 & 공기밥",
+        "price": "13,500원"
+      },
+      {
+        "description": "얼큰하고 진한 마라탕, 소고기와 14가지 재료를 푸짐하게 담아 밥과 함께 즐기는 든든한 한 끼",
+        "image_asset": "assets/place_details/menu_48c4f09b1eff4c1f9c66070763541313.jpg",
+        "name": "소고기 마라탕 & 공기밥",
+        "price": "11,500원"
+      }
+    ],
+    "name": "마유유 마라탕",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "45년 중식 세프의 특별한 레시피, 어디서도 맛볼 수 있없는 깊고 진한 마라탕",
+    "updated_at": "2026-08-22"
+  },
+  "PO-iCRVJP-dr0874": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_ed40054fe5b64f218f5682ba4134ce51.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "달콤한 생딸기를 초코앙금으로 감싼 초코딸기 찹쌀떡",
+        "image_asset": "assets/place_details/menu_e7523c13de5e4f7fb4242081e6451830.jpg",
+        "name": "초코딸기 찹쌀떡",
+        "price": "5,500원"
+      },
+      {
+        "description": "하얀 찹쌀피 안에 신선한 생딸기와 적앙금이 가득한 생딸기 찹쌀떡",
+        "image_asset": "assets/place_details/menu_9f168c0394dd45bf991bdc20a95750a5.jpg",
+        "name": "생딸기 찹쌀떡",
+        "price": "4,200원"
+      },
+      {
+        "description": "홍시 하나가 통으로 들어간 한정선 시그니처 찹쌀떡",
+        "image_asset": "assets/place_details/menu_8c126d5fef5a4d1f858899af6b4ca469.jpg",
+        "name": "홍시 찹쌀떡",
+        "price": "4,200원"
+      }
+    ],
+    "name": "한정선",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "한정선은 한국의 전통과 계절을 정성으로 빚어 선물의 가치로 완성하는 K-디저트 브랜드입니다. 계절마다 엄선한 신선한 과일과 최상의 재료로 정성껏 빚어낸 찹쌀떡은 오직 한정선만이 만들어낼 수 있는 한국의 맛과 미감을 새로운 방식으로 전합니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-imMAhFrOv7936": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_9a95a512c8274f45bd4686dc8870de6a.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "돈안심 부위를 직접 손질해 부드러운 안심카츠 정식 세트",
+        "image_asset": "assets/place_details/menu_aebe782769f24351a4506f1fc378dbfd.jpg",
+        "name": "안심카츠정식",
+        "price": "16,000원"
+      },
+      {
+        "description": "붓가케우동, 새우, 단호박, 어묵튀김을 올린 냉우동",
+        "image_asset": "assets/place_details/menu_851951bdf16041fcbd14cd4aff3beb5a.jpg",
+        "name": "텐붓가케우동",
+        "price": "15,000원"
+      },
+      {
+        "description": "두투마고 부드럽게 튀겨낸 등심카츠와 우동 공기밥 샐러드로 구성된 한상차림입니다.",
+        "image_asset": "assets/place_details/menu_2f3e009b97e74b40a606cc4e39566024.jpg",
+        "name": "등심카츠정식",
+        "price": "14,000원"
+      }
+    ],
+    "name": "토나리우동",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "일본식의 정통 우동을 기반으로 다양한 메뉴를 준비해 방문객의 입맛을 사롭잡습니다. 텐붓가케우동, 명란크림우동 등 인기 있는 메뉴는 우동의 깊은 맛과 함께 특별한 조합으로 다채로운 맛을 제공합니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-m3T0xohkT0983": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-8501"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_1da0d6fbb0974d35a55173e97816e5c8.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "image_asset": "assets/place_details/menu_20230921060422577.jpg",
+        "name": "피스타치오 퀸아망",
+        "price": "6,800원"
+      },
+      {
+        "description": "프랑스 고급 AOP 레스큐어 버터를 사용해 겉바속촉한 테디의 시그니쳐 크로아상",
+        "image_asset": "assets/place_details/menu_6f3f79b9fcd24897820d20aeb3e99276.jpg",
+        "name": "버터 크로아상",
+        "price": "4,900원"
+      }
+    ],
+    "name": "테디뵈르하우스",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "삼각지의 작은 파리, '테디뵈르하우스'\n미슐랭 출신 파티쉐의 크루아상 전문점으로\n파리 노천 카페를 옮겨 놓은 인테리어와\n귀여운 테디베어들이 반겨주는 버터향 가득 풍기는 용리단길 웨이팅 맛집.\n\"Love is everywhere, Look for Love!\"",
+    "updated_at": "2026-08-22"
+  },
+  "PO-mDeN1cdDX9015": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0713"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_a3f63bef3d154d07bfa6798ae7e8070e.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "달콤한 수제 크림이 올라가는 마일스톤의 비엔나커피",
+        "image_asset": "assets/place_details/menu_158144e469314a91a4f535f721e7542f.jpg",
+        "name": "Vienna coffee",
+        "price": "6,800원"
+      },
+      {
+        "description": "스페셜티 커피를 빠르게 즐길 수 있는 마일스톤의 배치브루",
+        "image_asset": "assets/place_details/menu_f6285eb6e4a04f9793beb7ccb3ea253e.jpg",
+        "name": "Batch Brew",
+        "price": "6,000원"
+      },
+      {
+        "description": "단맛과 고소함이 좋은 마일스톤의 부드러운 라떼",
+        "image_asset": "assets/place_details/menu_34fc6d9ef4f0458fbe13cebc1e3d4538.jpg",
+        "name": "Latte",
+        "price": "6,000원"
+      }
+    ],
+    "name": "마일스톤",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "맛있는 커피를 향한 이정표 since 2014 우리는 방문해주시는 모든 고객을 환대하는 마음으로 일합니다.건강한 마인드와 프로페셔널한 태도로 팀워크를 다지고, 작고 사소한 일 하나까지도 최선을 다하고자 합니다. 진심을 담아 내어드리는 커피 한 잔이 누군가의 하루에 작은 위로와 힘이 될 수 있다고 믿습니다.마일스톤의 변치 않는 꾸준함과 진솔함이 우리의 매개체인 커피를 통해 오래도록 전해지길 바랍니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-mPN6UlT_27977": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0713"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_4837cf9cd47f4ebd931efeb2927ed7d0.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "22:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "신선한 해산물과 진한 토마토 소스로 맛을 낸 매콤한 국물 파스타",
+        "image_asset": "assets/place_details/menu_f26969e13c52455db3df89559b6bceba.jpg",
+        "name": "해산물 뚝배기 파스타",
+        "price": "28,000원"
+      },
+      {
+        "description": "제철채소와 과일, 그리고 와인웍스 시그니처 레몬 드레싱이 곁들여진 샐러드",
+        "image_asset": "assets/place_details/menu_1a7cd7bb583646569131e5600867729f.jpg",
+        "name": "와인웍스 샐러드",
+        "price": "24,000원"
+      }
+    ],
+    "name": "와인웍스(다이닝)",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "와인 복합 문화 공간으로, 와인과 어울리는 다양한 문화 콘텐츠를 즐길 수 있는 와인웍스 더현대 서울점입니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-mf_ewInwy9934": {
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_42a19a9d510945688f01de93f4294dd8.png"
+      },
+      {
+        "local_asset": "assets/place_details/dining_406d7c97db124e5ab336b333456fcd8c.png"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "신선한 아사이베리와 망고100%퓨레, 슈가프리 플레인 요거트, 아몬드, 꿀, 블루베리 토핑",
+        "image_asset": "assets/place_details/menu_76d8fd28aba94011ab9ab914afd8818e.jpg",
+        "name": "망고맘보(클래식)",
+        "price": "15,000원"
+      },
+      {
+        "description": "패션후르츠의 새콤달콤한 매력, 치아푸딩의 부드러운 식감이 더한 든든한 특별 조합",
+        "image_asset": "assets/place_details/menu_22b7176dd0704060b98e95228f5d0671.jpg",
+        "name": "트로피컬 볼(클래식)",
+        "price": "14,000원"
+      },
+      {
+        "description": "브라질에서 온 아사이베리 베이스에 피넛버터와 그래놀라, 코코넛 후레이크, 바나나 토핑",
+        "image_asset": "assets/place_details/menu_8f4c3fc9e61a487da271f8d0858ea523.jpg",
+        "name": "디 오리지널(클래식)",
+        "price": "13,500원"
+      }
+    ],
+    "name": "오크베리",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "세계를 사로잡은 아사이 볼 브랜드 ‘오크베리’",
+    "updated_at": "2026-08-22"
+  },
+  "PO-nCE4cK5KD4235": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_5e487bd5ec834859b2c8a818654e9e30.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "틴케이스에 담긴 프리미엄 약과세트",
+        "image_asset": "assets/place_details/menu_aeca5d53340d461294d6568f08aaf91f.jpg",
+        "name": "토끼약과세트",
+        "price": "56,000원"
+      },
+      {
+        "description": "참깨, 흑임자, 바닐라,초코,쑥,커피,멜론,민트초코,인절미,녹차",
+        "image_asset": "assets/place_details/menu_262e492939a943e180896b22d509afaa.jpg",
+        "name": "레드박스약과세트",
+        "price": "27,000원"
+      }
+    ],
+    "name": "골든 피스",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "골든피스(Golden Piece)는 한국 전통 약과를 현대적인 감각으로 재해석하여 세대와 문화를 잇는 프리미엄 K-디저트를 만드는 브랜드입니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-oVIVCX2jo5765": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0758"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_20221004050753791.JPG"
+      },
+      {
+        "local_asset": "assets/place_details/dining_20221004050812845.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "진한 라떼(플랫화이트) 베이스에 실키한 크림이 얇게 올라간 시그니처 커피",
+        "image_asset": "assets/place_details/menu_c5b1147e64c94d9d9528e1a18c71750a.jpg",
+        "name": "카멜커피",
+        "price": "6,500원"
+      },
+      {
+        "description": "견과류의 고소한 단맛에 부드러운 질감으로 밸런스 좋은 커피",
+        "image_asset": "assets/place_details/menu_2d5d58a648c74906bff394670a255362.jpg",
+        "name": "라떼",
+        "price": "6,000원"
+      },
+      {
+        "description": "다크 초콜릿의 단맛과 견과류의 고소함이 느껴지는 커피",
+        "image_asset": "assets/place_details/menu_84e00fa2517d43a29c16555a6f05e2c0.jpg",
+        "name": "아메리카노",
+        "price": "5,500원"
+      }
+    ],
+    "name": "카멜커피",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "유럽의 작은 가게가 연상될 정도로 빈티지하고 엔틱한 인테리어와 시그니처 카멜 커피로 유명한 커피 전문점",
+    "updated_at": "2026-08-22"
+  },
+  "PO-ob6GWSn7x4637": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0790"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_39c25f8ea7ac43e59e63e20d691b5652.jpg"
+      },
+      {
+        "local_asset": "assets/place_details/dining_efe6bd2367314b65acc495a1d9250d36.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "image_asset": "assets/place_details/menu_5f38aac020784fda9336164ed91d9992.jpg",
+        "name": "카이센 와규동 (스폐셜)",
+        "price": "45,800원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_0b8b6c547beb497aa814114876f15047.jpg",
+        "name": "우니도 카이센동 (스폐셜)",
+        "price": "39,800원"
+      },
+      {
+        "image_asset": "assets/place_details/menu_27a7dfb91b92420fbf70ac6af3095daf.jpg",
+        "name": "우나 도나베 (대)",
+        "price": "38,000원"
+      }
+    ],
+    "name": "우니도",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "신사동 우니 카이센동 명가 \"우니도\"\n화려한 비주얼과 신선한 숙성회의 맛집으로 초대합니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-pTnWZXaNl9612": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_35a7b50c28d74f9389861099dd323975.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "생 블루베리와 블루베리 잼, 생크림으로 맛을 내고 백자 항아리에 콘플라워(수레국화, 식용)로 장식한 달항아리",
+        "image_asset": "assets/place_details/menu_4ff11cd3c7b7495f8a951d13841d937c.jpg",
+        "name": "달항아리 생크림 케이크(블루베리)",
+        "price": "63,000원"
+      },
+      {
+        "description": "부드럽고 담백한 생크림에 맛을 더하는 부재료들이 더해져 깔끔하면서도 기분 좋은 달콤함",
+        "image_asset": "assets/place_details/menu_1e956093f1de447a998ce2068247b154.jpg",
+        "name": "달항아리 생크림 케이크(딸기)",
+        "price": "62,000원"
+      },
+      {
+        "description": "부드럽고 은은한 유자무스에 상큼함이 돋보이는 레몬 아가와스피아민트, 그리고 바삭한 머랭으로 기분 좋은 즐거움",
+        "image_asset": "assets/place_details/menu_9845d63b02684e96914c3763120262ff.jpg",
+        "name": "액자무스케이크(유자)",
+        "price": "38,000원"
+      }
+    ],
+    "name": "우나하우스",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "셰프의 상상이 맛있게 담겨진 우나하우스생크림 케이크가 도자기가 되고, 쿠키가 한 폭의 그림이 되고, 수플레가 구름이 되는 특별하고 맛있는 곳.우나하우스에 오신 걸 환영합니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-tEX9PFDuM0831": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_8fb6aafe5a5d4e63bec37003abee223d.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "한국 한정 제품으로서, 매장에서 당일 제조하여 따뜻하고 바삭한 맛을 꼭 맛보세요.",
+        "image_asset": "assets/place_details/menu_5cd51f03735244a8a901c29b8ca3df54.jpg",
+        "name": "갓 구운 고구마 켄피(100g)",
+        "price": "6,000원"
+      },
+      {
+        "description": "인기 NO.1 상품 기본(오리지널) 고구마 켄피입니다.",
+        "image_asset": "assets/place_details/menu_d19e948e3cb943c9934e629377f05560.jpg",
+        "name": "프리미엄 고구마 켄피(100g)",
+        "price": "5,500원"
+      },
+      {
+        "description": "프리미엄 고구마 켄피를 대용량으로 준비했습니다.",
+        "image_asset": "assets/place_details/menu_4039497562ea4b25a071299af7fdf390.jpg",
+        "name": "프리미엄 고구마 켄피 대용량(300g)",
+        "price": "12,000원"
+      }
+    ],
+    "name": "이모야킨지로",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "1952년 일본 고치에서 시작하여, 3대째 이어온 일본 정통 고구마 간식 브랜드 이모야킨지로입니다.고구마, 식용유, 설탕만을 사용한 전통 방식으로 신선하고 바삭한 이모켄피를 만들어오며 많은 고객에게 사랑받고 있는 브랜드입니다.",
+    "updated_at": "2026-08-22"
+  },
+  "PO-wA_XZgOIV2422": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0755"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_0f1cc898c9fa4ee98f7f9c82a18005b3.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "21:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "부드럽고 진한 로제크림 소스 베이스에 새우의 깊은 맛이 함께 어우러진 파스타",
+        "image_asset": "assets/place_details/menu_6587487243dd4d01b4cade657277ab85.jpg",
+        "name": "새우 로제 스파게티",
+        "price": "17,900원"
+      },
+      {
+        "description": "토마토 소스 위에 고소한 치즈,\n바질을 올려 맛있게 구워낸 화덕 피자",
+        "image_asset": "assets/place_details/menu_c527dadd90b14ca291a7480b87ecf7bc.jpg",
+        "name": "마르게리따 피자",
+        "price": "16,900원"
+      },
+      {
+        "description": "수란을 곁들인 진한 크림 소스의\n로얄 까르보나라 스파게티",
+        "image_asset": "assets/place_details/menu_0c4dddfcd1274ad3bba43700812c6664.jpg",
+        "name": "로얄 까르보나라 스파게티",
+        "price": "15,900원"
+      }
+    ],
+    "name": "라그릴리아",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "정통 이탈리안 요리를 새롭게 해석한 캐주얼 레스토랑",
+    "updated_at": "2026-08-22"
+  },
+  "PO-zFVdo0jyS0905": {
+    "contact": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "tel": "02-3277-0707"
+    },
+    "hero": [
+      {
+        "local_asset": "assets/place_details/dining_af505d37c2b44ba8898db185afdb0fe6.jpg"
+      }
+    ],
+    "hours": {
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+      "utc_offset_minutes": 540,
+      "weekly": {
+        "fri": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "mon": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sat": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "sun": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "thu": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "tue": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ],
+        "wed": [
+          {
+            "close": "20:00",
+            "open": "10:30"
+          }
+        ]
+      }
+    },
+    "menu": [
+      {
+        "description": "스태미너 대표 음식 장어가 올라간 장어솥밥",
+        "image_asset": "assets/place_details/menu_d11fa8792749401cb3a1dbc1dce5cf1f.jpg",
+        "name": "장어솥밥",
+        "price": "22,000원"
+      },
+      {
+        "description": "진한 전복장소스와 비벼먹는 영양 가득한 전복버섯솥밥",
+        "image_asset": "assets/place_details/menu_9df370806ebb46e889d6a65c6312d1ec.jpg",
+        "name": "전복 버섯 솥밥",
+        "price": "18,000원"
+      },
+      {
+        "description": "육즙 가득 부드러운 스테이크가올라간 솥밥",
+        "image_asset": "assets/place_details/menu_5efaaef5273f44319a98207bfee9c340.jpg",
+        "name": "스테이크 솥밥",
+        "price": "16,900원"
+      }
+    ],
+    "name": "만학",
+    "source": "https://thehyundaiseoul.ehyundai.com/store/restaurants",
+    "summary": "옛날부터 '솥밥'은 우리나라에서 귀한 손님을 대접할 때 내놓는 음식중 하나입니다. 만학은 따뜻한 집밥이 그리울 때 생각나는 맛집처럼 정성을 담아 내어드립니다.",
+    "updated_at": "2026-08-22"
+  }
+}

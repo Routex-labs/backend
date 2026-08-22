@@ -136,13 +136,14 @@ footprint → stores → non_walkable → store_labels → pois
 섹션 순서는 서버가 고정한다([006](../decisions/006-상세-섹션-순서.md)):
 
 ```
-hero → notice → hours → tags → summary → menu → keyValue → demoInfo → links → businessInfo → map
+hero → notice → hours → contact → tags → summary → menu → keyValue → demoInfo → links → businessInfo → map
 ```
 
 - 값이 없으면 **섹션 자체를 만들지 않고**, 선택 키는 값이 있을 때만 싣는다.
 - `kind`가 `excluded`면 섹션도 액션도 없다.
 - 입구 노드가 없으면 `directions` 액션을 내리지 않는다.
 - 영업시간은 **판정 문자열을 만들지 않는다.** 규칙만 내려보내고 지금 시각과의 비교는 화면이 한다.
+- 영업시간·전화번호는 자유 문자열이 아니라 `hours`·`contact` 구조체로만 나간다. 둘 다 `source`·`confirmed_at`이 없으면 섹션을 만들지 않는다.
 
 ## 헬스 — `health`
 

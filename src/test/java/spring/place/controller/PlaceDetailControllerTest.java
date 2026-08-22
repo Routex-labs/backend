@@ -76,9 +76,30 @@ class PlaceDetailControllerTest {
         mockMvc.perform(get(OVERLAY_STORE))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.provenance.source").value("manual"))
-                // 사진 → 영업시간 → 소개 → 메뉴 → 운영정보 → 링크 → 사업자정보 → 지도
+                // 사진 → 영업시간 → 연락처 → 소개 → 메뉴 → 운영정보 → 링크 → 사업자정보 → 지도
                 .andExpect(jsonPath("$.sections[*].type")
-                        .value(contains("hero", "hours", "summary", "menu", "demoInfo", "links", "businessInfo", "map")));
+                        .value(contains(
+                                "hero", "hours", "contact", "summary", "menu", "demoInfo", "links", "businessInfo",
+                                "map")));
+    }
+
+    @Test
+    @DisplayName("연락처는 출처와 확인일을 달고 나간다 — 그것이 자유 문자열 금지를 푼 조건이다")
+    void contactCarriesSourceAndConfirmedAt() throws Exception {
+        mockMvc.perform(get(OVERLAY_STORE))
+                .andExpect(jsonPath("$.sections[?(@.type=='contact')].tel").value(hasItem("1522-3232")))
+                .andExpect(jsonPath("$.sections[?(@.type=='contact')].source").exists())
+                .andExpect(jsonPath("$.sections[?(@.type=='contact')].confirmed_at").exists());
+    }
+
+    @Test
+    @DisplayName("오버레이가 없는 매장에는 연락처 섹션도 없다")
+    void contactRequiresOverlay() throws Exception {
+        // 셋 중 하나라도 빠지면 섹션을 만들지 않는다는 판정은 required()가 하고,
+        // 여기서는 "없으면 안 나간다"만 지킨다.
+        mockMvc.perform(get("/buildings/thehyundai-seoul/places/s2"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.sections[*].type").value(not(hasItem("contact"))));
     }
 
     @Test

@@ -77,6 +77,11 @@
         "price": "23,000원",
         "description": "담백한 닭안심을 바삭하게 튀겨낸 정돈프리미엄 사사미카츠"
       }
-    ]
+    ],
+    "contact": {
+      "tel": "02-3277-0670",
+      "confirmed_at": "2026-08-22",
+      "source": "https://thehyundaiseoul.ehyundai.com/store/floor-guide"
+    }
   }
 }

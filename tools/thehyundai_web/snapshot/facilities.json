@@ -1,0 +1,135 @@
+[
+ {
+  "description": "더현대 서울을 방문해주시는 여행객의\n쾌적한 쇼핑을 위해 캐리어를 보관해드립니다.\n\n※ 개인 귀중품 및 쇼핑 상품은\n물품보관함을 이용해주시기 바랍니다.",
+  "floor": "1F TOURIST DESK",
+  "image": "https://www.ehyundai.com/attachfiles/branch/20231004113558482.jpg",
+  "imageAlt": "캐리어 보관 서비스",
+  "name": "캐리어 보관 서비스"
+ },
+ {
+  "description": "편안한 쇼핑을 위해 짐 보관 서비스를 제공합니다.",
+  "floor": "B1, B3, B4",
+  "image": "https://www.ehyundai.com/attachfiles/branch/20230406101650001.jpg",
+  "imageAlt": "물품보관함 ",
+  "name": "물품보관함"
+ },
+ {
+  "description": "고객님이 구매하신 상품에 대한 면세 금액을 백화점에서 즉시 환급해드리는 서비스를 제공합니다.",
+  "floor": "6F Service lounge",
+  "image": "https://www.ehyundai.com/attachfiles/branch/8532c61e7a23464e9a55c08ccd5b1dd0.jpg",
+  "imageAlt": "TAX REFUND",
+  "name": "TAX REFUND"
+ },
+ {
+  "description": "가입비와 연회비 없이 할인, 무이자 할부 등 다양한 혜택을 제공하는 현대백화점카드 관련 서비스를 제공합니다.",
+  "floor": "6F Service Lounge",
+  "image": "https://www.ehyundai.com/attachfiles/branch/fa42de90cb6c4feeba5d3bc94f715ebf.jpg",
+  "imageAlt": "현대백화점카드",
+  "name": "현대백화점카드"
+ },
+ {
+  "description": "현대백화점 상품권을 구매하시거나 H.Point 및 모바일 상품권을 지류 상품권으로 교환하실 수 있습니다.",
+  "floor": "6F Service lounge",
+  "image": "https://www.ehyundai.com/attachfiles/branch/b26c986dda31457495c68c8312471c39.jpg",
+  "imageAlt": "상품권 데스크",
+  "name": "상품권 데스크"
+ },
+ {
+  "description": "결혼을 앞둔 고객님을 위한 특별한 혜택이 준비되어있는 현대백화점 클럽웨딩과 관련된 모든 서비스를 제공합니다.",
+  "floor": "6F Service lounge",
+  "image": "https://www.ehyundai.com/attachfiles/branch/5d454a85a5a843fda508fffb72f11949.jpg",
+  "imageAlt": "클럽웨딩",
+  "name": "클럽웨딩"
+ },
+ {
+  "description": "매장 및 편의시설 위치, 이벤트 등 쇼핑 관련 정보 등을 신속하고 정확하게 안내해 드립니다.",
+  "floor": "1F",
+  "image": "https://www.ehyundai.com/attachfiles/branch/ab25444806d54fb9858d14e77a5aa7ee.jpg",
+  "imageAlt": "컨시어지",
+  "name": "컨시어지"
+ },
+ {
+  "description": "현대백화점의 사은품, H.Point, 상품권 증정 행사 참여를 도와드립니다.",
+  "floor": "B1",
+  "image": "https://www.ehyundai.com/attachfiles/branch/8f991158c72c41bc98ba07b02a5feb6f.jpg",
+  "imageAlt": "사은데스크",
+  "name": "사은데스크"
+ },
+ {
+  "description": "와우패스 선불카드 발급 및 환전 서비스를 제공합니다.",
+  "floor": "B2",
+  "image": "https://www.ehyundai.com/attachfiles/branch/389507454fc0411e82927a2dc13b0b86.jpg",
+  "imageAlt": "와우패스 무인 키오스크",
+  "name": "와우패스 무인 키오스크"
+ },
+ {
+  "description": "'충전돼지'의 보조배터리 서비스를 이용해\n대여 및 충전이 가능합니다.\n\n*유료서비스",
+  "floor": "B1, B3, 6F",
+  "image": "https://www.ehyundai.com/attachfiles/branch/20230111043848078.jpg",
+  "imageAlt": "휴대전화 충전기 대여",
+  "name": "휴대전화 충전기 대여"
+ },
+ {
+  "description": "국내 최초 MZ세대를 위한 부티크 문화살롱 CH1985에서 새로움이 가득한 문화 생활을 즐겨보세요.",
+  "floor": "6F",
+  "image": "https://www.ehyundai.com/attachfiles/branch/20210303075718241.jpg",
+  "imageAlt": "CH 1985",
+  "name": "CH 1985"
+ },
+ {
+  "description": "룸 수유실, 기저귀 교환대, 베이비 체어, 수면실, 키친 등 아기와 함께 잠시 쉬어갈 수 있는 편안한 공간입니다.",
+  "floor": "5F",
+  "image": "https://www.ehyundai.com/attachfiles/branch/20210303074827974.jpg",
+  "imageAlt": "PETIT LOUNGE (유아휴게실)",
+  "name": "PETIT LOUNGE (유아휴게실)"
+ },
+ {
+  "description": "36개월 미만(15kg 이하) 유아를 동반한 고객님께 유모차를 대여해 드립니다.",
+  "floor": "1F TOURIST DESK , 5F",
+  "image": "https://www.ehyundai.com/attachfiles/branch/5ec0c41ff08f4fe8b687433311f8ced7.jpg",
+  "imageAlt": "유모차 대여",
+  "name": "유모차 대여"
+ },
+ {
+  "description": "안락하게 수유하실 수 있는 프라이빗 수유실이 준비되어 있습니다.",
+  "floor": "B1,5F, 6F(CH 1985)",
+  "image": "https://www.ehyundai.com/attachfiles/branch/20210303075353463.jpg",
+  "imageAlt": "PETIT ROOM (수유실)",
+  "name": "PETIT ROOM (수유실)"
+ },
+ {
+  "description": "숙련된 수선 전문가가 의류 상품을 정성껏 수선해 드립니다.",
+  "floor": "3F",
+  "image": "https://www.ehyundai.com/attachfiles/branch/20210305112343800.jpg",
+  "imageAlt": "수선실(의류)",
+  "name": "수선실(의류)"
+ },
+ {
+  "description": "탄산을 이용한 프리미엄 세탁으로 국내에서 가장 높은 수준의 의류 세탁 서비스를 자랑합니다.",
+  "floor": "2F",
+  "image": "https://www.ehyundai.com/attachfiles/branch/20230406101824933.jpg",
+  "imageAlt": "의류 세탁실 (쿨화이트)",
+  "name": "의류 세탁실 (쿨화이트)"
+ },
+ {
+  "description": "테이스티 서울 마켓에서 구매하신 물품을 대상으로 근거리 배송 / 교환 / 환불 서비스를 제공합니다.\n* 근거리 무료 배송 : 7만원 이상 구매 시 배송 가능",
+  "floor": "B1 Food Service lounge",
+  "image": "https://www.ehyundai.com/attachfiles/branch/800513d827e040f0a7d65fd6de0e1c24.jpg",
+  "imageAlt": "식품 근거리 배송 교환 · 환불",
+  "name": "식품 근거리 배송 교환 · 환불"
+ },
+ {
+  "description": "숙련된 수선 전문가가 가방·구두 상품을 정성껏 수선해 드립니다.",
+  "floor": "2F",
+  "image": "https://www.ehyundai.com/attachfiles/branch/20210305111918974.jpg",
+  "imageAlt": "수선실(가방 · 구두)",
+  "name": "수선실(가방 · 구두)"
+ },
+ {
+  "description": "시계 명장들이 맡기신 시계를 꼼꼼하게 수선해드립니다.",
+  "floor": "2F",
+  "image": "https://www.ehyundai.com/attachfiles/branch/20230406102936090.jpg",
+  "imageAlt": "시계 수선실",
+  "name": "시계 수선실"
+ }
+]

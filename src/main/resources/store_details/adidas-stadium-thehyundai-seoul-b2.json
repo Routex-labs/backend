@@ -2,14 +2,6 @@
   "PO-ipPhp9BE-0864": {
     "name": "아디다스 스타디움",
     "updated_at": "2026-08-21",
-    "demoInfo": [
-      {
-        "label": "전화",
-        "value": "02-3277-0827",
-        "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1",
-        "confirmed_at": "2026-08-21"
-      }
-    ],
     "links": [
       {
         "label": "브랜드 공식몰",
@@ -17,6 +9,11 @@
       }
     ],
     "summary": "1949년부터, 스토리와 스타일, 스포츠를 이끌다. 스포츠는 건강을 지키며, 내면을 밝혀주고, 우리를 하나로 이어줍니다. 아디다스는 스포츠를 통해 세상을 바꿀 수 있다고 믿습니다.",
-    "source": "https://www.adidas.co.kr/"
+    "source": "https://www.adidas.co.kr/",
+    "contact": {
+      "tel": "02-3277-0827",
+      "confirmed_at": "2026-08-21",
+      "source": "https://www.ehyundai.com/newPortal/DP/FG/FG000000_V.do?branchCd=B00140000&floorIdx=B1"
+    }
   }
 }
