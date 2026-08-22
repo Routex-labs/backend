@@ -6,6 +6,7 @@
 
 ```bash
 python tools/thehyundai_web/extract.py tools/thehyundai_web/snapshot   # 받아 온다
+python tools/thehyundai_web/fetch_assets.py <Routee>/client            # 사진을 번들에 받는다
 python tools/thehyundai_web/build_overlays.py 2026-08-22               # 오버레이로 바꾼다
 ```
 
@@ -27,13 +28,24 @@ python tools/thehyundai_web/build_overlays.py 2026-08-22               # 오버�
 
 앞 셋은 JSON이고 `/about/facilities`만 React 엘리먼트 트리라 카드 단위로 잘라 읽는다.
 
+## 사진은 번들에 받아야 한다
+
+`hero.local_asset`·`menu.image_asset`은 **앱 번들 경로**다. 원격 URL을 그대로 적을 수
+없어서 `fetch_assets.py`가 먼저 클라이언트 저장소(`Routee`)의
+`client/assets/place_details/`로 받아 놓는다. 파일 이름은 원본 URL의
+basename(내용 해시)을 그대로 써서, 같은 사진을 두 번 받지 않고 사이트가 사진을 바꾸면
+이름이 달라져 눈에 띈다.
+
+**이름 규칙이 두 파일에 나뉘어 있다**(`fetch_assets.asset_name`과
+`build_overlays.hero`). 갈라지면 등록은 됐는데 카드만 빈 채로 뜨고 빌드는 성공한다.
+
 ## 지금 오버레이로 나가는 것
 
 | 파일 | 건수 | 무엇 |
 |---|---|---|
 | `thehyundai-restaurants.json` | 47 | 소개글 · `hours` · `contact` |
 | `thehyundai-brands.json` | 360 | `contact`만 |
-| `thehyundai-facilities.json` | 25 | 소개글 |
+| `thehyundai-facilities.json` | 25 | 소개글 · 사진 |
 
 수작업 오버레이까지 더하면 **전화번호는 442곳**에 들어가 있다.
 
@@ -65,7 +77,7 @@ python tools/thehyundai_web/build_overlays.py 2026-08-22               # 오버�
 | 안 싣는 것 | 이유 |
 |---|---|
 | 라스트오더 | `hours` 구조체에 자리가 없다. 자유 문자열로 넣으면 `forbidden_labels`가 막는다 |
-| 사진·메뉴 | `hero.local_asset`·`menu.image_asset`이 **앱 번들 경로**라 원격 URL을 그대로 못 넣는다. 이미지를 클라이언트 저장소에 받아 넣는 것이 선행 작업이다 |
+| 식당 사진·메뉴 | 시설 사진과 같은 규칙인데 아직 안 받았다. 식당 63곳의 사진과 메뉴 사진 173장이라 번들이 그만큼 커진다 |
 | 휴점일 | 사이트가 요일 규칙으로 공지하지 않는다. 요일에서 유추하면 확인되지 않은 값이 확인된 값과 같은 모양으로 저장된다 |
 
 ## 일반 브랜드에는 소개글이 없다 — 사이트 문제가 아니다

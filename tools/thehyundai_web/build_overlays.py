@@ -12,6 +12,7 @@
   싣는다  summary  식당·시설 소개글. `※` 뒤 운영 고지는 잘라 낸다 — "LAST ORDER
                   19:20" 같은 값이 소개글에 섞여 들어오는데, 소개는 안 낡고 그
                   줄은 낡는다.
+          hero     시설 사진. `fetch_assets.py`가 번들에 받아 둔 파일을 가리킨다.
           hours    "10:30 ~ 20:00"과 브레이크타임을 요일 7개 구조체로 편다.
           contact  전화번호. 스키마 v5에서 열린 구조체다 — 자유 문자열 "전화번호"는
                   여전히 금지이고, source·confirmed_at을 붙여야만 나간다.
@@ -19,9 +20,8 @@
 
   버린다  lastOrder  `hours` 구조체에 자리가 없다. 자유 문자열로 넣으면
                    `forbidden_labels`가 막는다.
-          사진·메뉴   `hero.local_asset`·`menu.image_asset`은 앱 번들 경로여서
-                   원격 URL을 그대로 넣을 수 없다. 이미지를 클라이언트
-                   저장소에 받아 넣는 것은 별도 작업이다.
+          식당 사진·메뉴  같은 규칙이지만 아직 안 받았다. 식당 63곳의 사진과
+                   메뉴 사진 173장이라 번들이 그만큼 커진다 — 받을지는 따로 정한다.
           휴점일     사이트가 요일 규칙으로 공지하지 않는다. 요일에서 유추하면
                    확인되지 않은 값이 확인된 값과 같은 모양으로 저장된다
                    (`_schema.json`의 exceptions_upkeep_note와 같은 판단).
@@ -127,6 +127,15 @@ def clean_tel(tel):
         return None
     cleaned = re.sub(r"\s+", "", tel).strip("-").strip()
     return cleaned if any(shape.match(cleaned) for shape in TEL_SHAPES) else None
+
+
+def hero(url):
+    """번들에 받아 둔 사진 경로. 이름 규칙은 `fetch_assets.py`와 같아야 한다 —
+    갈라지면 등록은 됐는데 카드만 빈 채로 뜨고, 빌드는 성공한다."""
+    if not url:
+        return None
+    name = "facility_%s" % os.path.basename(url).split("?")[0]
+    return [{"local_asset": "assets/place_details/%s" % name}]
 
 
 def contact(tel, source, today):
@@ -284,8 +293,12 @@ def main(today):
         for e in hits:
             if not claim(e["id"], e["name"]):
                 continue
-            out_fac[e["id"]] = {"name": e["name"], "updated_at": today,
-                                "summary": summary, "source": FACILITIES_URL}
+            overlay = {"name": e["name"], "updated_at": today,
+                       "summary": summary, "source": FACILITIES_URL}
+            photo = hero(c.get("image"))
+            if photo:
+                overlay["hero"] = photo
+            out_fac[e["id"]] = overlay
 
     # 브랜드는 전화번호뿐이다 — 소개글은 현대 쪽에 아예 없다(README 참고).
     out_brand, no_tel = {}, []
